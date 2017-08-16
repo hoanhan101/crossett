@@ -196,11 +196,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
 }*/
-#ebscohostCustomSearchBox {
+#ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive {
   display: inherit;
   width: 100%;
-
 }
+
+/*#eco-journals {
+  display: inherit;
+  width: 100%;
+}*/
 
 #ebscohostsearchtext {
   margin-left:0px;

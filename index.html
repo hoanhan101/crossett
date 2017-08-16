@@ -155,7 +155,7 @@
           <p> Can we be certain of anything? </p>
         </div>
 
-        <!-- OneSearch -->
+        <!-- Search Box -->
         <div id="searchBox-row" class="row">
           <div class="input-group">
 
@@ -165,113 +165,57 @@
               </button>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#journals"> Journals </a></li>
-                <li><a href="#databases"> Databases </a></li>
                 <li><a href="#reserves"> Reserves </a></li>
-                <li><a href="#reference"> Reference </a></li>
                 <li><a href="#archive"> Archive </a></li>
               </ul>
             </div>
 
-            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" overflow:auto;>
+
+            <!-- OneSearch -->
+            <form style="display:none" id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" overflow:auto;>
               <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
               <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
               <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
               <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
 
-
-              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Descartes" type="text" />
+              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" />
               <span class="input-group-btn">
-                <base target="_self">
+                <button id="searchIcon" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
 
+            <!-- Journals -->
+            <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" overflow:auto;>
+              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
+              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
+              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
+              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
+              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+
+              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" />
+              <span class="input-group-btn">
                 <button id="searchIcon" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
               </span>
+            </form>
 
+            <!-- Reserve -->
+            <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
+              <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" />
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- Archive -->
+            <form id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
+              <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" />
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-search"></span></button>
+              </span>
             </form>
 
           </div>
-        </div>
-
-
-        <!-- Journals -->
-        <!-- <div class="row">
-          <form id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" overflow:auto;>
-            <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
-            <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
-            <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
-            <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
-            <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-            <p id="ebscoIsPubFinder"></p>
-
-            <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Descartes" type="text" />
-            <span class="input-group-btn">
-              <button id="searchIcon" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-            </span>
-
-          </form>
-        </div> -->
-
-        <!-- Databases -->
-        <!-- <div class="row">
-          <form>
-            <select>
-              <option selected>Select a database list</option>
-              <option value="/screens/databases_bysubj.html">Select a Database by Discipline</option>
-              <option value="/screens/databases.html">All Databases A-Z</option>
-              <option value="/screens/databases_foreignlang.html">Foreign Language</option>
-              <option value="/screens/databases_litlang.html">Literature</option>
-              <option value="/screens/databases_gen.html">Multidisciplinary</option>
-              <option value="/screens/databases_music.html">Music</option>
-              <option value="/screens/databases_news.html">News</option>
-              <option value="/screens/databases_ref.html">Reference</option>
-              <option value="/screens/databases_sci.html">Science and Mathematics</option>
-              <option value="/screens/databases_socsci.html">Society, Culture, and Thought</option>
-              <option value="/screens/databases_teaching.html">Teaching</option>
-              <option value="/screens/databases_vapa.html">Visual and Performing Arts</option>
-            </select>
-            <input style="border-radius:3px; width:20px; padding:2px" type="button" value="Go" onClick="jumpBox(this.form.elements[0])">
-          </form>
-        </div> -->
-
-        <!-- Reserve -->
-        <!-- <div class="row">
-          <form action="http://library.bennington.edu/search/" method="get"><span style="display:block">Search by instructor's  name or course name.</span>
-            <select name="searchtype" style="padding:2px">
-              <option value="p">Instructor</option>
-              <option value="r">Course</option>
-            </select>
-            <input style="border-radius:3px; padding:2px" maxlength="75" name="searcharg" size="17"/>
-            <input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
-          </form>
-        </div> -->
-
-        <!-- Reference -->
-        <div class="row">
-
-          <!--Search box for Oxford Reference-->
-          <!-- <img style="border-radius:3px" src="/screens/rsz_4clipboard01.png" width="196" height="30">
-          <form action="http://0-www.oxfordreference.com.library.bennington.edu/search?q=" method="get" style="display: block; padding: 2px 0px; margin: 0;">
-            <input type="hidden" name="view" value="facet"/>
-            <input style="border-radius:3px; padding:2px" type="text" name="q" value="" size="35"/>
-            <input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
-          </form> -->
-
-          <!--Search box for Encyclopedia Britannica-->
-          <!-- <img src="/screens/BOLAE_btn-web.jpg" width="100" height="30" style="margin-top:3px; border-radius:3px">
-          <form action="http://academic.eb.com/bps/search?query" method="get" style="display: block; padding: 2px 0px; margin: 0;">
-            <input type="hidden" name="view" value="facet"/>
-            <input style="border-radius:3px; padding:2px" type="text" name="query" value="" size="35"/>
-            <input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
-          </form> -->
-
-          <!--Search box for OED Online-->
-          <!-- <img src="/screens/oedlogo.jpg" width="121" height="30" style="margin-top:3px; border-radius:3px">
-          <form action="http://0-www.oed.com.library.bennington.edu/search?q=" method="get" style="display: block; padding: 2px 0px; margin: 0;">
-            <input type="hidden" name="view" value="facet"/>
-            <input style="border-radius:3px; padding:2px" type="text" name="q" value="" size="20"/>
-            <input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
-          </form> -->
-
         </div>
 
         <!-- Archive -->
@@ -288,24 +232,15 @@
   </div>
 </div>
 
-<!-- <div class="test-container">
+<div class="test-container">
   <div class="container">
-    <p>If you click on the "Hide" button, I will disappear.</p>
-
+    <br>
     <button id="hide">Hide</button>
     <button id="show">Show</button>
 
-    <button id="test-onesearch-show">onesearch-show</button>
-    <button id="test-onesearch-hide">onesearch-hide</button>
-    <button id="test-onesearch-replce">onesearch-replace</button>
-
-    <button id="test-journal">journal</button>
-    <button id="test-database">database</button>
-    <button id="test-reserve">reserve</button>
-
 
   </div>
-</div> -->
+</div>
 
 <script>
 $(document).ready(function(e){
@@ -321,22 +256,11 @@ $(document).ready(function(e){
 
 $(document).ready(function(){
   $("#hide").click(function(){
-      $("p").hide();
+    $("#eco-journals").hide();
   });
+
   $("#show").click(function(){
-      $("p").show();
-  });
-
-  $("#test-onesearch-show").click(function(){
-      $("#ebscohostCustomSearchBox").show();
-  });
-
-  $(".test-container #test-onesearch-hide").click(function(){
-    $("#ebscohostCustomSearchBox").hide();
-  });
-
-  $("#test-onesearch-place").click(function(){
-      $("#ebscohostCustomSearchBox").replaceWith("#eco-journals");
+    $("#eco-journals").show();
   });
 
 });
