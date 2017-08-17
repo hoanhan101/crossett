@@ -139,6 +139,7 @@
     </div>
   </div>
 
+
   <!-- BANNER-SEARCH CONTAINER */-->
   <!-- BANNER-SEARCH CONTAINER */-->
   <!-- BANNER-SEARCH CONTAINER */-->
@@ -164,6 +165,7 @@
                 <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" role="menu">
+                <li><a href="#onesearch"> OneSearch </a></li>
                 <li><a href="#journals"> Journals </a></li>
                 <li><a href="#reserves"> Reserves </a></li>
                 <li><a href="#archive"> Archive </a></li>
@@ -172,7 +174,7 @@
 
 
             <!-- OneSearch -->
-            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" overflow:auto;>
+            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
               <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
               <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
@@ -186,7 +188,7 @@
             </form>
 
             <!-- Journals -->
-            <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" overflow:auto;>
+            <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
               <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
               <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
@@ -221,17 +223,10 @@
     </div>
 </div>
 
-<!-- <div class="test-container">
-  <div class="container">
-    <br>
-    <button id="hide">Hide</button>
-    <button id="show">Show</button>
 
-
-  </div>
-</div> -->
 
 <script>
+
 $(document).ready(function(e){
   $('.search-panel .dropdown-menu').find('a').click(function(e) {
     e.preventDefault();
@@ -239,19 +234,35 @@ $(document).ready(function(e){
     var concept = $(this).text();
     $('.search-panel span#search_concept').text(concept);
     $('.input-group #search_param').val(param);
+
+    switch (param) {
+      case "journals":
+        $("#eco-journals").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#search-reserve").hide();
+        $("#search-archive").hide();
+        break;
+      case "reserves":
+        $("#search-reserve").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#eco-journals").hide();
+        $("#search-archive").hide();
+        break;
+      case "archive":
+        $("#search-archive").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#eco-journals").hide();
+        $("#search-reserve").hide();
+        console.log("into archive");
+        break;
+      default:
+        $("#ebscohostCustomSearchBox").show();
+        $("#eco-journals").hide();
+        $("#search-reserve").hide();
+        $("#search-archive").hide();
+    }
+
   });
-});
-
-
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $("#eco-journals").hide();
-  });
-
-  $("#show").click(function(){
-    $("#eco-journals").show();
-  });
-
 });
 </script>
 
