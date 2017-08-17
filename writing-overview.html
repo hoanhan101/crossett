@@ -148,152 +148,57 @@
   </div>
 
 
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
 
-  <div id="banner-search-container">
+  <!-- BANNER CONTAINER */-->
+  <!-- BANNER CONTAINER */-->
+  <!-- BANNER CONTAINER */-->
+  <!-- BANNER CONTAINER */-->
+  <!-- BANNER CONTAINER */-->
+  <!-- BANNER CONTAINER */-->
+
+  <div id="sub-banner-container">
     <div class="container">
-      <div id="searchBox-wrapper" class="container">
-
-        <!-- Heading Text -->
-        <div id="heading-row" class="row">
-          <p> Can we be certain of anything? </p>
-        </div>
-
-        <!-- Search Box -->
-        <div id="searchBox-row" class="row">
-          <div class="input-group">
-
-            <div id="fieldSelector" class="input-group-btn search-panel">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#onesearch"> OneSearch </a></li>
-                <li><a href="#journals"> Journals </a></li>
-                <li><a href="#reserves"> Reserves </a></li>
-                <li><a href="#archive"> Archive </a></li>
-              </ul>
-            </div>
-
-
-            <!-- OneSearch -->
-            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
-              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
-              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
-              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
-              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-
-              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" />
-              <span class="input-group-btn">
-                <button id="searchIcon" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </form>
-
-            <!-- Journals -->
-            <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
-              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
-              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
-              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
-              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-
-              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" />
-              <span class="input-group-btn">
-                <button id="searchIcon" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </form>
-
-            <!-- Reserve -->
-            <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
-              <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" />
-              <span class="input-group-btn">
-                <button id="searchIcon" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </form>
-
-            <!-- Archive -->
-            <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
-              <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" />
-              <span class="input-group-btn">
-                <button id="searchIcon" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </form>
-
-          </div>
-        </div>
+      <div id="heading-container" class="container">
+        <h1> Overview </h1>
+      </div>
     </div>
-    </div>
-</div>
-
-
-
-<script>
-
-$(document).ready(function(e){
-  $('.search-panel .dropdown-menu').find('a').click(function(e) {
-    e.preventDefault();
-    var param = $(this).attr("href").replace("#","");
-    var concept = $(this).text();
-    $('.search-panel span#search_concept').text(concept);
-    $('.input-group #search_param').val(param);
-
-    switch (param) {
-      case "journals":
-        $("#eco-journals").show();
-        $("#ebscohostCustomSearchBox").hide();
-        $("#search-reserve").hide();
-        $("#search-archive").hide();
-        break;
-      case "reserves":
-        $("#search-reserve").show();
-        $("#ebscohostCustomSearchBox").hide();
-        $("#eco-journals").hide();
-        $("#search-archive").hide();
-        break;
-      case "archive":
-        $("#search-archive").show();
-        $("#ebscohostCustomSearchBox").hide();
-        $("#eco-journals").hide();
-        $("#search-reserve").hide();
-        console.log("into archive");
-        break;
-      default:
-        $("#ebscohostCustomSearchBox").show();
-        $("#eco-journals").hide();
-        $("#search-reserve").hide();
-        $("#search-archive").hide();
-    };
-  });
-});
-</script>
-
-
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-
-<div id="footer-container">
-
-  <div class="container">
-    <div id="social-icon-wrapper" class="container" align="center">
-      <a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" src="librarianreadseverything.png" /></a>
-      <a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" src="tumblr.png" /></a>
-      <a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" src="facebook.png" /></a>
-      <a href="https://www.instagram.com/crossettlibrarybennington/"><img title="Instagram" src="instagram.png" /></a>
   </div>
-</div>
-</div>
 
+  <!-- MAIN CONTAINER */-->
+  <!-- MAIN CONTAINER */-->
+  <!-- MAIN CONTAINER */-->
+  <!-- MAIN CONTAINER */-->
+  <!-- MAIN CONTAINER */-->
+  <!-- MAIN CONTAINER */-->
 
-
-</body>
-</html>
+  <div id="sub-main-container">
+    <div class="container">
+      <div class="container">
+        <h3>For Student</h3>
+        <p>
+          The Peer Writing & Research Tutors assist Bennington students in developing their skills as academic writers and researchers. You may meet with the tutors to help you at any stage of the writing process—from planning an essay to searching for evidence to the final revision. The Peer Writing & Research Tutors work to support students as they examine their choices as writers and strive for clarity, cohesion, and style in their assignments. Through conversation and instruction, the tutors assist the process of generating strong ideas, thesis-making, integrating persuasive evidence, structuring essays, and learning grammar and style.
+        </p>
+        <p>
+          Camille Guthrie, the Director of Undergraduate Writing Initiatives, is available to work with you during each term as well. She teaches three Scriptoriums, content-based essay-writing courses, during the academic year. She is available to meet with you during her open office hours.
+        </p>
+        <p>
+          <a href="writing-students.html">More Information For Students</a>
+        </p>
+      </div>
+      <div class="container">
+        <h3>For Faculty</h3>
+        <p>
+          Camille Guthrie, the Director of Undergraduate Writing Initiatives, is available to work with you during each term, and over the summer and FWT breaks, to support any part of teaching writing in your classes. She can collaborate with you to develop practices and assignments that help students become more critical, effective, and confident writers. Camille created the Scriptorium series, content-based essay-writing courses, to encourage strong academic writing at the college; she teaches three Scriptoriums during the academic year. Additionally, she oversees the Peer Writing & Research Tutors.
+        </p>
+        <p>
+          <a href="writing-faculty.html">More Information For Faculty</a>
+        </p>
+      </div>
+      <div class="container">
+        <h3>CONTACT</h3>
+        <p>
+          If you have any questions about the Undergraduate Writing Initiatives or the Peer Writing & Research Tutors, please contact Camille Guthrie, Director of Undergraduate Writing Initiatives (Crossett Library, third floor): <a href="mailto:cguthrie@bennington.edu">cguthrie@bennington.edu</a>; ext. 4892.
+        </p>
+      </div>
+    </div>
+  </div>

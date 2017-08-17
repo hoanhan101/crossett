@@ -1,4 +1,5 @@
-- Search Box
 - Research and Project Guides
 - Make a Suggestion/Google Form
 - Google Calendar
+- Writing Initiatives
+- Featured
