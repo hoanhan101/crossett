@@ -115,6 +115,10 @@ body {
   display: block;
 }
 
+#header-nav .dropdown-menu .divider {
+  margin: 1px 0;
+}
+
 #header-nav .navbar-default .navbar-collapse, .header-nav .navbar-default .navbar-form {
   background-color: rgb(132, 134, 140);
 }
