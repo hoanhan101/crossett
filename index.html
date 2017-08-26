@@ -33,6 +33,21 @@
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script type="text/javascript">google.load("feeds", "1");</script>
 
+  <!-- Load header html -->
+  <script>
+  // $(function(){
+  //   $("#header").load("header.html");
+  // });
+
+  $(document).ready(function(){
+
+    //jquery code goes here....
+    $('#header').load('header.html');
+
+
+  });
+  </script>
+
 </head>
 <body>
   <!-- HEADER CONTAINER */-->
@@ -42,7 +57,11 @@
   <!-- HEADER CONTAINER */-->
   <!-- HEADER CONTAINER */-->
 
-  <div id="header-container">
+  <div id="header">
+
+  </div>
+
+  <!-- <div id="header-container">
     <div id="header-banner" class="container">
       <div class="row">
         <div id="brand-col" class="col-sm-8">
@@ -61,7 +80,6 @@
     <div id="header-nav">
       <nav class="navbar navbar-default" role="navigation">
         <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Navbarcollapse" aria-expanded="false">
               <span class="sr-only"> Toggle navigation </span>
@@ -71,7 +89,6 @@
             </button>
           </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="Navbarcollapse">
             <ul class="nav navbar-nav">
 
@@ -153,7 +170,7 @@
         </div>
       </nav>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- BANNER-SEARCH CONTAINER */-->
