@@ -163,7 +163,7 @@ body {
 /*BANNER-SEARCH CONTAINER*/
 
 #banner-search-container {
-  background-image: url("bennington.jpg");
+  background-image: url("img/bennington-main-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -233,11 +233,7 @@ body {
 /*BANNER CONTAINER*/
 
 #sub-banner-container {
-  background-image: url("heading-banner.jpg");
-  /*background-image: url("heading-banner-1.jpg");*/
-  /*background-image: url("heading-banner.png");*/
-  /*background-image: url("heading-banner-2.png");*/
-
+  background-image: url("img/heading-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -245,10 +241,6 @@ body {
   padding: 30px;
 
   font-family: 'Open Sans', sans-serif;
-  /*font-family: 'Lato', sans-serif;*/
-  /*font-family: 'Roboto', sans-serif;*/
-  /*font-family: 'Zilla Slab Highlight', cursive;*/
-  /*color: #ffffff;*/
 }
 
 
@@ -283,10 +275,6 @@ body {
   width: 80%;
 }
 
-/*div.contained_table {
-width: 100%;
-overflow-x: auto;
-}*/
 
 /* Dates */
 .agenda .agenda-date { width: 170px; }
@@ -347,9 +335,6 @@ overflow-x: auto;
 /*SUB-MAIN CONTAINER*/
 
 #sub-main-container {
-  /*font-family: 'Open Sans', sans-serif;*/
-  /*font-family: 'Lato', sans-serif;*/
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Raleway', sans-serif;
 }
 
@@ -445,10 +430,5 @@ overflow-x: auto;
     font-size: 15px;
   }
 }
-
-
-
-
-
 
 </style>
