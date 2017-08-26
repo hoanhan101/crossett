@@ -200,7 +200,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
 }*/
-#ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive {
+#ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive, #catalog {
   display: inherit;
   width: 100%;
 }
