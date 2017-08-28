@@ -63,7 +63,7 @@
   <div id="sub-banner-container">
     <div class="container">
       <div id="heading-container" class="container">
-        <h1> Make a Suggestion </h1>
+        <h1> My Library Account: View/Renew Library Materials </h1>
       </div>
     </div>
   </div>
@@ -79,6 +79,50 @@
     <div class="container">
       <div class="container col-md-12">
         <br>
+
+        <div class="form1Part formLogin" id="accessibleForm">
+          <form name="patform" target="_self" method="POST" action="/patroninfo~S0">
+            <fieldset>
+              <legend>
+                Please enter the following information:
+                <table width="100%" style="color:#000">
+
+
+
+                  <tbody><tr><td></td><td><font size="-1">
+                    Example :  della rocca, jared</font></td></tr><tr><td>
+                      <label for="name"><span id="nameprompt">Your Name:</span></label></td><td>
+                        <input name="name" id="name" value="" size="40" maxlength="40"></td></tr>
+
+                        <tr><td></td><td><font size="-1">
+                          Your barcode is the series of 5 digits underneath your name on your College ID Card.
+                        </font></td>
+                      </tr>
+                      <tr><td>
+                        Barcode:
+                      </td><td>
+
+                        <input name="code" id="code" type="PASSWORD" value="" size="40" maxlength="40"></td>
+                      </tr>
+
+
+
+                    </tbody>
+                  </table>
+                  <!--{ifalternate_id}-->
+                  <!--{user_name}-->
+                  <!--{xif}-->
+
+                  <br>
+                  <div class="formButtonArea">
+                    <div class="formButtonArea"><input type="hidden" name="pat_submit" value="xxx">
+                      <a href="#" onclick="javascript:patform.submit()">SUBMIT</a></div>
+                      <!-- <input type="submit" class="submitHidden"> -->
+                    </div>
+                  </legend>
+                </fieldset>
+              </form>
+            </div>
 
 
       </div>
