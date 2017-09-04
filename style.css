@@ -262,13 +262,35 @@ body {
 
 #social-icon-wrapper {
   width: 80%;
-  padding: 7px;
+  padding: 10px;
 }
 
 #social-icon-wrapper img {
   margin: 5px;
   width: 45px;
   height: 45px;
+}
+
+.fa-tumblr {
+  color: rgb(0, 0, 0);
+}
+
+.fa-twitter {
+  color: rgb(126, 206, 209);
+}
+
+.fa-facebook {
+  color: rgb(126, 191, 64);
+}
+
+.fa-instagram {
+  color: rgb(243, 144, 39);
+}
+
+
+.fa {
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 
 /*MEDIA QUERIES*/
