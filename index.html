@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script type="text/javascript">google.load("feeds", "1");</script>
 
-  <!-- Load header html -->
+  <!-- Load Header -->
   <script>
   $(document).ready(function(){
     $('#header').load('header.html');
@@ -43,12 +43,6 @@
 </head>
 <body>
   <!-- HEADER CONTAINER */-->
-  <!-- HEADER CONTAINER */-->
-  <!-- HEADER CONTAINER */-->
-  <!-- HEADER CONTAINER */-->
-  <!-- HEADER CONTAINER */-->
-  <!-- HEADER CONTAINER */-->
-
   <div id="header"></div>
 
   <!-- <div id="header-container">
@@ -85,7 +79,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> About </a>
                 <ul class="dropdown-menu">
-                  <li><a href="about-jennings.html"> <span class="text-muted"> Jennings Music Library </span> </a></li>
+                  <li><a href="about-jennings.html"> <span> Jennings Music Library </span> </a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="about-overview.html">  Overview </a></li>
                   <li><a href="about-hours.html">  Hours </a></li>
@@ -97,7 +91,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Using the library </a>
                 <ul class="dropdown-menu">
-                  <li><a href="ins-faculty.html"> <span class="text-muted"> Resources for Faculty</span> </a></li>
+                  <li><a href="ins-faculty.html"> <span> Resources for Faculty</span> </a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="ins-borrowing.html"> Borrowing </a></li>
                   <li><a href="ins-printing.html"> Printing </a></li>
@@ -164,22 +158,16 @@
 
 
   <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-  <!-- BANNER-SEARCH CONTAINER */-->
-
   <div id="banner-search-container">
     <div class="container">
       <div id="searchBox-wrapper" class="container">
 
-        <!-- Heading Text -->
+        <!-- TITLE -->
         <div id="heading-row" class="row">
           <p> Can we be certain of anything? </p>
         </div>
 
-        <!-- Search Box -->
+        <!-- SEARCHBOX -->
         <div id="searchBox-row" class="row">
           <div class="input-group">
 
@@ -197,7 +185,7 @@
             </div>
 
 
-            <!-- OneSearch -->
+            <!-- ONESEARCH -->
             <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
               <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
@@ -211,7 +199,7 @@
               </span>
             </form>
 
-            <!-- Catalog -->
+            <!-- CATALOG -->
             <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
               <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" />
               <span class="input-group-btn">
@@ -219,7 +207,7 @@
               </span>
             </form>
 
-            <!-- Journals -->
+            <!-- JOURNALS -->
             <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
               <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
@@ -233,7 +221,7 @@
               </span>
             </form>
 
-            <!-- Reserve -->
+            <!-- RESERVES -->
             <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
               <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" />
               <span class="input-group-btn">
@@ -241,7 +229,7 @@
               </span>
             </form>
 
-            <!-- Archive -->
+            <!-- ARCHIVE -->
             <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
               <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" />
               <span class="input-group-btn">
@@ -256,63 +244,74 @@
 </div>
 
 
+<!-- FOOTER CONTAINER */-->
+<div id="footer-container">
 
+  <div class="container">
+    <div id="social-icon-wrapper" class="container" align="center">
+      <a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" src="img/librarianreadseverything.png" /></a>
+      <a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" src="img/tumblr.png" /></a>
+      <a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" src="img/facebook.png" /></a>
+      <a href="https://www.instagram.com/crossettlibrarybennington/"><img title="Instagram" src="img/instagram.png" /></a>
+    </div>
+  </div>
+
+  <!-- <div class="container">
+    <div id="rss-feed"><h3>RSS FEED</h3></div>
+  </div>
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="http://covers.openlibrary.org/b/isbn/1594481431-L.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="http://covers.openlibrary.org/b/isbn/9780156034746-L.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="http://covers.openlibrary.org/b/isbn/9781594201493-L.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div> -->
+
+</div>
+
+
+
+
+<!-- CUSTOM JAVASCRIPT */-->
 <script>
 
+// RSS FEED
+$.get('http://library.bennington.edu/feeds/newmaterials.xml', function (data) {
+    $(data).find("item").each(function () {
+        var el = $(this);
+        var title = el.find("title").text();
+        var link = el.find("link").text();
+        var description = el.find("description").text();
+        var guid = parseInt(el.find("guid").text());
 
-// http://library.bennington.edu/feeds/newmaterials.xml
+        // $( "#rss-feed" ).append('<div><strong>' + title + " [" + guid + "] " + '</strong></div>');
+        // $( "#rss-feed" ).append('<img src="http://covers.openlibrary.org/b/isbn/' + guid + '-L.jpg" alt="">');
+    });
+});
 
-// https://crossorigin.me/http://stackoverflow.com/feeds/question/10943544
-// http://cors.io/?http://stackoverflow.com/feeds/question/10943544
-// $.get('https://crossorigin.me/https://stackoverflow.com/feeds/question/10943544', function (data) {
-//     console.log("hello");
-//     $(data).find("entry").each(function () { // or "item" or whatever suits your feed
-//         var el = $(this);
-//
-//         console.log("------------------------");
-//         console.log("title      : " + el.find("title").text());
-//         console.log("author     : " + el.find("author").text());
-//         console.log("description: " + el.find("description").text());
-//     });
-// });
-
-// $.ajax({
-//   url      : document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://stackoverflow.com/feeds/question/10943544'),
-//   dataType : 'json',
-//   success  : function (data) {
-//     if (data.responseData.feed && data.responseData.feed.entries) {
-//       $.each(data.responseData.feed.entries, function (i, e) {
-//         console.log("------------------------");
-//         console.log("title      : " + e.title);
-//         console.log("author     : " + e.author);
-//         console.log("description: " + e.description);
-//       });
-//     }
-//   }
-// });
-
-// $(document).ready(function() {
-//     var feed = "http://feeds.feedburner.com/raymondcamdensblog?format=xml";
-//
-//     $.ajax(feed, {
-//         accepts:{
-//             xml:"application/rss+xml"
-//         },
-//         dataType:"xml",
-//         success:function(data) {
-//
-//             $(data).find("item").each(function () {
-//                 var el = $(this);
-//                 console.log("------------------------");
-//                 console.log("title      : " + el.find("title").text());
-//                 console.log("link       : " + el.find("link").text());
-//                 console.log("description: " + el.find("description").text());
-//             });
-//         }
-//     });
-// });
-
-
+// SEARCHBOX
 $(document).ready(function(e){
   $('.search-panel .dropdown-menu').find('a').click(function(e) {
     e.preventDefault();
@@ -359,32 +358,7 @@ $(document).ready(function(e){
     };
   });
 });
-
-
-
 </script>
-
-
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-<!-- FOOTER CONTAINER */-->
-
-<div id="footer-container">
-
-  <div class="container">
-    <div id="social-icon-wrapper" class="container" align="center">
-      <a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" src="img/librarianreadseverything.png" /></a>
-      <a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" src="img/tumblr.png" /></a>
-      <a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" src="img/facebook.png" /></a>
-      <a href="https://www.instagram.com/crossettlibrarybennington/"><img title="Instagram" src="img/instagram.png" /></a>
-  </div>
-</div>
-</div>
-
-
 
 </body>
 </html>
