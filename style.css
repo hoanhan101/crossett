@@ -217,14 +217,12 @@ body {
 /*BANNER CONTAINER*/
 
 #sub-banner-container {
-  background-image: url("img/heading-banner.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
+  background-color: rgba(132, 134, 140, 0.1);
   font-family: 'Open Sans', sans-serif;
+  color: black;
 }
 
 
