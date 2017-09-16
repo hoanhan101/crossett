@@ -255,10 +255,6 @@ body {
 /*FOOTER CONTAINER*/
 /*FOOTER CONTAINER*/
 
-/*footer {
-
-}*/
-
 #footer-container {
   /*background-color: #22272d;*/
 }
@@ -296,13 +292,9 @@ body {
 }
 
 
-/*footer {
-position: absolute;
-bottom:0;
-}*/
 
 .footer-bottom {
-    background-color: rgb(141, 92, 62);
+    background-color: rgba(141, 92, 62, 1);
     min-height: 30px;
     width: 100%;
     box-shadow: 3px 3px 10px 1px #979aa0;
@@ -320,6 +312,10 @@ bottom:0;
     padding: 7px 0;
     text-align: right;
 }
+.copyright a {
+    color: #fff;
+}
+
 .design a {
     color: #fff;
 }
