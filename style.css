@@ -76,7 +76,7 @@ body {
 /* NAVBAR CONTAINTER */
 
 #header-nav {
-  background-color: white;
+  background: white;
   border-top: 1px solid #ffffff;
   border-bottom: none;
   box-shadow: 3px 3px 10px 1px #979aa0;
@@ -220,7 +220,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 
-  background-color: rgba(132, 134, 140, 0.1);
+  background-color: rgba(132, 134, 140, 0.07);
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
@@ -255,6 +255,9 @@ body {
 /*FOOTER CONTAINER*/
 /*FOOTER CONTAINER*/
 
+/*footer {
+
+}*/
 
 #footer-container {
   /*background-color: #22272d;*/
@@ -293,7 +296,10 @@ body {
 }
 
 
-
+/*footer {
+position: absolute;
+bottom:0;
+}*/
 
 .footer-bottom {
     background-color: rgb(141, 92, 62);
