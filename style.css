@@ -1,10 +1,10 @@
+/*
+  Author: Hoanh An (hoanhan@bennington.edu)
+  Date: 07/12/17
+*/
+
 <style>
 
-/* BANNER CONTAINTER */
-/* BANNER CONTAINTER */
-/* BANNER CONTAINTER */
-/* BANNER CONTAINTER */
-/* BANNER CONTAINTER */
 /* BANNER CONTAINTER */
 
 #s-lib-bc {
@@ -66,12 +66,6 @@ body {
   padding-bottom: 20px;
 }
 
-
-/* NAVBAR CONTAINTER */
-/* NAVBAR CONTAINTER */
-/* NAVBAR CONTAINTER */
-/* NAVBAR CONTAINTER */
-/* NAVBAR CONTAINTER */
 /* NAVBAR CONTAINTER */
 
 #header-nav {
@@ -80,7 +74,6 @@ body {
   border-bottom: none;
   box-shadow: 3px 3px 10px 1px #979aa0;
 }
-
 
 #header-nav .navbar {
   min-height: 15px;
@@ -94,7 +87,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
-
 
 #Navbarcollapse{
   padding-left: 10px;
@@ -151,12 +143,7 @@ body {
 #header-nav .navbar-nav .dropdown:hover > a[data-toggle=dropdown] + .dropdown-menu {   display: none;}
 #header-nav .navbar-nav .dropdown.open > a[data-toggle=dropdown] + .dropdown-menu {   display: block; }
 
-/*BANNER-SEARCH CONTAINER*/
-/*BANNER-SEARCH CONTAINER*/
-/*BANNER-SEARCH CONTAINER*/
-/*BANNER-SEARCH CONTAINER*/
-/*BANNER-SEARCH CONTAINER*/
-/*BANNER-SEARCH CONTAINER*/
+/* BANNER-SEARCH CONTAINER */
 
 #banner-search-container {
   background-image: url("img/bennington-main-banner.jpg");
@@ -178,7 +165,6 @@ body {
   padding: 40px;
   border-radius: 0px;
   font-family: 'Raleway', sans-serif;
-
 }
 
 #searchBox-wrapper #searchBox-row .input-group .btn {
@@ -186,7 +172,6 @@ body {
   background-color: rgb(141, 92, 62);
   color: white;
 }
-
 
 #ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive, #catalog {
   display: inherit;
@@ -208,12 +193,7 @@ body {
 #searchBoxForm {
 }
 
-/*BANNER CONTAINER*/
-/*BANNER CONTAINER*/
-/*BANNER CONTAINER*/
-/*BANNER CONTAINER*/
-/*BANNER CONTAINER*/
-/*BANNER CONTAINER*/
+/* BANNER CONTAINER */
 
 #sub-banner-container {
   padding-top: 30px;
@@ -224,35 +204,13 @@ body {
   color: black;
 }
 
-
-/*MAIN CONTAINER*/
-/*MAIN CONTAINER*/
-/*MAIN CONTAINER*/
-/*MAIN CONTAINER*/
-/*MAIN CONTAINER*/
-/*MAIN CONTAINER*/
-
-
-
-
-/*SUB-MAIN CONTAINER*/
-/*SUB-MAIN CONTAINER*/
-/*SUB-MAIN CONTAINER*/
-/*SUB-MAIN CONTAINER*/
-/*SUB-MAIN CONTAINER*/
-/*SUB-MAIN CONTAINER*/
+/* SUB-MAIN CONTAINER */
 
 #sub-main-container {
   font-family: 'Raleway', sans-serif;
 }
 
-
-/*FOOTER CONTAINER*/
-/*FOOTER CONTAINER*/
-/*FOOTER CONTAINER*/
-/*FOOTER CONTAINER*/
-/*FOOTER CONTAINER*/
-/*FOOTER CONTAINER*/
+/* FOOTER CONTAINER */
 
 #footer-container {
   /*background-color: #22272d;*/
@@ -290,8 +248,6 @@ body {
   -webkit-transition: 1s;
 }
 
-
-
 .footer-bottom {
     background-color: rgba(141, 92, 62, 1);
     min-height: 30px;
@@ -319,12 +275,7 @@ body {
     color: #fff;
 }
 
-/*MEDIA QUERIES*/
-/*MEDIA QUERIES*/
-/*MEDIA QUERIES*/
-/*MEDIA QUERIES*/
-/*MEDIA QUERIES*/
-/*MEDIA QUERIES*/
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 575px) {
   #searchBox-wrapper {
@@ -366,7 +317,6 @@ body {
     font-size: 10px;
   }
 }
-
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #header-nav a {
