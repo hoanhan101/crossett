@@ -129,10 +129,72 @@
 
           </div>
         </div>
+      </div>
     </div>
-    </div>
-</div>
+  </div>
 
+
+<!-- ALERT CONTAINER -->
+
+
+<div id="alert-container">
+	<div class="container">
+
+	<div class="row">
+	  <div class="col-sm-12 col-md-6">
+	  	<h4 style="font-size: 17px; color: rgba(141, 92, 62, 0.9);" class="btn">
+	  		Notifications
+	  		<span style="background-color: rgba(141, 92, 62, 0.9);" class="badge badge-default">6</span>
+		</h4>
+
+		<div class="card card-block">
+			<div class="alert" role="alert">
+			<table class="table table-hover">
+			  <tbody>
+			    <tr>
+			      <td><strong>Friday, December 1st</strong></td>
+			      <td>Last day to order ILL books, films, CDs</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Friday, December 8th</strong></td>
+			      <td>Last day to request Williams forms</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Wednesday, December 11th</strong></td>
+			      <td>ALL ILL & Williams items due</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Tuesday, December 12th</strong></td>
+			      <td>Last day to order ILL articles - there is no guarantee that articles will arrive before end of term</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Friday, December 8th</strong></td>
+			      <td>Last day to request Williams forms</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Over FWT</strong></td>
+			      <td>Books may be checked out over FWT</td>
+			    </tr>	    
+			  </tbody>
+			</table>
+			</div>
+		</div>
+	  </div>
+
+	  <div class="col-sm-12 col-md-6">
+	  	<div id="rss-feed">
+		  	<h4 style="font-size: 17px; color: rgba(141, 92, 62, 0.9);" class="btn">
+		  		RSS Feed
+			</h4>
+			<div id="rss-feed">
+				
+			</div>
+	  	</div>
+	  </div>
+	</div>
+
+	</div>
+</div>
 
 <!-- FOOTER CONTAINER */-->
 <div id="footer-container">
@@ -150,17 +212,46 @@
 <script>
 
 // RSS FEED
-$.get('http://library.bennington.edu/feeds/newmaterials.xml', function (data) {
-    $(data).find("item").each(function () {
-        var el = $(this);
-        var title = el.find("title").text();
-        var link = el.find("link").text();
-        var description = el.find("description").text();
-        var guid = parseInt(el.find("guid").text());
+// $.get('http://library.bennington.edu/feeds/newmaterials.xml', function (data) {
+//     $(data).find("item").each(function () {
+//         var el = $(this);
+//         var title = el.find("title").text();
+//         var link = el.find("link").text();
+//         var description = el.find("description").text();
+//         var guid = parseInt(el.find("guid").text());
 
-        // $( "#rss-feed" ).append('<div><strong>' + title + " [" + guid + "] " + '</strong></div>');
-        // $( "#rss-feed" ).append('<img src="http://covers.openlibrary.org/b/isbn/' + guid + '-L.jpg" alt="">');
-    });
+//         $( "#rss-feed" ).append('<div><strong>' + title + " [" + guid + "] " + '</strong></div>');
+//         $( "#rss-feed" ).append('<img src="http://covers.openlibrary.org/b/isbn/' + guid + '-L.jpg" alt="">');
+//     });
+// });
+// $(document).ready(function () {
+//     $.ajax({
+//         url: 'http://cors.io/?u=http://blog.counter-strike.net/index.php/feed/',
+//         type: 'GET',
+//         dataType: "xml"
+//     }).done(function(xml) {
+
+//         $.each($("item", xml), function(i, e) {
+
+//             var blogNumber = i + 1 + ". ";
+
+//             var itemURL = ($(e).find("link"));
+//             var blogURL = "<a href='" + itemURL.text() + "'>" + itemURL.text() +"</a>";
+
+//             var itemTitle = ($(e).find("title"));
+//             var blogTitle = "<h4>" + blogNumber + itemTitle.text() + "</h4>";
+
+//             $("#rss-feed").append(blogTitle);
+//             $("#rss-feed").append(blogURL);
+
+//         });
+//     });
+// });
+jQuery.getFeed({
+   url: 'rss.xml',
+   success: function(feed) {
+      alert(feed.title);
+   }
 });
 
 // SEARCHBOX
