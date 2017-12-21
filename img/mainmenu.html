@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!--
+  Author: Hoanh An (hoanhan@bennington.edu)
+  Date: 07/12/17
+-->
+<html lang="en">
+<head>
+  <title> Crosset Library </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link href="/screens/style.css" rel="stylesheet">
+
+  <!-- Custom Javascript -->
+  <script src="http://support.ebscohost.com/eit/scripts/ebscohostsearch.js" type="text/javascript"></script>
+  <script src="http://ux4pn4fq8e.search.serialssolutions.com/alEJPStatic/js/form_functions.js" type="text/javascript"></script>
+
+  <!-- Google Feed API -->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">google.load("feeds", "1");</script>
+
+  <!-- Load Header -->
+  <script>
+  $(document).ready(function(){
+    $('#header').load('header.html');
+    $('#footer').load('footer.html');
+  });
+  </script>
+
+</head>
+<body>
+  <!-- HEADER CONTAINER */-->
+  <div id="header"></div>
+
+  <!-- BANNER-SEARCH CONTAINER */-->
+  <div id="banner-search-container">
+    <div class="container">
+      <div id="searchBox-wrapper" class="container">
+
+        <!-- TITLE -->
+        <div id="heading-row" class="row">
+          <p> Can we be certain of anything? </p>
+        </div>
+
+        <!-- SEARCHBOX -->
+        <div id="searchBox-row" class="row">
+          <div class="input-group">
+            <div id="fieldSelector" class="input-group-btn search-panel">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#onesearch"> OneSearch </a></li>
+                <li><a href="#catalog"> Catalog </a></li>
+                <li><a href="#journals"> Journals </a></li>
+                <li><a href="#reserves"> Reserves </a></li>
+                <li><a href="#archive"> Archive </a></li>
+              </ul>
+            </div>
+
+            <!-- ONESEARCH -->
+            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1">
+              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip">
+              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
+              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
+              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="">
+
+              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- CATALOG -->
+            <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
+              <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- JOURNALS -->
+            <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1">
+              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
+              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
+              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
+              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="">
+
+              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- RESERVES -->
+            <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
+              <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- ARCHIVE -->
+            <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
+              <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- ALERT CONTAINER -->
+
+
+<div id="alert-container">
+	<div class="container">
+
+	<div class="row">
+	  <div class="col-sm-12 col-md-6">
+	  	<h4 style="font-size: 17px; color: rgba(141, 92, 62, 0.9);" class="btn">
+	  		Notifications
+	  		<span style="background-color: rgba(141, 92, 62, 0.9);" class="badge badge-default">6</span>
+		</h4>
+
+		<div class="card card-block">
+			<div class="alert" role="alert">
+			<table class="table table-hover">
+			  <tbody>
+			    <tr>
+			      <td><strong>Friday, December 1st</strong></td>
+			      <td>Last day to order ILL books, films, CDs</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Friday, December 8th</strong></td>
+			      <td>Last day to request Williams forms</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Wednesday, December 11th</strong></td>
+			      <td>ALL ILL & Williams items due</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Tuesday, December 12th</strong></td>
+			      <td>Last day to order ILL articles - there is no guarantee that articles will arrive before end of term</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Friday, December 8th</strong></td>
+			      <td>Last day to request Williams forms</td>
+			    </tr>
+			    <tr>
+			      <td><strong>Over FWT</strong></td>
+			      <td>Books may be checked out over FWT</td>
+			    </tr>	    
+			  </tbody>
+			</table>
+			</div>
+		</div>
+	  </div>
+
+	  <div class="col-sm-12 col-md-6">
+	  	<div id="rss-feed">
+		  	<h4 style="font-size: 17px; color: rgba(141, 92, 62, 0.9);" class="btn">
+		  		RSS Feed
+			</h4>
+			<div id="rss-feed">
+				
+			</div>
+	  	</div>
+	  </div>
+	</div>
+
+	</div>
+</div>
+
+<!-- FOOTER CONTAINER */-->
+<div id="footer-container">
+  <div class="container">
+    <div id="social-icon-wrapper" class="container" align="center">
+      <a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" src="img/librarianreadseverything.png" alt="Librarian Reads Everything Tumblr"></a>
+      <a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" src="img/tumblr.png" alt="Crossett Library Tumblr"></a>
+      <a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" src="img/facebook.png" alt="Crossett Library Facebook"></a>
+      <a href="https://www.instagram.com/crossettlibrarybennington/"><img title="Instagram" src="img/instagram.png" alt="Crossett Library Instagram"></a>
+      <a href="https://notesfromthemusiclibrary.tumblr.com"><img title="Instagram" src="img/jenningsmusiclibrary_tumblr.png" alt="Jenning Music Library Tumblr"></a>
+    </div>
+  </div>
+</div>
+
+<!-- CUSTOM JAVASCRIPT */-->
+<script>
+
+// RSS FEED
+// $.get('http://library.bennington.edu/feeds/newmaterials.xml', function (data) {
+//     $(data).find("item").each(function () {
+//         var el = $(this);
+//         var title = el.find("title").text();
+//         var link = el.find("link").text();
+//         var description = el.find("description").text();
+//         var guid = parseInt(el.find("guid").text());
+
+//         $( "#rss-feed" ).append('<div><strong>' + title + " [" + guid + "] " + '</strong></div>');
+//         $( "#rss-feed" ).append('<img src="http://covers.openlibrary.org/b/isbn/' + guid + '-L.jpg" alt="">');
+//     });
+// });
+// $(document).ready(function () {
+//     $.ajax({
+//         url: 'http://cors.io/?u=http://blog.counter-strike.net/index.php/feed/',
+//         type: 'GET',
+//         dataType: "xml"
+//     }).done(function(xml) {
+
+//         $.each($("item", xml), function(i, e) {
+
+//             var blogNumber = i + 1 + ". ";
+
+//             var itemURL = ($(e).find("link"));
+//             var blogURL = "<a href='" + itemURL.text() + "'>" + itemURL.text() +"</a>";
+
+//             var itemTitle = ($(e).find("title"));
+//             var blogTitle = "<h4>" + blogNumber + itemTitle.text() + "</h4>";
+
+//             $("#rss-feed").append(blogTitle);
+//             $("#rss-feed").append(blogURL);
+
+//         });
+//     });
+// });
+jQuery.getFeed({
+   url: 'rss.xml',
+   success: function(feed) {
+      alert(feed.title);
+   }
+});
+
+// SEARCHBOX
+$(document).ready(function(e){
+  $('.search-panel .dropdown-menu').find('a').click(function(e) {
+    e.preventDefault();
+    var param = $(this).attr("href").replace("#","");
+    var concept = $(this).text();
+    $('.search-panel span#search_concept').text(concept);
+    $('.input-group #search_param').val(param);
+
+    switch (param) {
+      case "catalog":
+        $("#catalog").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#eco-journals").hide();
+        $("#search-reserve").hide();
+        $("#search-archive").hide();
+        break;
+      case "journals":
+        $("#eco-journals").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#catalog").hide();
+        $("#search-reserve").hide();
+        $("#search-archive").hide();
+        break;
+      case "reserves":
+        $("#search-reserve").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#catalog").hide();
+        $("#eco-journals").hide();
+        $("#search-archive").hide();
+        break;
+      case "archive":
+        $("#search-archive").show();
+        $("#ebscohostCustomSearchBox").hide();
+        $("#catalog").hide();
+        $("#eco-journals").hide();
+        $("#search-reserve").hide();
+        break;
+      default:
+        $("#ebscohostCustomSearchBox").show();
+        $("#catalog").hide();
+        $("#eco-journals").hide();
+        $("#search-reserve").hide();
+        $("#search-archive").hide();
+    };
+  });
+});
+</script>
+
+<!-- FOOTER CONTAINER */-->
+<br>
+<br>
+<br>
+<div id="footer"></div>
+
+</body>
+</html>
