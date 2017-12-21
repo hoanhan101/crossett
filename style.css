@@ -88,8 +88,8 @@ body {
   font-weight: 500;
 }
 
-#Navbarcollapse{
-  padding-left: 10px;
+#Navbarcollapse {
+  padding-left: 20px;
   padding-right: 0px;
 }
 
@@ -288,14 +288,6 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-
-  /*#fieldSelector {
-    display: none;
-  }*/
-
-  /*#lib-name {
-    display: none;
-  }*/
 
   #heading-row p {
     font-size: 25px;
