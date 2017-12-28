@@ -77,7 +77,7 @@
             </div>
 
             <!-- ONESEARCH -->
-            <form style="display:none" id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip">
               <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
               <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
@@ -90,7 +90,7 @@
             </form>
 
             <!-- CATALOG -->
-            <form id="catalog" action="http://library.bennington.edu/search/Y" method="get">
+            <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
               <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
               <span class="input-group-btn">
                 <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
