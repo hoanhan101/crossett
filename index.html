@@ -65,7 +65,7 @@
           <div class="input-group">
             <div id="fieldSelector" class="input-group-btn search-panel">
               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                <span id="search_concept" href="#catalog"> Catalog </span> <span class="caret"></span>
+                <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#onesearch"> OneSearch </a></li>
@@ -76,17 +76,8 @@
               </ul>
             </div>
 
-            <!-- CATALOG -->
-            <form id="catalog" action="http://library.bennington.edu/search/Y" method="get">
-              <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
-              <span class="input-group-btn">
-                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </form>
-
             <!-- ONESEARCH -->
             <form style="display:none" id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1">
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip">
               <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
               <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
@@ -98,9 +89,16 @@
               </span>
             </form>
 
+            <!-- CATALOG -->
+            <form id="catalog" action="http://library.bennington.edu/search/Y" method="get">
+              <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
             <!-- JOURNALS -->
             <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-              <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1">
               <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
               <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
               <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
@@ -155,26 +153,10 @@
                     <tr>
                       <td>No notifications</td>
                     </tr>
-    <!--                 <tr>
-                      <td><strong>Friday, December 8th</strong></td>
-                      <td>Last day to request Williams forms</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Wednesday, December 11th</strong></td>
-                      <td>ALL ILL & Williams items due</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Tuesday, December 12th</strong></td>
-                      <td>Last day to order ILL articles - there is no guarantee that articles will arrive before end of term</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Friday, December 8th</strong></td>
-                      <td>Last day to request Williams forms</td>
-                    </tr>
-                    <tr>
+<!--                     <tr>
                       <td><strong>Over FWT</strong></td>
                       <td>Books may be checked out over FWT</td>
-                    </tr>     --> 
+                    </tr>    -->  
                   </tbody>
                 </table>
               </div>
@@ -188,7 +170,6 @@
             <h4 style="font-size: 17px; color: rgba(141, 92, 62, 0.9);" class="btn">
               Latest catalog
             </h4>
-            <!-- <p id="someElement"></p> -->
             <div class="card card-block">
               <div class="alert" role="alert">
                 <table class="table table-hover">
@@ -269,19 +250,18 @@
 
     // XML RSS FEED
     $(document).ready(function () {
-    $.ajax({
-        type: "GET",
-        url: "http://library.bennington.edu/feeds/newmaterials.xml",
-        dataType: "xml",
-        success: xmlParser
-       });
+      $.ajax({
+          type: "GET",
+          url: "http://library.bennington.edu/feeds/newmaterials.xml",
+          dataType: "xml",
+          success: xmlParser
+         });
     });
 
     function xmlParser(xml) {
-
-    $(xml).find("item").each(function () {
-        $("#load").append('<tr><td><a href="' + $(this).find("link").text() + '">' + $(this).find("title").text() +'</a></td></tr>');
-     });
+      $(xml).find("item").each(function () {
+          $("#load").append('<tr><td><a href="' + $(this).find("link").text() + '">' + $(this).find("title").text() +'</a></td></tr>');
+       });
     }
 
   </script>
