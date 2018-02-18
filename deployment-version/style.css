@@ -206,11 +206,42 @@ body {
 }
 
 /*========================================*/
+/*             ALERT CONTAINER            */
+/*========================================*/
+
+#alert-container a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(141, 92, 62, 0.9);
+}
+
+#alert-container .badge {
+  background-color: rgba(141, 92, 62, 0.9);
+}
+
+/*========================================*/
 /*           SUB-MAIN CONTAINER           */
 /*========================================*/
 
 #sub-main-container {
   font-family: 'Raleway', sans-serif;
+}
+
+#sub-banner-container h1 {
+  color: rgb(141, 92, 62);
+}
+
+#sub-banner-container h4, p, a {
+  color: #777;
+}
+
+#sub-main-container h4, h3 {
+  color: rgb(141, 92, 62);
+}
+
+#sub-main-container a {
+  color: #777;
 }
 
 /*========================================*/
@@ -232,27 +263,6 @@ body {
   height: 45px;
 }
 
-.fa-tumblr {
-  color: rgb(0, 0, 0);
-}
-
-.fa-twitter {
-  color: rgb(126, 206, 209);
-}
-
-.fa-facebook {
-  color: rgb(126, 191, 64);
-}
-
-.fa-instagram {
-  color: rgb(243, 144, 39);
-}
-
-.fa {
-  transition: 1s;
-  -webkit-transition: 1s;
-}
-
 .footer-bottom {
     background-color: rgba(141, 92, 62, 1);
     min-height: 30px;
@@ -265,6 +275,11 @@ body {
     min-height: 30px;
     padding: 7px 0;
 }
+
+.copyright a {
+    color: #fff;
+}
+
 .design {
     color: #fff;
     line-height: 30px;
@@ -272,9 +287,7 @@ body {
     padding: 7px 0;
     text-align: right;
 }
-.copyright a {
-    color: #fff;
-}
+
 
 .design a {
     color: #fff;
@@ -296,13 +309,23 @@ body {
     padding-bottom: 40px;
   }
 
-  /*#fieldSelector {
+  #lib-logo img {
+    width: 15%;
+  }
+
+/*  #searchBox-wrapper #fieldSelector, .input-group-btn {
     display: none;
   }*/
 
-  /*#lib-name {
-    display: none;
-  }*/
+  #lib-name h1 {
+    margin-top: 7px;
+    font-size: 28px;
+  }
+
+  #header-nav a {
+    padding-left: 30px;
+    font-size: 15px;
+  }  
 
   #heading-row p {
     font-size: 25px;
@@ -311,6 +334,13 @@ body {
   #events-wrapper {
     display: none;
   }
+
+  #sub-banner-container h1 {
+    font-size: 30px;
+  }
+
+/*  #sub-main-container h4, h3 {
+  }  */
 
   #carousel-wrapper {
     display: none;
@@ -323,11 +353,15 @@ body {
   #social-icon-wrapper {
     font-size: 10px;
   }
+
+  #footer {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #header-nav a {
-    padding-left: 25px;
+    padding-left: 35px;
     font-size: 15px;
   }
 }
