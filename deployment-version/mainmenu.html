@@ -50,82 +50,80 @@
     <div id="header"></div>
 
     <!-- BANNER-SEARCH CONTAINER */-->
-    <div id="banner-search-container">
-      <div class="container">
-        <div id="searchBox-wrapper" class="container">
+    <div id="banner-search-container" class="container">
+      <div id="searchBox-wrapper" class="container">
 
-          <!-- TITLE -->
-         <!-- <div id="heading-row" class="row">
-            <p> Can we be certain of anything? </p>
-          </div>-->
+        <!-- TITLE -->
+       <!-- <div id="heading-row" class="row">
+          <p> Can we be certain of anything? </p>
+        </div>-->
 
-          <!-- SEARCHBOX -->
-          <div id="searchBox-row" class="row">
-            <div class="input-group">
-              <div id="fieldSelector" class="input-group-btn search-panel">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                  <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#onesearch"> OneSearch </a></li>
-                  <li><a href="#catalog"> Catalog </a></li>
-                  <li><a href="#journals"> Journals </a></li>
-                  <li><a href="#reserves"> Reserves </a></li>
-                  <li><a href="#archive"> Archive </a></li>
-                </ul>
-              </div>
-
-              <!-- ONESEARCH -->
-              <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-                <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
-                <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
-                <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
-                <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-
-                <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- CATALOG -->
-              <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
-                <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- JOURNALS -->
-              <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-                <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
-                <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
-                <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
-                <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="">
-
-                <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- RESERVES -->
-              <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
-                <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- ARCHIVE -->
-              <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
-                <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
+        <!-- SEARCHBOX -->
+        <div id="searchBox-row" class="row">
+          <div class="input-group">
+            <div id="fieldSelector" class="input-group-btn search-panel">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#onesearch"> OneSearch </a></li>
+                <li><a href="#catalog"> Catalog </a></li>
+                <li><a href="#journals"> Journals </a></li>
+                <li><a href="#reserves"> Reserves </a></li>
+                <li><a href="#archive"> Archive </a></li>
+              </ul>
             </div>
+
+            <!-- ONESEARCH -->
+            <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
+              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
+              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
+              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+
+              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- CATALOG -->
+            <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
+              <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- JOURNALS -->
+            <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+              <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
+              <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
+              <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
+              <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="">
+
+              <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- RESERVES -->
+            <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
+              <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
+            <!-- ARCHIVE -->
+            <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
+              <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" aria-label="Search">
+              <span class="input-group-btn">
+                <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </form>
+
           </div>
         </div>
       </div>
