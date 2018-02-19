@@ -1,10 +1,6 @@
-# Crossett Library's Website
-Developed by Hoanh An, Bennington College Class of 2020, under supervision of Crossett Library.
-
-Email: hoanhan@bennington.edu
-
-Status: On-going
-
-Start Date: 7/12/17
-Launch Date: 12/18/17
-Latest Update: 12/28/17
+# Bennington College's Crossett Library Website
+- Author: Hoanh An <hoanhan@bennington.edu>
+- Date created: 07/12/2017
+- Date launched: 12/28/2017
+- Version: 1.0.0
+- Status: On-Going
