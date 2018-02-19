@@ -43,159 +43,166 @@
       $('#footer').load('/screens/footer.html');
     });
     </script>
-
   </head>
+
   <body>
-    <!-- HEADER CONTAINER */-->
-    <div id="header"></div>
+    <header>
+      <div id="header"></div>
+    </header>
 
-    <!-- BANNER-SEARCH CONTAINER */-->
-    <div id="search-background">
-      <div id="banner-search-container" class="container">
-        <div id="searchBox-wrapper" class="container">
+    <!-- SEARCH */-->
+    <section>    
+      <div id="search-background">
+        <div id="banner-search-container" class="container">
+          <div id="searchBox-wrapper" class="container">
 
-          <!-- TITLE -->
-         <!-- <div id="heading-row" class="row">
-            <p> Can we be certain of anything? </p>
-          </div>-->
+            <!-- TITLE -->
+           <!-- <div id="heading-row" class="row">
+              <p> Can we be certain of anything? </p>
+            </div>-->
 
-          <!-- SEARCHBOX -->
-          <div id="searchBox-row" class="row">
-            <div class="input-group">
-              <div id="fieldSelector" class="input-group-btn search-panel">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                  <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#onesearch"> OneSearch </a></li>
-                  <li><a href="#catalog"> Catalog </a></li>
-                  <li><a href="#journals"> Journals </a></li>
-                  <li><a href="#reserves"> Reserves </a></li>
-                  <li><a href="#archive"> Archive </a></li>
-                </ul>
+            <!-- SEARCHBOX -->
+            <div id="searchBox-row" class="row">
+              <div class="input-group">
+                <div id="fieldSelector" class="input-group-btn search-panel">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span id="search_concept" href="#onesearch"> OneSearch </span> <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#onesearch"> OneSearch </a></li>
+                    <li><a href="#catalog"> Catalog </a></li>
+                    <li><a href="#journals"> Journals </a></li>
+                    <li><a href="#reserves"> Reserves </a></li>
+                    <li><a href="#archive"> Archive </a></li>
+                  </ul>
+                </div>
+
+                <!-- ONESEARCH -->
+                <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+                  <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
+                  <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
+                  <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
+                  <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+
+                  <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" aria-label="Search">
+                  <span class="input-group-btn">
+                    <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+                </form>
+
+                <!-- CATALOG -->
+                <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
+                  <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
+                  <span class="input-group-btn">
+                    <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+                </form>
+
+                <!-- JOURNALS -->
+                <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+                  <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
+                  <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
+                  <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
+                  <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="">
+
+                  <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" aria-label="Search">
+                  <span class="input-group-btn">
+                    <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+                </form>
+
+                <!-- RESERVES -->
+                <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
+                  <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" aria-label="Search">
+                  <span class="input-group-btn">
+                    <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+                </form>
+
+                <!-- ARCHIVE -->
+                <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
+                  <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" aria-label="Search">
+                  <span class="input-group-btn">
+                    <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+                </form>
+
               </div>
-
-              <!-- ONESEARCH -->
-              <form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-                <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
-                <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
-                <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
-                <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-
-                <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Search the catalog, databases, journals & articles." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- CATALOG -->
-              <form style="display:none" id="catalog" action="http://library.bennington.edu/search/Y" method="get">
-                <input id="ebscohostsearchtext" class="form-control" name="SEARCH" placeholder="Search the library catalog only." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- JOURNALS -->
-              <form style="display:none" id="eco-journals" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
-                <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
-                <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db">
-                <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+">
-                <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="">
-
-                <input id="ebscohostsearchtext" class="form-control" name="ebscohostsearchtext" placeholder="Find journals, newspapers, and magazines." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- RESERVES -->
-              <form style="display:none" id="search-reserve" action="http://library.bennington.edu/search/?searchtype=p&searcharg=" method="post">
-                <input id="ebscohostsearchtext" class="form-control" name="searcharg" placeholder="Search by instructor's name." type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
-              <!-- ARCHIVE -->
-              <form style="display:none" id="search-archive" action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get">
-                <input id="ebscohostsearchtext" class="form-control" name="query" placeholder="Search the Bennington Digital Archive & Repository" type="text" aria-label="Search">
-                <span class="input-group-btn">
-                  <button id="searchIcon" class="btn btn-default" type="submit" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-              </form>
-
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <!-- ALERT -->
+    <section>
+      <div id="alert-container" class="container">
+      	<div class="row">
 
-    <!-- ALERT CONTAINER -->
-    <div id="alert-container" class="container">
-    	<div class="row">
-
-        <!-- NOTIFICATION -->
-        <div class="col-sm-12 col-md-6">
-          <br>
-          <a data-toggle="collapse" href="#notifications-table" aria-expanded="false" aria-controls="notifications-table">
-            <strong>Notifications</strong>
-            <span class="badge badge-default"> 0 </span> <!-- Update number of notification here -->
-          </a>
-
-          <div class="collapse" id="notifications-table">
-            <div class="card card-block">
-              <div class="alert" role="alert">
-                <table class="table table-hover"">
-                  <tbody>
-                    <tr>
-                      <td>No notifications</td>
-                    </tr>
-                    <!-- <tr>
-                      <td><strong>Example title</strong></td>
-                      <td>Example Text</td>
-                    </tr> -->     
-                  </tbody>
-                </table>
-              </div>
-            </div>        
-          </div>
-        </div>
-
-        <!-- RSS FEED -->
-    	  <div class="col-sm-12 col-md-6">
-    	  	<div id="rss-feed">
+          <!-- NOTIFICATION -->
+          <div class="col-sm-12 col-md-6">
             <br>
-    		  	<a>
-    		  		<strong>Latest catalog</strong>
-    			  </a>
-            <div class="pre-scrollable" class="card card-block">
-              <div class="alert" role="alert">
-                <table class="table table-hover">
-                  <tbody id="rss-feed-content">
-                  </tbody>
-                </table>
-              </div> 
-            </div>
-    	  	</div>
-    	  </div>
-    	</div>
-    </div>
+            <a data-toggle="collapse" href="#notifications-table" aria-expanded="false" aria-controls="notifications-table">
+              <strong>Notifications</strong>
+              <span class="badge badge-default"> 0 </span> <!-- Update number of notification here -->
+            </a>
 
-    <!-- MEDIA CONTAINER */-->
-    <div id="footer-container">
-      <div class="container">
-        <br>
-        <div id="social-icon-wrapper" class="container" align="center">
-          <a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" src="/screens/img/librarianreadseverything.png" alt="Librarian Reads Everything Tumblr"></a>
-          <a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" src="/screens/img/tumblr.png" alt="Crossett Library Tumblr"></a>
-          <a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" src="/screens/img/facebook.png" alt="Crossett Library Facebook"></a>
-          <a href="https://www.instagram.com/crossettlibrarybennington/"><img title="Instagram" src="/screens/img/instagram.png" alt="Crossett Library Instagram"></a>
-          <a href="https://notesfromthemusiclibrary.tumblr.com"><img title="Instagram" src="/screens/img/jenningsmusiclibrary-tumblr.png" alt="Jenning Music Library Tumblr"></a>
+            <div class="collapse" id="notifications-table">
+              <div class="card card-block">
+                <div class="alert" role="alert">
+                  <table class="table table-hover"">
+                    <tbody>
+                      <tr>
+                        <td>No notifications</td>
+                      </tr>
+                      <!-- <tr>
+                        <td><strong>Example title</strong></td>
+                        <td>Example Text</td>
+                      </tr> -->     
+                    </tbody>
+                  </table>
+                </div>
+              </div>        
+            </div>
+          </div>
+
+          <!-- RSS FEED -->
+      	  <div class="col-sm-12 col-md-6">
+      	  	<div id="rss-feed">
+              <br>
+      		  	<a>
+      		  		<strong>Latest catalog</strong>
+      			  </a>
+              <div class="pre-scrollable" class="card card-block">
+                <div class="alert" role="alert">
+                  <table class="table table-hover">
+                    <tbody id="rss-feed-content">
+                    </tbody>
+                  </table>
+                </div> 
+              </div>
+      	  	</div>
+      	  </div>
+      	</div>
+      </div>
+    </section>
+    
+    <!-- SOCIAL MEDIA */-->
+    <section>
+      <div id="footer-container">
+        <div class="container">
+          <br>
+          <div id="social-icon-wrapper" class="container" align="center">
+            <a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" src="/screens/img/librarianreadseverything.png" alt="Librarian Reads Everything Tumblr"></a>
+            <a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" src="/screens/img/tumblr.png" alt="Crossett Library Tumblr"></a>
+            <a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" src="/screens/img/facebook.png" alt="Crossett Library Facebook"></a>
+            <a href="https://www.instagram.com/crossettlibrarybennington/"><img title="Instagram" src="/screens/img/instagram.png" alt="Crossett Library Instagram"></a>
+            <a href="https://notesfromthemusiclibrary.tumblr.com"><img title="Instagram" src="/screens/img/jenningsmusiclibrary-tumblr.png" alt="Jenning Music Library Tumblr"></a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
 
     <!-- CUSTOM JAVASCRIPT */-->
     <script type="text/javascript">
@@ -264,9 +271,10 @@
       });
     </script>
 
-    <!-- FOOTER CONTAINER */-->
-    <div class="container"><br><br><br><br></div>
-    <div id="footer"></div>
+    <footer>
+      <div class="container"><br><br><br><br></div>
+      <div id="footer"></div>
+    </footer>
 
   </body>
 </html>
