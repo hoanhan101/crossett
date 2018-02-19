@@ -1,4 +1,11 @@
 /*========================================*/
+/*                GLOBAL                  */
+/*========================================*/
+.dropdown-menu, .btn, .form-control {
+  border-radius: 0px;
+}
+
+/*========================================*/
 /*           BANNER CONTAINTER            */
 /*========================================*/
 
@@ -149,11 +156,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#search-background .btn, .form-control {
-  /*border: 1px solid transparent;*/
-  border-radius: 1px;
 }
 
 #banner-search-container {
