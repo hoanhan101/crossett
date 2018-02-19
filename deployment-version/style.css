@@ -103,7 +103,6 @@ body {
 }
 
 #header-nav .navbar-default .navbar-collapse, .header-nav .navbar-default .navbar-form {
-  /*background-color: rgb(132, 134, 140);*/
   background-color: white;
 }
 
@@ -144,12 +143,15 @@ body {
 /*       BANNER-SEARCH CONTAINER          */
 /*========================================*/
 
-#banner-search-container {
+.search-background {
   background-image: url("img/bennington-main-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#banner-search-container {
   padding: 100px;
 }
 
