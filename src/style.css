@@ -143,7 +143,7 @@ body {
 /*       BANNER-SEARCH CONTAINER          */
 /*========================================*/
 
-.search-background {
+#search-background {
   background-image: url("img/bennington-main-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -151,8 +151,13 @@ body {
   background-size: cover;
 }
 
+#search-background .btn, .form-control {
+  /*border: 1px solid transparent;*/
+  border-radius: 1px;
+}
+
 #banner-search-container {
-  padding: 100px;
+  padding: 70px;
 }
 
 #banner-search-container p {
@@ -162,9 +167,7 @@ body {
 
 #searchBox-wrapper {
   width: 100%;
-  background-color: rgba(141, 92, 62, 0.9);
   padding: 40px;
-  border-radius: 0px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -174,16 +177,16 @@ body {
   color: white;
 }
 
-#ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive, #catalog {
-  display: inherit;
-  width: 100%;
-}
-
 #ebscohostsearchtext {
   height: 50px;
   border-radius: 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
+}
+
+#ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive, #catalog {
+  display: inherit;
+  width: 100%;
 }
 
 #searchIcon {
@@ -292,10 +295,6 @@ body {
 /*========================================*/
 
 @media screen and (max-width: 575px) {
-/*  #searchBox-wrapper {
-    width: 100%;
-  }*/
-
   #banner-search-container {
     padding-left: 10px;
     padding-right: 10px;
@@ -362,6 +361,10 @@ body {
     padding-left: 35px;
     font-size: 15px;
   }
+
+  #banner-search-container {
+    padding: 50px;
+  }  
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -378,7 +381,6 @@ body {
   #header-nav a {
     font-size: 15px;
   }
-
 }
 
 @media screen and (min-width: 992px) {
