@@ -5,6 +5,11 @@
   border-radius: 0px;
 }
 
+.alert-success {
+  color: white;
+  background-color: rgba(141, 92, 62, 0.9);
+}
+
 /*========================================*/
 /*           BANNER CONTAINTER            */
 /*========================================*/
@@ -121,7 +126,6 @@ body {
 
 #header-nav .dropdown-menu a {
   color: #555555;
-
 }
 
 #header-nav .dropdown-menu a:hover {
