@@ -1,0 +1,36 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Access World News</ShortName>
+<Description>News including local sources</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAAQAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAJyUrSEYOVJCjCEYSjkpexAQIUpKWlJS
+Y729zt7e5+Xk2Obk2P/ea//OMYSEhEJCQv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAOgALAAAAAAQABAA
+AAiKAMsJHEiwYDlyCBMqXEgOgENs5rA5nEjx4Tlz5r5dk1jxoTmK4bp902YuHEVwHUNy42ZyYjiM
+EM+dg7iNGzZt2lCCu8az5zVw3VZy02ZTXE+gPM1l4wYO28qcPQGcS+qNJTih46JOvaaU6dWhO3lK
+5fmtJs6V2LKK3Rr05lCOHeM6ZEg3ocG7AwMCADs=</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-infoweb.newsbank.com.library.bennington.edu/iw-search/we/InfoWeb?p_field_base-0=&amp;p_text_base-0={searchTerms}&amp;f_submit_search=Search&amp;p_params_base-0=&amp;p_bool_base-1=and&amp;p_field_base-1=YMD_date&amp;p_text_base-1=&amp;p_params_base-1=&amp;p_sort=YMD_date%3AD&amp;p_product=AWNB&amp;p_theme=aggregated5&amp;p_action=search&amp;d_loc=world&amp;d_fieldcount=2&amp;f_lastaction=explore&amp;f_dateparams=B%2CE&amp;d_place=&amp;d_selLoc=">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-infoweb.newsbank.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

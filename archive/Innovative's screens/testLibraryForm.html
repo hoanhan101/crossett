@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>Test Library Form</title>
+</head>
+<body>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  <h1>Bennington College Repository Submission Form</h1>
+  <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+  <p>
+  <input type="checkbox" name="vehicle" value="Bike">I agree to the Non-Exclusive Distribution License
+  <strong><abbr title="required">*</abbr></strong>
+  </p>
+  <p>
+  	<label>You must agree to the license before submitting your work to the Bennington College Digital Repository.</label>
+  </p>
+ 
+  <section>
+    <h2>Your Information</h2>
+    
+    <fieldset>
+      <p>
+      <label for="name">
+        <span>Name: </span>
+        <input type="text" id="name" name="username" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    
+     <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <input type="email" id="mail" name="usermail" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    </fieldset>
+    
+    
+  </section>
+ 
+  <section>
+    <h2>Paper information</h2>
+    <h5>Names of Authors and Title of the Paper</h5>
+    <p>
+      <label for="PaperTitle">
+        <span>Title: </span>
+        <input type="text" id="PaperTitle" name="userPaperTitle"/>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    <p>
+      <label for="Author 1">
+        <span>Author 1: </span>
+        <input type="text" id="author1" name="userauthor1" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    <p>
+      <label for="Author 2">
+        <span>Author 2: </span>
+        <input type="text" id="author2" name="userauthor2"/>
+      </label>
+    </p>
+     <p>
+      <label for="Author 3">
+        <span>Author 3: </span>
+        <input type="text" id="author3" name="userauthor3"/>
+      </label>
+    </p>
+     <p>
+      <label for="Author 4">
+        <span>Author 4: </span>
+        <input type="text" id="author4" name="userauthor4"/>
+      </label>
+    </p>
+     <p>
+      <label for="Author 5">
+        <span>Author 5: </span>
+        <input type="text" id="author5" name="userauthor5"/>
+      </label>
+    </p>
+  </section>
+ 
+  <section>
+  	<h2>Abstract or Summary</h2>
+    <textarea rows="20" cols="50"></textarea>
+  </section>
+  <section>
+  	<h2>Embargo</h2>
+    <textarea rows="10" cols="50"></textarea>
+  </section>
+  <section>
+  	<h2>Other Information</h2>
+    <textarea rows="20" cols="50"></textarea>
+  </section>
+  <section>
+  <p>Select file to upload:</p>
+  <p>
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  </p>
+  <p>
+  <input type="submit" value="Upload file" name="submit">
+  </p>
+    <p>
+      <button>Submit</button>
+    </p>
+  </section>
+</form>
+</body>

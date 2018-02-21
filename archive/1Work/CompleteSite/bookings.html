@@ -1,0 +1,95 @@
+<!-- 2006LE Version, preliminary set from 21 October, 2005 -->
+<!-- This file last changed: 9 September, 2005 -->
+
+<body>
+
+
+<table width="785px" border="0" cellspacing="0" cellpadding="5" align="center">
+
+<tr class="toplogoBar">
+
+<td class="toplogoBar">
+
+<!--{toplogo}--></td></tr>
+
+<tr>
+
+<td class="pageMainArea">
+
+
+
+
+
+<!--{formbegin}-->
+<div class="bookingsSelect">
+<span class="pageMainAreaHeader">
+Place a booking<br /> 
+</span>
+<!--{record_info}-->
+<!--{iferr}-->
+<!--{error_msg}-->
+<!--{xif}-->
+</div>
+<div class="bookingsSelect">
+<div class="bookingsSelectTime">
+<div class="bookingsLocation">
+<!--{iflocation}-->
+Select a location:
+<!--{location}-->
+<!--{xif}-->
+</div>
+Select a time:<br />
+Begin:
+<!--{timedayhour}-->
+<!--{ifrepeat}-->
+<div class="bookingsSelectRepeat">
+Repeat: 
+<!--{repeat}-->
+</div>
+<div class="bookingsSelectRepeat">
+<!--{duration}-->
+</div>
+<!--{xif}-->
+<div class="bookingsSelectRepeat">
+<!--{ifendtime}-->
+<!--{endtimedayhour}-->
+<!--{xif}-->
+</div>
+</div>
+</div>
+<div class="bookingsSelectCal">
+<!--{calendar}-->
+<!--{calendar_legend}-->
+<br />
+<!--{calendar_type}-->
+</div>
+<div class="bookingsSelect">
+<!--{ifneednote}-->
+Note:
+<!--{note}-->
+<!--{xif}-->
+<span class="button">
+<!--{submit}-->
+<!--{cancel}-->
+</span>
+</div>
+<!--{formend}-->
+<!--End of main page content-->
+
+<!--{botlogo}-->
+
+</td>
+</tr>
+
+</table>
+<br>
+<!--End the main content table-->
+
+
+</body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3009857-1";
+urchinTracker();
+</script>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+<!-- 2006LE Version, preliminary set from 21 October, 2005 -->
+<!-- This file last changed: 26 September, 2005 -->
+
+<title>Crossett Library</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<link href="/screens/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body onload="document.forms[0].elements[0].focus();">
+<!--{toplogo}-->
+<!--{patron}-->
+<!--{logout}-->
+<!--{msg}-->
+
+<table width="100%">
+<tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr>
+<tr><td>
+
+<img src="/screens/1long_crossett.jpg"  width="100%"/>
+
+</td></tr>
+<tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr>
+</table>
+
+<table width="100%">
+<tr>
+
+<!--begin main page content -->
+<td valign="top">
+
+<div class="sections">
+<table style="width:100%" cellspacing="10">
+<tr><td>
+
+<table>
+<tr><td colspan="2"><span class="pageMainAreaDivHeader">COMMUNITY</span></td></tr>
+<tr><td class="pageNavAreaBorder" colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<!--NOTE:  The more rows that you put under these two sections, the more scrolling has to occur. also, the search box drops lower and lower in the columnd to stay in the 'middle'.  have tried valign=top in many different places/combinations withouth any success.-->
+
+<!--<tr><td colspan="2"><img src="/screens/new.gif" height="15" />&nbsp;&nbsp;<a href="/screens/hours.html"><font color=#990066>End of Term Extended Library Hours</font></a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>-->
+
+<tr><td colspan="2"><a href="/screens/faculty_home.html">Faculty</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="/screens/student_home.html">Students</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><span class="pageMainAreaDivHeader">NEWS</span></td></tr>
+<tr><td class="pageNavAreaBorder" colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2">Book Collection Contest Winner is David Archer! Read his winning <a href="/screens/Contestwinner2008.pdf">essay</a>. </td> </tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2">On Exhibit: student crafted Small Books and Zines. View these works and more at <a href="http://www.flickr.com/photos/11303774@N08/sets/72157605437002951/">We Heart BiblioArt</a>
+</td> </tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+
+<!--<tr><td colspan="2"><a href="/screens/bookmarks_invite.pdf">Augmented Library Opening</a> Tuesday, May 20th from 5-7pm
+</td> </tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+
+<tr><td colspan="2">Senior Thesis and Project Reception Thursday May 22nd from 5:30-6:30pm
+</td> </tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>-->
+
+<tr><td colspan="2">Get some <a href="/screens/widgets.html">widgets</a> to help you research more quickly and effectively.</td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+
+</table>
+
+</td>
+<td> 
+
+<table>
+<tr><td colspan="2"><span class="pageMainAreaDivHeader">MY LIBRARY</span></td></tr>
+<tr><td class="pageNavAreaBorder" colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="/patroninfo">Login To My Library Account</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="http://illiad.bennington.edu/illiad/logon.html">Login To My Illiad Account</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="/screens/course.html">Find My Course Reserves</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><span class="pageMainAreaDivHeader">IN THE LIBRARY</span></td></tr>
+<tr><td class="pageNavAreaBorder" colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="http://bookmarks.bennington.edu
+">Bennington Bookmarks</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="/screens/newbookswinter0708.pdf">New Books List</a> and <a href="/screens/newvid_winter0708.pdf">New Videos List</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+
+<tr><td colspan="2"><a href="/screens/profiles.html">Who is using the Library and why</a></td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+<tr><td colspan="2"><a href="/screens/10things.html">10 Things to know about the Library</td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+
+
+<tr><td colspan="2"><a href="/screens/music_library.html">Learn more about Jennings Music Library</td></tr>
+<tr><td colspan="2"><img src="/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+<td style="width:40%; text-align:center; vertical-align:top;">
+
+<!--Clock Part 1 - Holder for Display of Clock -->
+<div align="right" style="text-align:center;">
+Today is <span id="tP">&nbsp;</span>
+</div>
+<!--Clock Part 1 - Ends Here-->
+<br>
+<!--Search Box style="width:150px; font-size:100%;"-->
+
+
+
+
+<div style="align:right; background-color:#d9e8d8; text-align:left;padding:5px;">
+Search the library's holdings for books, eBooks, digital 
+records, images, journals, magazines, and more.<br /> <br>
+<form action="/search/Y" method="get">
+<input type="text" name="SEARCH" size="38" value="" />
+<input type="hidden" name="SORT" value="A" />
+<script language="javascript">
+function iiiDoSubmit_1() {
+    var name = "iiiFormHandle_1";
+    if (document.getElementById)
+        obj = document.getElementById(name);
+    else if (document.all)
+        obj = document.all[name];
+    else if (document.layers)
+        obj = document.layers[name];
+    obj.form.submit();
+}
+
+</script>
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href=# onclick="iiiDoSubmit_1();"><img src="/screens/submit.gif" alt="Submit" border="0" class="button" /></a>
+</form>
+<br><a href="/search/X">Advanced Search</a><br>
+<!--<a href="javascript:randomlink()">Random Research Tip</a><br>-->
+</div>
+<br>
+<!--<span class="lgmainmenunotice">
+
+Welcome Writing Seminar Participants!<br>
+<a href="http://library.bennington.edu/search/?searchtype=a&searcharg=bennington+writing+seminars+faculty&SORT=A&extended=0&SUBMIT=Search&searchlimits=&searchorigarg=abennington+college+writing+seminars" class="lgmainmenunotice">Books by Writing Seminar Faculty</a><br>
+<a href="http://library.bennington.edu/search/?searchtype=a&searcharg=bennington+writing+seminars+visiting+faculty&sortdropdown=-&SORT=A&extended=0&SUBMIT=Search&searchlimits=&searchorigarg=abennington+writing+seminars+faculty" class="lgmainmenunotice">Book by Writing Seminar Visiting Faculty</a>
+</span>-->
+ 
+
+<!--<p>Stock up for your summer reading!  Any books students check out are now due September 8th, 2008.</p>
+<p>Monday, May 12 - Last day to order ILL books and films</p>
+<p>Friday, May 16 - LAST DAY to get a Williams form, by 5pm</p>
+<p>Friday, May 23 - LAST DAY to request articles and  ALL ILL/WILLIAMS ITEMS are DUE at Crossett Library today</p>-->
+</font>
+
+<!--<p><font color="#990066">
+Welcome back!  Remember that all books checked out over FWT are due back Febuary 23rd.</font></p>-->
+
+
+</td></tr>
+</table>
+
+
+<script>
+
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!
+This credit MUST stay intact for use
+*/
+
+//specify random links below. You can have as many as you want
+var randomlinks=new Array()
+
+randomlinks[0]="/screens/ref_tip_01.html"
+randomlinks[1]="/screens/ref_tip_02.html"
+randomlinks[2]="/screens/ref_tip_03.html"
+randomlinks[3]="/screens/ref_tip_04.html"
+randomlinks[4]="/screens/ref_tip_05.html"
+randomlinks[5]="/screens/ref_tip_06.html"
+randomlinks[6]="/screens/ref_tip_07.html"
+randomlinks[7]="/screens/ref_tip_08.html"
+randomlinks[8]="/screens/ref_tip_09.html"
+randomlinks[9]="/screens/ref_tip_10.html"
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+//
+</script>
+
+<!-- Clock Part 2 - Put Anywhere AFTER Part 1 -->
+
+
+<script type="text/javascript">
+// Clock Script Generated By Maxx Blade's Clock v2.0d
+// http://www.maxxblade.co.uk/clock
+function tS(){ x=new Date(tN().getUTCFullYear(),tN().getUTCMonth(),tN().getUTCDate(),tN().getUTCHours(),tN().getUTCMinutes(),tN().getUTCSeconds()); x.setTime(x.getTime()+dS()-18000000); return x; } 
+function tN(){ return new Date(); } 
+function dS(){ return ((tN().getTime()>fD(0,2,3,2).getTime())&&(tN().getTime()<fD(0,10,3,1).getTime()))?3600000:0; } 
+function fD(d,m,h,p){ var week=(p<0)?7*(p+1):7*(p-1),nm=(p<0)?m+1:m,x=new Date(tN().getUTCFullYear(),nm,1,h,0,0),dOff=0; if(p<0){ x.setTime(x.getTime()-86400000); } if(x.getDay()!=d){ dOff=(x.getDay()<d)?(d-x.getDay()):0-(x.getDay()-d); if(p<0&&dOff>0){ week-=7; } if(p>0&&dOff<0){ week+=7; } x.setTime(x.getTime()+((dOff+week)*86400000)); } return x; } 
+function lZ(x){ return (x>9)?x:'0'+x; } 
+function tH(x){ if(x==0){ x=12; } return (x>12)?x-=12:x; } 
+function dE(x){ if(x==1||x==21||x==31){ return 'st'; } if(x==2||x==22){ return 'nd'; } if(x==3||x==23){ return 'rd'; } return 'th'; } 
+function dT(){ document.getElementById('tP').innerHTML=eval(oT); setTimeout('dT()',1000); } 
+function aP(x){ return (x>11)?'pm':'am'; } 
+function y4(x){ return (x<500)?x+1900:x; } 
+var dN=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'),mN=new Array('January','February','March','April','May','June','July','August','September','October','November','December'),oT="dN[tS().getDay()]+' '+tS().getDate()+dE(tS().getDate())+' '+mN[tS().getMonth()]+' '+y4(tS().getYear())+' '+'a'+'t'+' '+tH(tS().getHours())+':'+lZ(tS().getMinutes())+aP(tS().getHours())";
+if(!document.all){ window.onload=dT; }else{ dT(); }
+</script>
+
+<!-- Clock Part 2 - Ends Here  -->
+
+
+
+
+
+<!--{botlogo}-->
+<!-- end main page content-->
+</body>
+</html>

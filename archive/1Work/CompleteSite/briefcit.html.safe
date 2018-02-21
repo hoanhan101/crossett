@@ -1,0 +1,61 @@
+<!-- 2006LE Version, preliminary set from 21 October, 2005 -->
+<!-- This file last changed: 17 May, 2005 -->
+<tr class="briefCitRow">
+<td>
+<table width="100%">
+<tr>
+<td align="center" valign="top" width="5%" class="briefcitResultInfo">
+<b>
+<!--{entrynum}-->
+</b>
+<br />
+<!--{media}-->
+<br />
+<!--{avsrelevance}-->
+</td>
+<td valign="top" width="9%" class="briefcitExtras">
+<!--<!--{rating}-->
+<br />
+<!--{bookjacket}-->
+<br />
+<!--{reslink}-->
+</td>
+<td align="left" valign="top" width="*" class="briefcitDetail">
+<!--{nohitmsg}-->
+<span class="briefcitTitle">
+<!--{linkfieldspec:VbT}-->
+</span>
+<!--{fieldspec:Vba}-->
+<br />
+<span class="briefcitDetail">
+<!--{fieldspec:Vbp}-->
+<br />
+<span class="briefcitStatus">
+<!--{holdingsmsg}-->
+<br />
+<!--{holds}-->
+</span>
+</span>
+<span class="briefcitItems">
+<!--{items}-->
+</span>
+<!--{856link}-->
+<!--{ifmulti856}-->
+&nbsp;
+<!--{more856}-->
+<!--{xif}-->
+<!--{962link}-->
+<!--{ifmulti962}-->
+&nbsp;
+<!--{more962}-->
+<!--{xif}-->
+</td>
+<td valign="top" width="5%" class="briefcitActions">
+<!--{mark}-->
+<br />
+<!--{request}-->
+</td>
+</tr>
+</table>
+</td>
+</tr>

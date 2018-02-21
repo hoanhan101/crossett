@@ -1,0 +1,36 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Asian American Drama</ShortName>
+<Description>Authors, plays, scenes, characters</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAARAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAANWbKtmaK9STJ9KVLM+SL9iPJNKNKdKR
+L82PL9SKI8yHLtGNMdGBHdKDI9N8HdKEKc2EM9J4H893H857I9J3Ic5zIc97Kst3K85vIcdtIc1z
+JctqH8ttJMptJclvK8tyMMhkIMppI81qJctoJsxsJ8pkI8heJf///yH5BAEAAP8ALAAAAAAQABEA
+AAjtAMmZG2hO4MB0BM2lY0eQXLhu4QQuVLiQHcNy2rJhw5YtnDp26UKyawdS28aN2cqpM6dOXbuX
+Fk2axKbNocqXONtt0xZuG7Zz58q1g4eTaDtt3taVy3ZOnben6+BJffn0nLdt3tqd21hOKj2p37aJ
+xQpP3k53+eilhVduLDdv8vR5+yYv375+9OKt4/atL9x+68TFy9ev37589cZ94zaOm7h68tjN62e3
+MD5348CNO+dOXz59/fDxs+dOnjx34MAJxlf4br936MbJnj3OXbx6hf29Fpe6N+9x4tD180fcHrpv
+qWvHiw1OOHHi9wICADs=</Image>
+
+<Url type="text/html" method="get" template="http://0-www.alexanderstreet4.com.library.bennington.edu/cgi-bin/asp/aadr/search2tsql?CONJUNCT=PHRASE&amp;SYSTEM_DIR=%2Fprojects%2Fartfla%2Fdatabases%2Fasp%2Faadr%2Ffulltext%2FIMAGE%2F&amp;word={searchTerms}&amp;work_playtitle=&amp;work_allauthorsallforms=&amp;agewhenwriting=&amp;authorgender=ALL&amp;nationality=&amp;sexorient=&amp;work_yearwritten=&amp;work_genre=&amp;OUTPUT=conc">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-www.alexanderstreet4.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

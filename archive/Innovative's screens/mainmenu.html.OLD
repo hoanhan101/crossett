@@ -1,0 +1,547 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>Crossett Library</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/screens/thirdparty.css" media="print">
+<script language="javascript" src="/screens/stumper.js"></script>
+<link rel="icon" 
+      type="image/png" 
+      href="/screens/BClibrary.jpg">
+
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+<!--Style and javascript call for tabview-->
+
+<script type="text/javascript" src="screens/domtab.js"></script>
+<script type="text/javascript">
+		document.write('<style type="text/css">');    
+		document.write('div.domtab div{display:none;}<');
+		document.write('/s'+'tyle>');    
+    </script>
+
+<script src="https://support.ebscohost.com/eit/scripts/ebscohostsearch.js" type="text/javascript"></script>
+
+<script src="http://ux4pn4fq8e.search.serialssolutions.com/alEJPStatic/js/form_functions.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/* This script and many more are available free online at
+The JavaScript Source!! http://javascript.internet.com
+Created by: Robin Jones :: http://www.robinjones1.freeuk.com */
+
+function jumpBox(list) {
+  location.href = list.options[list.selectedIndex].value
+}
+
+</script>
+<!--This script controls content flow-->
+<script language="JavaScript" type="text/javascript" src="screens/contentflow.js" load="white"></script>
+
+<STYLE TYPE="text/css"> body {overflow-x:hidden; overflow-y:auto} </STYLE>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29179592-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<!--{toplogo}-->
+
+<div class="mainMenuContent">
+<table width="1024px">
+<tr>
+<td width="40px">
+</td>
+<td>
+<div class="mainMenuContentLeft">
+<table width="850px">
+<tr>
+<td width="450px" valign="top">
+<div class="domtab">
+	<ul class="domtabs">
+		<li><a style="border-top-left-radius:9px" href="#onesearch">OneSearch</a></li>
+		<li><a href="#journals">Journals</a></li>
+		<li><a href="#databases">Databases</a></li>
+		<li><a href="#reserves">Reserves</a></li>
+		<li><a href="#reference">Reference</a></li>
+		<li><a style="border-top-right-radius:9px" href="#archive">Archive</a></li>
+	</ul>
+	<div>
+		<h2><a name="#onesearch" id="onesearch"></a></h2>
+		<table width="425px">
+		<tr>
+
+		<td valign="top">
+		<span style="color:#000; font-weight:bold;">The library's website will be down tomorrow<br /> from approximately 11 A.M. to 3 P.M.</span>
+<!-- EBSCOhost Custom Search Box Begins -->
+<p></p>
+	<form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" style="width:340px; overflow:auto;">
+		<input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="0" />
+		<input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=ip" />
+		<input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
+		<input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
+		<input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+		
+		
+				<span class="ebscohost-title" >Search the catalog, databases, journals & articles.</span>
+
+				<span>
+					<input id="ebscohostsearchtext" class="" name="ebscohostsearchtext" type="text" size="35"  style="font-size:1em;" />
+					<input type="submit" value="Search" class="ebscohost-search-button" style="font-size:11px;padding:2px;margin-bottom:5px;border-radius:3px;width:50px" />
+				<br />	
+					<span id="guidedFieldSelectors">
+						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_0" value="" checked="checked" />
+						<label class="label" for="guidedField_0"> Keyword</label>
+						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_1" value="TI" />
+						<label class="label" for="guidedField_1"> Title</label>
+						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_2" value="AU" />
+						<label class="label" for="guidedField_2"> Author</label>
+					</span>
+					
+				</span>
+<br />
+<br />
+		
+
+		</form>
+	<!-- EBSCOhost Custom Search Box Ends -->
+
+<span>Search the library catalog only.</span>
+		<form action="http://library.bennington.edu/search/Y" method="get" style="display:block; padding: 2px 0px; margin: 0;">		
+		<input style="border-radius:3px; padding:2px; margin-right:5px" type="text" name="SEARCH" size="35" value="" />
+			<input type="hidden" name="SORT" value="A" />
+				<script language="javascript">
+				function iiiDoSubmit_1() {
+					var name = "iiiFormHandle_1";
+					if (document.getElementById)
+						obj = document.getElementById(name);
+					else if (document.all)
+						obj = document.all[name];
+					else if (document.layers)
+						obj = document.layers[name];
+					obj.form.submit();
+				}
+
+				</script>
+				<input type="hidden" id="iiiFormHandle_1"/>
+				<a href=# style="display:inline;"onclick="iiiDoSubmit_1();">
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px; font-size:11px" value="Search" type="Submit" />
+				</a>
+		</form>
+
+			
+		</td>
+		</tr>
+		</table>
+	</div>
+	
+	<div>
+		<h2><a name="#journals" id="journals"></a></h2>
+			<table width="425px">
+			<tr>
+			<td valign="top">
+			<form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" style="width:460px; overflow:auto;">
+		<input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
+		<input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://0-search.ebscohost.com.library.bennington.edu//login.aspx?direct=true&site=eds-live&scope=site&type=44&db=edspub&mode=bool&authtype=ip" />
+		<input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
+		<input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
+		<input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+		<p id="ebscoIsPubFinder"></p>
+		
+				<span class="ebscohost-title">Find journals, newspapers, and magazines.</span>
+
+				<span>
+				
+					<input id="ebscohostsearchtext" class="edspub" name="ebscohostsearchtext" type="text" size="35" placeholder="Enter title, publisher, subject or ISSN/ISBN" style="font-size:1em;" />
+					<input type="submit" value="Search" class="ebscohost-search-button" style="font-size:11px;padding:2px;border-radius:3px;width:50px" />
+
+					
+				</span>
+		</form>
+			<!--
+				<form method="get" action="http://ux4pn4fq8e.search.serialssolutions.com/" name="SS_EJPSearchForm" style="display: inline; margin: 0;">
+				<span><b>Find by title </b>journals, newspapers, and magazines</span>
+							
+				<input value="1.0" name="V" type="hidden" />
+				<input value="100" name="N" type="hidden" />
+
+				<input type="hidden" name="L" value="UX4PN4FQ8E" />
+				<select name="S">
+					<option value="T_W_A" selected="selected">Title contains all words</option>
+					<option value="AC_T_B">Title begins with</option>
+					<option value="AC_T_M">Title equals</option>
+					<option value="I_M">ISSN equals</option>
+				</select>
+
+				<input style="border-radius:3px" id="SS_CFocusTag" name="C" />
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
+								
+				</form>
+		<br />
+		<br />
+			  <form method="get" action="http://ux4pn4fq8e.search.serialssolutions.com/" style="display: inline; margin: 0;">
+              <span class="SS_ToolLabels"><b>Browse by subject</b> journals, newspapers, and magazines</span><br />              
+              <input value="1.0" name="V" type="hidden" />
+              <input value="UX4PN4FQ8E" name="L" type="hidden" />
+              <input value="SC" name="S" type="hidden" />
+              <select name="C">
+                <option value="">-- Please select a subject category --</option>
+                <option value="01">Art, Architecture &amp; Applied Arts</option>
+
+                <option value="BU">Business &amp; Economics</option>
+                <option value="11">Earth &amp; Environmental Sciences</option>
+                <option value="TE">Engineering &amp; Applied Sciences</option>
+                <option value="GI">General</option>
+
+                <option value="HE">Health &amp; Biological Sciences</option>
+                <option value="06">History &amp; Archaeology</option>
+                <option value="07">Journalism &amp; Communications</option>
+                <option value="08">Languages &amp; Literatures</option>
+
+                <option value="GO">Law, Politics &amp; Government</option>
+                <option value="10">Music, Dance, Drama &amp; Film</option>
+                <option value="RE">Philosophy &amp; Religion</option>
+                <option value="LS">Physical Sciences &amp; Mathematics</option>
+
+                <option value="SO">Society, Culture, and Thought</option>
+              </select>
+			 
+              <input style="border-radius:3px; width:50px; padding:2px" value="Browse" type="submit" />
+              </form>
+         
+			</td>
+			<td valign="top" width="30%" style="padding: 0 0 0 20px;">
+			  <span class="roundedContent2">
+
+				<span class="roundedContentInfo">
+				<span style="font-size:130%;border-bottom:1px solid #000 "><b>Have a Citation?</b></span><br />
+				<span>If you already have the citation of an article you would like in full text, use the 
+				<a style="display:inline" href="http://UX4PN4FQ8E.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes">
+							Citation Linker.</a></span>
+				</span>
+			  </span>
+			  -->
+			</td>
+			</tr>
+			</table>
+			  
+			  
+	     
+	</div>
+	<div>
+		<h2><a name="#databases" id="databases"></a></h2>
+		<table width="425px">
+			<tr>
+			<td valign="top" width="70%">
+			<span>Search our databases to find articles in scholarly journals, association publications, newspapers, and magazines.</span>
+			<br />
+			<form>
+				<select>
+					<option selected>Select a database list</option>
+					<option value="/screens/databases_bysubj.html">Select a Database by Discipline</option>
+					<option value="/screens/databases.html">All Databases A-Z</option>
+					<option value="/screens/databases_foreignlang.html">Foreign Language</option>
+					<option value="/screens/databases_litlang.html">Literature</option>
+					<option value="/screens/databases_gen.html">Multidisciplinary</option>
+					<option value="/screens/databases_music.html">Music</option>
+					<option value="/screens/databases_news.html">News</option>
+					<option value="/screens/databases_ref.html">Reference</option>
+					<option value="/screens/databases_sci.html">Science and Mathematics</option>
+					<option value="/screens/databases_socsci.html">Society, Culture, and Thought</option>
+					<option value="/screens/databases_teaching.html">Teaching</option>
+					<option value="/screens/databases_vapa.html">Visual and Performing Arts</option>
+				</select>
+				<input style="border-radius:3px; width:20px; padding:2px" type="button" value="Go" onClick="jumpBox(this.form.elements[0])">
+			</form>
+			</td>
+			<td valign="top" width="30%">
+			<span class="roundedContent2">
+
+				<span class="roundedContentInfo" style="border-radius:8px">
+				<span style="font-size:130%;border-bottom:1px solid #000"><b>Research Assistance</b></span>
+				<span>Librarians are available to help you. Drop in or make an <a style="display:inline" href="/screens/libinfo.html#ref">appointment.</a></span>
+				</span>
+			</span>
+			</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<h2><a name="#reserves" id="reserves"></a></h2>
+		 <table width="425px">
+			<tr>
+			<td valign="top" width="65%">
+
+			<form action="http://library.bennington.edu/search/" method="get"><span style="display:block">Search by instructor's  name or course name.</span>
+				<select name="searchtype" style="padding:2px">  
+		
+				<option value="p">Instructor</option>
+				<option value="r">Course</option>
+				</select> 
+				<input style="border-radius:3px; padding:2px" maxlength="75" name="searcharg" size="17"/> 
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
+			</form>
+			<br />
+			<span>Need help with Course Reserves? Watch the <a href="/screens/tutorials_reservestry_demo.html" style="font-size:1.0em; display:inline; color:#aaa">tutorial</a>
+			or <a href="/screens/libinfo.html#ref" style="font-size:1.0em; display:inline; color:#aaa">ask a librarian</a>.</span>
+			</td>
+
+			<td valign="top" width="35%">
+			   <span class="roundedContent2">
+				<span class="roundedContentInfo">
+					<span style="font-size:130%;border-bottom:1px solid #000"><b>Reserves Information</b></span>
+					<span><a href="/screens/reserves_studentinfo.html">for Students</a></span>
+					<span><a href="http://library.bennington.edu/screens/reserves_home.html">for Faculty</a></span>
+					<span style="font-size:120%;border-bottom:1px solid #000"><b>Other Searches</b></span>
+					<span><a href="/search/X">Advanced </a></span>
+					<span><a href="/search/q">Author & Title </a></span>
+				</span>
+			   </span>
+			</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<h2><a name="#reference" id="reference"></a></h2>
+		 <table width="425px">
+		 <tr>
+		 <td valign="top" width="65%">
+			<!--Search box for Oxford Reference-->
+			<img style="border-radius:3px" src="/screens/rsz_4clipboard01.png" width="196" height="30">
+			<form action="http://0-www.oxfordreference.com.library.bennington.edu/search?q=" method="get" style="display: block; padding: 2px 0px; margin: 0;">
+				<input type="hidden" name="view" value="facet"/>
+				<input style="border-radius:3px; padding:2px" type="text" name="q" value="" size="35"/>
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
+			</form>
+			
+			<!--Search box for Encyclopedia Britannica-->
+			<img src="/screens/BOLAE_btn-web.jpg" width="100" height="30" style="margin-top:3px; border-radius:3px">
+			<form action="http://academic.eb.com/bps/search?query" method="get" style="display: block; padding: 2px 0px; margin: 0;">
+				<input type="hidden" name="view" value="facet"/>
+				  <input style="border-radius:3px; padding:2px" type="text" name="query" value="" size="35"/>
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
+			</form>
+		</td>
+		<td valign="center" width="35%">
+		<!--Search box for OED Online-->
+			<img src="/screens/oedlogo.jpg" width="121" height="30" style="margin-top:3px; border-radius:3px">
+			<form action="http://0-www.oed.com.library.bennington.edu/search?q=" method="get" style="display: block; padding: 2px 0px; margin: 0;">
+				<input type="hidden" name="view" value="facet"/>
+				  <input style="border-radius:3px; padding:2px" type="text" name="q" value="" size="20"/>
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
+			</form>
+		</span> 
+		</td>
+		</tr>
+		</table> 
+	</div>
+	
+	<div>
+		<h2><a name="#archive" id="archive"></a></h2>
+		<table width="425px">
+		<tr>
+		<td valign="center" width="20%">
+	  				
+		<!--Search box for DSpace-->
+			<a href="https://crossettlibrary.dspacedirect.org"><img style="border-radius:3px" src="/screens/BClibrary.jpg" width="75" height="75"></a>
+			<br />
+		</td>
+		<td valign="center" width=80%">
+			<span>Search the Bennington Digital Archive & Repository</span>
+			<form action="https://crossettlibrary.dspacedirect.org/discover?scope=%2F&query=" method="get" style="display: block; padding: 2px 0px; margin: 0;">
+				<input type="hidden" name="view" value="facet"/>
+				<input style="border-radius:3px; padding:2px" type="text" name="query" value="" size="35"/>
+				<input style="border-radius:3px; width:50px; margin-top:3px; padding:2px" value="Search" type="Submit" />
+			</form>
+
+		</td>
+		</tr>
+		</table>
+	</div>
+</div>
+</td>
+<td style="width: 450px;">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from none JavaScript Browsers
+
+Image1= new Image(120,180)
+Image1.src="/screens/throwback.jpg"
+
+Image2= new Image(120,180)
+Image2.src="/screens/why.jpg"
+
+Image3= new Image(120,180)
+Image3.src="/screens/greatgreen.jpg"
+
+Image4= new Image(120,180)
+Image4.src="/screens/sizzled.jpg"
+
+Image5= new Image(120,180)
+Image5.src="/screens/dada.jpg"
+
+Image6= new Image(120,180)
+Image6.src="/screens/expertise.jpg"
+
+Image7= new Image(120,180)
+Image7.src="/screens/sellout.jpg"
+
+Image8= new Image(120,180)
+Image8.src="/screens/burned.jpg"
+
+Image9= new Image(120,180)
+Image9.src="/screens/connected.jpg"
+
+// End Hiding -->
+</SCRIPT>
+
+
+<div class="addon">
+            <div class="flowBox" style="width:450px;">
+            <div id="ContentFlow_white" class="ContentFlow" useAddOns="white">
+                        <!-- should be place before flow so that contained images will be loaded first -->
+				<div class="loadIndicator"><div class="indicator"></div></div>
+
+				<div class="flow">
+				<!-- -->	
+																																																								
+				<img class="item" href="http://library.bennington.edu/search/i?SEARCH=9781250083258+&sortdropdown=-" src="/screens/sellout.jpg" title="The sellout by Paul Beatty"/>	
+				<img class="item "href="http://library.bennington.edu/search~S0/?searchtype=t&searcharg=plain+burned+things&SORT=D&extended=0&SUBMIT=Search&searchlimits=&searchorigarg=i9782875621108+#" src="/screens/burned.jpg" title="Plain Burned Things: A Poetics of the Unsayable by Leah Souffrant"/>	
+				<img class="item "href="http://library.bennington.edu/search/i?SEARCH=9783775708494+&sortdropdown=-" src="/screens/connected.jpg" title="Connected Cities: Processes of Art in the Urban Network"/>	
+						
+				<img class="item "href="http://library.bennington.edu/search/i?SEARCH=9780393249460+&sortdropdown=-" src="/screens/throwback.jpg" title="The throwback special: a novel by Chris Bachelder"/>	
+				<img class="item "href="http://library.bennington.edu/search/i?SEARCH=9780691125213+&sortdropdown=-" src="/screens/why.jpg" title="Why? by Charles Tilly"/>	
+				<img class="item "href="http://library.bennington.edu/search/i?SEARCH=9781250065360+&sortdropdown=-" src="/screens/greatgreen.jpg" title="In the great green room: the brilliant and bold life of Margaret Wise Brown by Amy Gary"/>										
+																			
+												
+				<img class="item "href="http://library.bennington.edu/search/i?SEARCH=9780190469412+&sortdropdown=-" src="/screens/expertise.jpg" title="The death of expertise: the campaign against established knowledge and why it matters by Tom Nichols"/>
+				<img class="item "href="http://library.bennington.edu/search/i?SEARCH=9781554586257+&sortdropdown=-" src="/screens/dada.jpg" title="Dada, surrealism, and the cinematic effect by R. Bruce Elder"/>	
+				<img class="item" href="http://library.bennington.edu/search/i?SEARCH=9781442253322+&sortdropdown=-" src="/screens/sizzled.jpg" title="When Paris sizzled: the 1920s Paris of Hemingway, Chanel, Cocteau, Cole Porter, Josephine Baker, and their friends by Mary McAuliffe"/>	
+				
+			</div>
+			</div>
+		</div>
+</td>
+</tr>
+</table>
+<br />
+
+<!--
+<p style="color:#000;"><span style="font-weight:bold"> ILL End-of-Term dates for Students <br /></span>
+<span style="font-weight:bold">Friday, May 20th</span> - Last day to order ILL books, films, CDs <br />
+<span style="font-weight:bold">Friday, May 27th</span> - Last day to request Williams forms <br />
+<span style="font-weight:bold">Monday, May 30</span> - ALL ILL & Williams items due <br />
+<span style="font-weight:bold">Tuesday, May 31</span> - Last day to order ILLiad articles - there is no guarantee that articles will arrive before end of term</p>-->
+<!--
+<p style="color:#000; font-weight:bold; margin-left:15px">Need something to read for Winter Break? The <a href="http://library.bennington.edu/screens/2017FWTRead.pdf">Faculty Book Recommendation List</a> has got you covered.</p>
+-->
+<p style="color:#B21000; font-weight:bold; margin-left:15px">The library's website will be down tomorrow from approximately 11 A.M. to 3 P.M. We will update the status on our <a href="https://www.facebook.com/CrossettLibrary/">Facebook page.</a></p>
+
+<div class="bottomquadrant">
+<table class="bottomquadrant">
+	<tr style="height:200px">
+		<td class="bottomquadrant">
+			<p class="bottomquadrant">Research</p>
+			<ul class="bottomquadrant">
+			<li><a href="http://library.bennington.edu/screens/thesis_links.html">Thesis and Project Guides</a></li>
+			<li><a href="http://libraryguides.bennington.edu">Research Guides</a></li>
+			<li><a href="http://libraryguides.bennington.edu/content.php?pid=608626&sid=5026546">Citation and Style</a></li>
+			<li><a href="http://library.bennington.edu/screens/databases.html">Databases</a></li>
+			<li><a href="http://0-search.ebscohost.com.library.bennington.edu/login.aspx?authtype=ip,uid&profile=pfi">Journals</a></li>
+			<li><a href="http://library.bennington.edu/screens/writing_tutor.html">Writing Tutors</a></li>
+			</ul>
+		</td>
+		<td class="bottomquadrant">
+			<p class="bottomquadrant">Access</p>
+			<ul class="bottomquadrant">
+			<!--<li><a style="color:red" href="http://library.bennington.edu/screens/readingLists.html">FWT Faculty Recommended Reading Lists</li>-->
+			<li><a href="http://library.bennington.edu/patroninfo">Library Account</a></li>
+			<li><a href="http://illiad.bennington.edu/illiad/logon.html">Interlibrary Loan Account</a></li>
+			<li><a href="https://crossettlibrary.dspacedirect.org/">Digital Archive</a></li>
+			<li><a href="http://library.bennington.edu/screens/open_access.html">Open Access</a></li>
+			<li><a href="http://library.bennington.edu/screens/music_library.html">Jennings Music Library</a></li>
+			<li><a href="http://library.bennington.edu/screens/museumparkpass.html">Museum and Park Passes</a></li>
+			<li><a href="http://library.bennington.edu/screens/off-campus_access.html">Off-Campus Instructions</a></li>
+			<li><a href="http://library.bennington.edu/screens/printing.html">Printing Instructions</a></li>
+			
+			</ul>
+		</td>		
+		<td class="bottomquadrant">
+			<p class="bottomquadrant">Information</p>
+			<ul class="bottomquadrant">
+			<li><a href="http://library.bennington.edu/screens/aboutcrossett.html">About Crossett Library</a></li>
+			<li><a href="http://library.bennington.edu/screens/calendar.html">Hours</a></li>
+			<li><a href="http://library.bennington.edu/screens/libinfo.html">Staff</a></li>
+			<li><a href="http://library.bennington.edu/screens/borrower.html">Borrowing Information</a></li>
+			<li><a href="http://library.bennington.edu/screens/faculty.html">Information For Faculty</a></li>
+			<li><a href="http://library.bennington.edu/screens/requestform.html">Make A Suggestion</a></li>
+			<li><a href="http://library.bennington.edu/screens/lib_spaces.html">Reserve Library Spaces</a></li>
+			</ul>
+		</td>
+		<td class="socialmedia">
+			<p class="bottomquadrant">Enjoy</p>
+			<ul class="socialmedia">
+			<table>
+			<tr>
+			<td style="border-right: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc">
+			<li><a href="http://librarianreadseverything.tumblr.com"><img title="Librarian Reads Everything" style="width:75px; height:75px" src="../screens/librarianreadseverything.png" /></a></li>
+			</td>
+			<td style="border-left: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc">
+			<li><a href="http://crossettlibrary.tumblr.com"><img title="Crossett-copia" style="width:75px; height:75px" src="../screens/crossettcopia.png" /></a></li>
+			</td>
+			</tr>
+			<tr>
+			<td style="border-right: 1px solid #dcdcdc; border-top: 1px solid #dcdcdc">
+			<li><a href="https://www.facebook.com/CrossettLibrary"><img title="Facebook" style="width:75px; height:75px; align:middle" src="../screens/facebook.png" /></a></li>
+			</td>
+			<td style="border-left: 1px solid #dcdcdc; border-top: 1px solid #dcdcdc">
+			<li><a href="https://www.flickr.com/photos/crossettlibrary"><img title="Flickr" style="width:75px; height:75px" src="../screens/flickr.png" /></a></li>
+			</td>
+			</tr>
+			</ul>
+			</table>
+		</td>
+	</tr>
+
+</table>
+</div>
+
+</div>
+</td>
+<td width="50px">
+</td>
+</tr>
+</table>
+<div class="mainMenuContentRight">
+</div>
+
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+<!-- Place this script as near to the end of your BODY as possible. -->
+<script type="text/javascript">
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?3793";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
+
+</body>
+</html>

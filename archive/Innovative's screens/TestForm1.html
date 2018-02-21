@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Bennington College Repository Submission Form</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+  <link rel="stylesheet" type="text/css" href="/screens/thirdparty.css" media="print">
+  <STYLE TYPE="text/css"> body {overflow-x:hidden; overflow-y:auto} </STYLE>
+  <script language="javascript" src="stumper.js"></script>
+
+
+</head>
+
+<body>
+<!--{toplogo}-->
+  
+  <form style="margin-left:15px" id="gform" method="POST" class="pure-form pure-form-stacked"
+  action="https://script.google.com/macros/s/AKfycbxDnBKDBftZwTgU3NI-fsmc5Gw9tvqBCQo75mzN1GxVcudGG-k/exec">
+<h1>Bennington College Repository Submission Form</h1>
+
+  <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+  <p>
+  <input type="checkbox" name="check" value="box">&nbsp;&nbsp;I agree to the Non-Exclusive Distribution License
+  <strong><abbr title="required">*</abbr></strong>
+  </p>
+  <p>
+    <label>You must agree to the license before submitting your work to the Bennington College Digital Repository.</label>
+  </p>
+ 
+  <section>
+    <h2 style="color:black;">Your Information</h2>
+    
+    <fieldset>
+      <p>
+      <label for="name">
+        <span>Name: </span>
+        <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    
+     <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <input type="email" id="mail" name="email" placeholder="janedoe@bennington.edu" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    </fieldset>
+    
+    
+  </section>
+ 
+  <section>
+    <h2 style="color:black;">Paper information</h2>
+    <h5>Names of Authors and Title of the Paper</h5>
+    <p>
+      <label for="PaperTitle">
+        <span>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+        <input type="text" id="PaperTitle" name="papertitle" placeholder="My thesis" required/>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    <p>
+      <label for="Author 1">
+        <span>Author 1: </span>
+        <input type="text" id="author1" name="author1" placeholder="Jane Doe" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    <p>
+      <label for="Author 2">
+        <span>Author 2: </span>
+        <input type="text" id="author2" name="author2"/>
+      </label>
+    </p>
+     <p>
+      <label for="Author 3">
+        <span>Author 3: </span>
+        <input type="text" id="author3" name="author3"/>
+      </label>
+    </p>
+     <p>
+      <label for="Author 4">
+        <span>Author 4: </span>
+        <input type="text" id="author4" name="author4"/>
+      </label>
+    </p>
+     <p>
+      <label for="Author 5">
+        <span>Author 5: </span>
+        <input type="text" id="author5" name="author5"/>
+      </label>
+    </p>
+  </section>
+ 
+  <section>
+    <p>
+    <h2 style="color:black;">Abstract or Summary</h2>
+    <textarea rows="20" cols="50"></textarea>
+  </p>
+  </section>
+  <section>
+    <p>
+    <h2 style="color:black;">Embargo</h2>
+    <input type="year" name="embargodate" placeholder="10/31/2018"/>
+  </p>
+  </section>
+  <section>
+    <p>
+    <h2 style="color:black;">Other Information</h2>
+    <textarea rows="20" cols="50"></textarea>
+  </p>
+  </section>
+<!--Test Phase-->
+<p>
+<button type="submit" class="pure-button pure-button-primary">Submit</button>
+</p
+
+  </form>
+
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for uploading your thesis!</h2>
+  </div>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="formHandler.js"></script>
+<!-- END -->
+
+</body>
+</html>

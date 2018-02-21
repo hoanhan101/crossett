@@ -1,0 +1,29 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"                      xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Academic Search Premier</ShortName>
+<Description>Academic Jorunals</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAAQAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAIezq7XRzFSM0D2FeDRpwBdKsSBUtite
+u3GU0rjJ6JCs3D1zxHGY1Ja04Nbh8kR7yJ285Nvm9UyEzHql2t7p9l2W1afF5+fw7z+GelaVim6k
+moWyqoq1rbLPyrfSzb7W0s/h3mKckY64sJK7s6HEveXv7fX5+P///yH5BAEAAP8ALAAAAAAQABAA
+AAikAAHgo4etoMGD+/oJjLetocOHDeX1o7dNXraLGDHWy7dtH7Zt89YBGEkSALp2Hwtuw9auHTsA
+7lq6K4dyZUpt2l66w8kzZUp16tKZXIcOqDqfK8+dEzoSndJzSLGNG2cOQDly5aaOi8qNW1VxXbmt
+4xb127evZsGF+1a2JMly3qJ2m0u37ryV+7bFO8h3Xjx4/PrJg0h4mz5/AN7Zy8g42z3EAQEAOw==</Image>
+<Url type="text/html" method="get" template="http://0-search.ebscohost.com.library.bennington.edu/login.aspx?direct=true&amp;authtype=ip,uid&amp;bQuery={searchTerms}&amp;db=aph">
+  <Param name="" value=""/>
+...
+  <Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-search.ebscohost.com.library.bennington.edu/login.aspx?direct=true&amp;authtype=ip,uid&amp;bQuery={searchTerms}&amp;db=aph</moz:SearchForm>
+</OpenSearchDescription>

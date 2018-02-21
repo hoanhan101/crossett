@@ -1,0 +1,11 @@
+
+<script type="text/javascript" src="http://library.bennington.edu/screens/majax.js">
+ </script>
+
+
+<span class="majax-showholdings" title="i0715629077"></span>
+
+
+for specific bib records, this is the most simple and direct URL.  just fill in the bib record number at the end.
+
+http://library.bennington.edu/record=

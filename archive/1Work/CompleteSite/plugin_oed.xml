@@ -1,0 +1,37 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Oxford English Dictionary</ShortName>
+<Description>A most excellent dictionary.</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBm
+AABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/
+MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNm
+ZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/
+mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZm
+zGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb/
+/5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZ
+AJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwA
+M8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZ
+ZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8A
+mf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+Z
+zP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///yH5BAEAABAALAAAAAAQABAA
+AAi9ALfY2AJD4I2CAxEehHGwIcOHDm9I3DIxG6pUrrJNmXjDhkQtNvr1seGxUD8UEm+EufHrjr9+
+L1Te6NEP5sobm7j56SftRY+ZN6adnOkj505UWnr46CFGKAoxPaLi4iau2B1RePz4YfYOzpYwaHyg
+2TSOm9myaLmN2yTWBxExIpWiWXTSh92waYigQWMRYzYteIm49VFksGDBhQ/nzfuGyGLHRBrnTUGZ
+sorKmC+nuExlc4rOnD13xky6dIqAADs=</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-dictionary.oed.com.library.bennington.edu/cgi/findword?query_type=word&amp;queryword={searchTerms}&amp;find.x=0&amp;find.y=0&amp;find=%5BPerform+Find+Word+search%5D">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-dictionary.oed.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

@@ -1,0 +1,47 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Aluka</ShortName>
+<Description>African cultural heritage, freedom struggles and botanical resources</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-ico;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEA
+AAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYA8PDwAJn//wCZ1JkA
+/9SZAP/M/wCZmf8AMCIiABEAAAAiAAAARAAAAFUAAAB3AAAAiAAAAKoAAADdAAAA7gAAAAARAAAA
+IgAAAEQAAABVAAAAdwAAAIgAAACqAAAA3QAAAO4AAAAAEQAAACIAAABEAAAAVQAAAHcAAACQAAAA
+qgAAAN0AAADuADMAAABmAAAAmQAAAMwAAAAAMwAAMzMAAGYzAAChMwAAzDMAAP8zAAAAZgAAM2YA
+AGZmAACZZgAAzGYAAP9mAAAAmQAAM5kAAGaZAACZmQAAzJkAAP+ZAAAAzAAAM8wAAGbMAACZzAAA
+zMwAAP/MAAAz/wAAZv8AAJn/AADM/wAAAAAzADMAMwBmADMAmQAzAMwAMwD/ADMAADMzADszMwBm
+MzMAmTMzAMwzMwD/MzMAAGYzADNuMwBmZjMAmWYzAMxmMwD/ZjMAAJkzADOZMwBmmTMAmZkzAMyZ
+MwD/mTMAAMwzADPMMwBmzDMAmcwzAMzMMwD/zDMAAP8zADP/MwBm/zMAmf8zAMz/MwD//zMAAABm
+ADMAZgBmAGYAmQBmAMwAZgD/AGYAADNmADMzZgBmM2YAmTNmAMwzZgD/M2YAAGZmADNmZgBmZmYA
+mWZmAMxmZgD/ZmYAAJlmADOZZgBmmWYAmZlmAMyZZgD/mWYAAMxmADPMZgBmzGYAmcxmAMzMZgD/
+zGYAAP9mADP/ZgBm/2YAmf9mAMz/ZgD//2YAAACZADMAmQBmAJkAmQCZAMwAmQD/AJkAADOZADMz
+mQBmM5kAmTOZAMwzmQD/M5kAAGahADNmmQBmZpkAmWaZAMxmmQD/ZpkAAJmZADOZmQBmmZkAmZmZ
+AMyZmQD/mZkAAMyZADPMmQBmzJkAmcyZAMzMmQD/zJkAAP+ZADP/mQBm/5kAmf+ZAMz/mQD//5kA
+AADMADMAzABmAMwAmQDMAMwAzAD/CNQAADPMADMzzABmM8wAmTPMAMwzzAD/M8wAAGbMADNmzABm
+ZswAmWbMAMxmzAD/ZswAAJnMADOZzABmmcwAmZnMAMyZzAD/mcwAAMzMADPMzABmzMwAmczMAMzM
+zAD/zMwAAP/MADP/zABm/8wAmf/MAMz/zAD//8wAMwD/AGYA/wCZAP8AzAD/AAAz/wAzM/8AZjP/
+AJkz/wDMM/8A/zP/AABm/wAzZv8AZmb/AJlm/wDMZv8A/2b/AACZ/wDd3d0AzJn/AGbM/wAAAIgA
+/wDMAJkzAAAzZjMAAGaZADMzMwDw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD/
+//8AfX19fX19fX19fad9fX19fX19fX19+Ap9fakKfX19fX19fX2nfX2p7ajtfX2ofX19fX19B9R9
+fdMKfn2oCoR9fX19fafU06n309SoCqh9fX19B6l9fdPtp32pCqh9fQqnfX0KqdPUqQen1ajtogip
+fX19fQqpp33U1Kd9DAqofX19fanT7amo0+0HoQfTCn19fdPtfaipCqd9qdqpfagKfX2pfX2oCqmp
+pwrN0319qH19fX2pCqh9Cqmofe3tfX19fX19B6h9ftMKqX190359fX19fX19pwr4fQqpfX19fX19
+fX19famofX190319fX19fX19fX19fX19fX19fX19fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</Image>
+
+
+
+
+
+
+<Url type="text/html" method="get" template="http://0-www.aluka.org.library.bennington.edu/action/doSearch?sa=4&amp;sa=1&amp;sa=2&amp;sa=3&amp;searchText={searchTerms}&amp;submit=Search">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-www.aluka.org.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

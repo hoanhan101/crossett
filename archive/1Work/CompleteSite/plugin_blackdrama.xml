@@ -1,0 +1,42 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Black Drama</ShortName>
+<Description>advanced or simple it's all good</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhDwAQAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAKytb7Kzdt/glNPUjMvLhdjYjrm5esfG
+hOHhltvaksXEg83MidDPjMrJic/OjaWkbcnHhsC/gMLBgsXDhsLAhbKvd66rdcG+g767gbq3fraz
+f4yJXrezfKaic6+reqikdbSvfKCbb5OPZpiTbI6IZn94XGpgVP///yH5BAEAAP8ALAAAAAAPABAA
+AAjsAMGF21buHTx59fTpq9fP375wAgmuM0jPXj5+/uaZ2ybQ3ER48ejVy+ev37pu97R1I/eNXTx8
+9xj6s4eSn8px6Naxg2dvnz9+5tzp6zdwHLt37+LdK2ku3r6YAycatMevnzh2+dzhw9dtHEh49M75
+i7cunz15aLuGjNeun7ty+dqBpSePnLdz7Zzy+3YPXzyl+vJhu3KlnTt+6uTRg5cO37x++rKdi5sP
+nkF16o66w7tNcrt23th9+4audOly3e7CQ/etHLdx48iRM8et3DZs59J5w+1t3LZu3CS7u30OW7a7
+V7x1C/ftir5zAQEAOw==</Image>
+
+
+
+
+
+
+
+<Url type="text/html" method="get" template="http://0-www.alexanderstreet4.com.library.bennington.edu/cgi-bin/asp/bldr/search2tsql?CONJUNCT=PHRASE&amp;SYSTEM_DIR=%2Fprojects%2Fartfla%2Fdatabases%2Fasp%2Fbldr%2Ffulltext%2FIMAGE%2F&amp;word={searchTerms}&amp;work_sort_title=&amp;work_allauthorsallforms=&amp;agewhenwriting=&amp;authorgender=ALL&amp;nationality=&amp;work_yearwritten=&amp;work_genre=&amp;OUTPUT=conc">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-www.alexanderstreet4.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

@@ -1,0 +1,38 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>African American Music Reference</ShortName>
+<Description>50,000 pages of info about black American music</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAARAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAADQ8MC81KjxCNkVKP2VqXnh8cd3i1CYq
+HlJWSm1xZYGFeVxfVImMgJqdkb7AuJWXi/f48n5/dKipn6OjmLe3rMfHvNra0v39+Pv79v//+/f3
+87++s7y7sN/e0tLRxrCvpfPy6eXj2MzKwMXDuezr5trXy/j38////yH5BAEAAP8ALAAAAAAQABEA
+AAj/ALFlG8iNnj19+/bp61evnr192ARm66aPHj2F+uzZY3dvnTZtArmZ47iv3T1y4cZ1EzcOJDZw
+6jiqSwcu27dv3M6Z2xYRW7l13biN4wYO27dy3gCoq4mN3Llw6bht+wiOXr54ANqFwxaO3U9y4LRt
+U5evHjx4WbeJa8dwXrpw9/L1y/cOXTx33djpa9hunsZ5+PC9i/eO3z1z/fbWy8dvnbp5994Njscv
+o8J+/ey9xbbtbLx48tyVbHfwHrd04sLFgyc5Hr55fiuW47bPXDjW6ADwU3du3cJ958CFI4pvNQB3
+Kn3Po0fu48d3rN/lWzeOHL115cht+7at22p48vjlC+vWvZy4dNu1cQsIADs=</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-aamr.alexanderstreet.com.library.bennington.edu/Search/">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-aamr.alexanderstreet.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

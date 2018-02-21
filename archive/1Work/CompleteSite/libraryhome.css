@@ -1,0 +1,213 @@
+/*libraryhome.css*/
+
+#page {
+	height:350px;
+}
+#searchbar {
+	width:550px;
+	margin-bottom:
+	/*	margin:0 0 30px 0; */
+}
+
+/* Tabbed navigation */
+#tabnav {
+	margin: 0;
+	padding: 0;
+	width:557px;
+}
+#tabnav a:link {
+	color: #333; color:#145189;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+ }
+#tabnav a:visited {
+	color: #333; color:#145189;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#tabnav a:hover {
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+ }
+
+.tableTabs { margin: 0; padding: 0; }
+.tableTabs td { margin: 0; padding: 0; width:30%  }
+.tableTabs td.gutter { border-bottom: 1px solid #000; width: 0px; }
+.tableTabs td.tab-off {
+	background-color: rgb(240,233,218);
+	border: 1px solid #000;
+	padding: 5px 15px;
+	text-align: center;
+	width:30% }
+.tableTabs td.tab-on {
+	border: 1px solid #000;
+	border-bottom: none;
+	padding: 5px 15px;
+	text-align: center;
+	width:30%  }
+.tableTabs td.remainder { border-bottom: 1px solid #000; width: 100%; }
+
+.form1 {
+	width:535px;
+	height:95px;
+	border-top: 0;
+	border-left: 1px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	line-height:1.4em;
+	margin:0;
+	background-color:rgb(255,255,255);
+/*color:#336699; */
+/*	text-align:left; */
+/*	border: 1px solid black; */
+/*	background-color:rgb(240,233,218); */
+}
+.form1  a:link {
+	color: #145189;
+	font-size: 13px;
+	font-weight:normal;
+	text-decoration: underline;
+}
+.form1  a:visited {
+	color: #145189;
+	font-size: 13px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+.form1  a:hover {
+	color:rgb(148,182,217);
+	font-size: 13px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+
+#searchbar form {
+	margin:0;
+}
+#searchbar form input {
+	font-size:13px;
+	font-weight: normal;
+}
+#searchbar form select {
+	font-size:13px;
+	font-weight: normal;
+
+}
+/*
+#searchbar form img {
+	vertical-align:middle;
+	border:0;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+*/
+
+/* Dynamic menu frame on the home page */
+
+
+#menuTile {
+}
+#section .defaultheadingOn {
+	background: url(/library/images/arrow-blue.jpg) no-repeat 2px;
+	background-position: right;
+}
+#section .defaultheadingOff {
+	background-position: right;
+}
+
+#section .headingOn {
+	background: url(/library/images/arrow-blue.jpg) no-repeat 2px;
+	background-position: right;
+}
+section .headingOff {
+/*	background: url(/library/images/arrow-ltblue.jpg) no-repeat 2px; */
+	background-position: right;
+}
+#section {
+	position: absolute;
+	float: left;
+	width: 265px;
+	text-align:right;
+	padding-top:10px;
+	padding-right:5px;
+	margin-left: 0px;
+	margin-top: 140px;
+}
+#section a:link {
+	color: #145189;
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+#section a:visited {
+	color: #145189;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+#section a:hover {
+	color: rgb(148,182,217);
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	line-height: 1.4em;
+}
+.contents {
+	position: absolute;
+	float: left;
+	margin-left: 275px;
+	margin-top: 145px;
+  	background-color:rgb(240,233,218);
+	width: 200px;
+	height: 130px;
+	padding: 10px 10px 10px 10px;
+	text-align:left;
+	border: 1px solid gray;
+}
+.contents a:link {
+	color: #145189;
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+}
+.contents a:visited {
+	color: #145189;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+}
+.contents a:hover {
+	color: #145189;
+	text-decoration:underline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+}
+.tileDefault {
+	visibility: visible;
+}
+.tileHidden {
+	visibility: hidden;
+}

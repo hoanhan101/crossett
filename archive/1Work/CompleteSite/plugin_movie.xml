@@ -1,0 +1,36 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Crossett Movies</ShortName>
+<Description>Search for movies at Crossett Library</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-ico;base64,R0lGODlhEAAQAPcAAP+4cv+/f/39/f+fP//48vn5+bJMpfz8/P+yZv/Spf/lzP/FjP7+/v/r2P/y
+5f+sWfv7+//Ysvr6+v+lTP/fv/f39/j4+Mxmf//Mmf///5kzzP+ZM////wAAAAAAAAAAACQAAABI
+DRQAAAAUAEiFFQCk+BIAAAAAAOj6EgAY7pB8OAeRfP////8yB5F8qwaRfOsGkXwAAAAAAAAAAKhz
+SADWhNda+PgSAAAAAADIBZF8GL8YAMT5EgBRBZF8eAcUAG0FkXxAvxgAIL8YAPy+GACYbI8AEAAA
+ADj5EgCYAhQAMKNjAOz///8AAAAARQmRfE4JkXxgAhQABAAAAEj6EgBGAAAAkEGRfFz5EgAAAAAA
+yAWRfMClFQAo+hIAcPkSAAAAAADIBZF84L4YADz6EgBRBZF82AcUAG0FkXz8vhgA6L4YAAAAAAAA
+ABQA0LwYAAAAAAAkAAAALwAAAAIAAABeAAEABQAAAAj5EgAHAAAA8PkSABjukHxwBZF8/////20F
+kXxiGZF8kxmRfIDAl3xwGZF8QL8YADgAAAD8vhgAAPD9f9j5EgCYAhQANPoSABjukHx4GZF8////
+/3AZkXwAABQAAhmRfPy+GADovhgAAAAAAHC0GADIwAEABwAAAID5EgAAAAAAgPoSABjukHxwBZF8
+/////20FkXxb7oB8AAAUAAAAAABn7oB8pNjUdwAAAAABAAAAAPD9fwAAAAAAAAAAEAEAAOi+GAAA
+AAAAAAAAAFD6EgAWvRgAsP8SAKiag3xw7oB8/////2fugHwkAAAA6L4YAKTY1HcAAAAAIAAAAAMI
+xduC6MYBpHI47ZHsxgFb6Ob4gujGAQAAAAAAAAAASIUVAHsGBB5jcm9zIAEAAC5nAGYAABQA2PgS
+AAEAAAA0+xIAGO6QfPAGkXz/////6waRfN+ZgHwAABQACAAUAPCZgHyk2NR3AAAAAAAAAAAAAAAA
+AAAAAMTARAB0hRUAFEgXAHiFFQDYc0gA/////0iFFQAuwUQAdIUVACH5BAEAABwALAAAAAAQABAA
+QAiJADUIHEiwoMALGDJg2MCwYcMLBzcsyEAgwIANABoo3ABRwwWGAAhkGDlyIceIDCdgUKAgAYKH
+BwFkoOCwZsePDjIEcPggAcOOBi4IHUpUqAGBQYsqPeqR4USSIxVcvDlA5MuGA3ae9JjQZM2fMTM0
++AqzqcwMEQAgSCBy502HADBgsFjWoF2BAQEAOw==</Image>
+
+
+
+<Url type="text/html" method="get" template="http://library.bennington.edu/search/X?{searchTerms}&amp;m=g&amp;m=v&amp;b=c%20%20%20%20&amp;l=&amp;Da=&amp;Db=&amp;p=&amp;SORT=A">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>
