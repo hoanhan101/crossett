@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Crossett Library" title_url="http://library.bennington.edu/" 
+scrolling="false" author="Crossett Library"
+author_email="library@bennington.edu"
+description="Use this gadget to search the resources available at Crossett Library."
+screenshot="http://library.bennington.edu/screens/crossettgooglebox.gif"
+thumbnail="http://library.bennington.edu/screens/crossettgooglebox_thumbnail.gif">
+<Require feature="tabs"/>
+</ModulePrefs>
+
+<Content type="html">
+<![CDATA[
+<style>
+div {font-size:12px; font-family : Verdana}
+.offcampus {font-size:12px; font-family : Verdana; color: #990066}
+a:link { color: #333333;font-size:12px; font-family : Verdana }
+a:active{ color: #333333; font-size:12px; font-family : Verdana}
+a:visited { color: #333333; font-size:12px; font-family : Verdana }
+a:hover { color: #990066; font-size:12px; font-family : Verdana }
+</style>
+<script type="text/javascript">
+// Initialize tabs, designate the tab named "Catalog" as
+// the tab selected by default.
+var tabs = new _IG_Tabs(__MODULE_ID__, "Catalog");
+function init() {
+// Technique #1: Capture the tab's ID when you create it, and use the ID
+// to add content to the tab's corresponding <div>.
+var one_Id = tabs.addTab("Catalog", "one_id");
+
+
+// Technique #2: Create the tab and define a corresponding <div> in the
+// HTML portion of the gadget. Add static content to the <div>.
+tabs.addTab("Journals/News", "two_id");
+
+tabs.addTab("Login", "three_id");
+
+tabs.addTab("Info", "four_id");
+}
+
+
+
+// Call init function to initialize and display tabs.
+_IG_RegisterOnloadHandler(init);
+</script>
+
+<div id="one_id" style="align:center; background-color:#d9e8d8; text-align:left;padding:5px;">
+<table width="100%">
+<tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr>
+<tr><td>
+
+<img src="http://library.bennington.edu/screens/short_crossett.jpg" height="40px" width="100%"/>
+
+</td></tr>
+<tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr>
+</table>
+Search the library's holdings for books, eBooks, digital
+records, images, journals, magazines, and more.<br /> <br>
+<form action="http://library.bennington.edu/search/Y" method="get" target="_blank">
+<input type="text" name="SEARCH" size="" value="" />
+<input type="hidden" name="SORT" value="A" />
+<script language="javascript">
+function iiiDoSubmit_1() {
+var name = "iiiFormHandle_1";
+if (document.getElementById)
+obj = document.getElementById(name);
+else if (document.all)
+obj = document.all[name];
+else if (document.layers)
+obj = document.layers[name];
+obj.form.submit();
+}
+
+</script>
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href=# onclick="iiiDoSubmit_1();"><img src="http://library.bennington.edu/screens/submit.gif" alt="Submit" border="0" class="button" /></a>
+</form>
+
+</div>
+
+<div id="two_id" style="align:center; background-color:#d9e8d8; text-align:left;padding:5px;">
+<table width="100%">
+<tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr>
+<tr><td>
+
+<img src="http://library.bennington.edu/screens/short_crossett.jpg" height="40px" width="100%"/>
+
+</td></tr>
+<tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr>
+</table>
+<form method="get" action="http://ux4pn4fq8e.search.serialssolutions.com/?V=1.0&N=100&L=UX4PN4FQ8E&S=AC_T_B&C=" name="SS_EJPSearchForm" target="_blank">
+<div class="SS_ToolLabels">Find journals, newspapers, and magazines <b>by title</b></div>
+<br />
+<input value="1.0" name="V" type="hidden" />
+<input value="100" name="N" type="hidden" /> <input type="hidden" name="L" value="UX4PN4FQ8E" /> <select name="S"> <option value="AC_T_B" selected="selected">Title begins with</option> <option value="AC_T_M">Title equals</option> <option value="T_W_A">Title contains all words</option> <option value="I_M">ISSN equals</option> </select> <input id="SS_CFocusTag" name="C" /> <input value="Search" type="Submit" /> <div class="offcampus">Off-campus access: You will be prompted to login before you can access the databases listed in the Journal Finder.</div> </form> </div> </div> 
+
+<div id="three_id"style="align:center; background-color:#d9e8d8; text-align:left;padding:5px;"> <table width="100%"> <tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr> <tr><td> <img src="http://library.bennington.edu/screens/short_crossett.jpg" height="40px" width="100%"/> </td></tr> <tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr> <tr><td colspan="2"><a href="http://library.bennington.edu/patroninfo" target="_blank">Login To My Library Account</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> <tr><td colspan="2"><a href="http://illiad.bennington.edu/illiad/logon.html" target="_blank">Login To My Illiad Account</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> <tr><td colspan="2"><a href="http://library.bennington.edu/screens/course.html" target="_blank">Find My Course Reserves</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> </table> </div> 
+
+<div id="four_id"style="align:center; background-color:#d9e8d8; text-align:left;padding:5px;"> <table width="100%"> <tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr> <tr><td> <img src="http://library.bennington.edu/screens/short_crossett.jpg" height="40px" width="100%"/> </td></tr> <tr><td colspan="2" bgcolor="#99cc99" height="1px"></td></tr> <tr><td colspan="2"><a href="http://library.bennington.edu/screens/hours.html" target="_blank">Calendar</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> <tr><td colspan="2"><a href="http://library.bennington.edu/screens/music_library.html" target="_blank">Jennings Music Library Hours and Information</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> <tr><td colspan="2"><a href="http://library.bennington.edu/screens/libinfo.html" target="_blank">Contact Information</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> <tr><td colspan="2"><a href="http://library.bennington.edu/screens/off-campus_access.html" target="_blank">Off Campus Access Assistance</a></td></tr> <tr><td colspan="2"><img src="http://library.bennington.edu/screens/greenline.gif" alt="" width="100%" height="1" /></td></tr> </table> </div> ]]> 
+</Content> 
+</Module>

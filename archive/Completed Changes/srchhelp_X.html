@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>Crossett Library</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/thirdparty.css" media="print">
+<STYLE TYPE="text/css"> body {overflow-x:hidden; overflow-y:auto} </STYLE>
+<script language="javascript" src="stumper.js"></script>
+<script type="text/javascript">
+//function controlling the collapsable portions of the menus
+function toggleLayer(whichLayer)
+{
+if (document.getElementById)
+{
+var style2 = document.getElementById(whichLayer).style;
+style2.display = style2.display? "":"block";
+}
+else if (document.all)
+{
+var style2 = document.all[whichLayer].style;
+style2.display = style2.display? "":"block";
+}
+else if (document.layers)
+{
+var style2 = document.layers[whichLayer].style;
+style2.display = style2.display? "":"block";
+}
+}
+</script>
+<script language="JavaScript" type="text/javascript" src="/scripts/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/scripts/features.js"></script>
+<script language="JavaScript" type="text/javascript" src="/scripts/webbridge.js"></script>
+</head>
+
+<body onload="document.forms[0].elements[0].focus();">
+<!--{toplogo}-->
+
+
+<table width="1024px" border="0" cellspacing="0" cellpadding="5" align="center">
+<tr height="20px">
+<tr>
+<td width="50px">
+</td>
+<td class="pageMainArea">
+<div>
+
+<div class="folderWrapper"><!-- "folder" interface wrapper div-->
+	<div class="mainSpacer"><!--wrapper div that contains the selection tabs-->
+		<div class="mainActiveTab"><!--active tab-->
+			<b class="tabTop"><b class="active1"></b><b class="active2"></b><b class="active3"></b><b class="active4"></b></b>
+			<div class="DisplayBoxContent"><div class="menuTabActive">Keyword</div></div>
+		</div><!--close active tab-->
+		<div class="mainInactiveTab"><!--inactive tab-->
+			<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b><b class="inactive3"></b><b class="inactive4"></b></b>
+			<div class="DisplayBoxContent"><div class="menuTabContent"><a href="/search/t">Title</a></div></div>
+		</div><!--close inactive tab-->
+		<div class="mainInactiveTab"><!--inactive tab-->
+			<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b><b class="inactive3"></b><b class="inactive4"></b></b>
+			<div class="DisplayBoxContent"><div class="menuTabContent"><a href="/search/a">Author</a></div></div>
+		</div><!--close inactive tab-->
+		<div class="mainInactiveTab"><!--inactive tab-->
+			<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b><b class="inactive3"></b><b class="inactive4"></b></b>
+			<div class="DisplayBoxContent"><div class="menuTabContent"><a href="/search/d">Subject</a></div></div>
+		</div><!--close inactive tab-->
+		<div class="mainInactiveTab"><!--inactive tab-->
+			<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b><b class="inactive3"></b><b class="inactive4"></b></b>
+			<div class="DisplayBoxContent"><div class="menuTabContent"><a href="/search/c">Call #</a></div></div>
+		</div><!--close inactive tab-->
+		<div class="mainInactiveTab"><!--inactive tab-->
+			<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b><b class="inactive3"></b><b class="inactive4"></b></b>
+			<div class="DisplayBoxContent"><div class="menuTabContent"><a href="/search/i">ISBN/ISSN</a></div></div>
+		</div><!--close inactive tab-->
+	</div><!--close selection tab wrapper-->
+	<div class="mainSpacer"><!-- main content wrapper div -->
+		<div class="mainActiveContent">
+<table class="textFix"><tr><td valign="top" width="70%">
+<!--{msg}-->
+<!--{spellcheck}-->
+<!-- Note: if you use a character set other than utf-8, change the charset declaration in the enctype attribute below accordingly. -->
+<!--{advancedsearchformbegin}-->
+<p>
+Please fill in the form, select limits, and click Submit (or choose a <a href="/search/Y">Simple Keyword Search</a>). 
+
+</p>
+<!--{advancedsearch}-->
+<p>
+<input type="hidden" name="startLimit" />
+
+</p>
+<table border="0">
+<tr>
+<td align="left" valign="top">
+<p class="pageMainAreaSubHeader">Limited to:</p>
+<p>
+<!--{availlim}-->
+</p>
+<!--{branch}-->
+<!--{mattype}-->
+<!--{lang}-->
+<!--{DOCDATE}-->
+<!--{publish}-->
+</td>
+<td align="left" valign="top">
+<p class="pageMainAreaSubHeader">Sorted By:</p>
+<p>
+<!--{sort}-->
+</p>
+<!--{advancedsubmit}-->
+
+<div id="searchTipsLink"><a href="#" onclick="javascript:toggleLayer('searchTipMain');" >Need Search Tips?</a></div>
+
+
+</td>
+</tr>
+</table>
+<input type="hidden" name="endLimit" />
+
+
+<!--{advancedsearchformend}-->
+
+</td></tr></table>
+</div>
+<div >
+	<b class="conbottom"><b class="conb4"></b><b class="conb3"></b><b class="conb2"></b><b class="conb1"></b></b>
+</div>
+<div id="searchTipMain">
+<div class="roundedContent">
+<b class="contop"><b class="conb1"></b><b class="conb2"></b><b class="conb3"></b><b class="conb4"></b></b>
+<div class="searchTipContentInfo">
+<table class="searchTipTable">
+<tr><td colspan="2" align="left" style="font-size:125%;border-bottom:1px solid #000"><strong>Search Tips</strong></td></tr>
+<tr valign="top"><th align="left">Boolean Operators</th>
+<td>
+Use "and" or "or" to specify multiple words in any field, any order. Use "and not" to exclude words.<br/>
+<span style="font-weight:bold">Example</span>: stocks and bonds <br/>
+<span style="font-weight:bold">Example</span>: (alaska or canada) and (adventure and not vacation)</td>
+</tr>
+
+<tr valign="top"><th align="left">Wildcards</th>
+<td>
+Words may be right-hand truncated using an asterisk. '*' for 1-5 characters, '**' for open-ended truncation, '?' to replace a single character anywhere within a word.<br/>
+<span style="font-weight:bold">Examples</span>: environment* polic*, comput**, wom?n</td>
+</tr>
+<tr valign="top"><th align="left">Search for Movies</th>
+<td>
+Use the <a href="/search/X">Advanced Search</a> Form.  Enter the any of the following in the search text boxes: title, actor/ess, director, production company.  Browse through the material type search box and select DVD and/ or VHS, and then click submit.</td>
+</tr>
+<tr><td colspan="2"><a href="/screens/libinfo.html#ref">Get help: Contact a librarian</a></td></tr>
+</table>
+</div>
+
+	<b class="conbottom"><b class="conb4"></b><b class="conb3"></b><b class="conb2"></b><b class="conb1"></b></b>
+</div>
+</div>	
+
+</div><!--close main content wrapper div-->
+</div><!--close wrapper of "folder interface"-->
+<div class="mainNavLinksWrapper">
+<div class="roundedContent">
+<b class="xtop"><b class="xb1"></b><b class="xb2"></b><b class="xb3"></b><b class="xb4"></b></b>
+
+<div class="roundedContentInfo">
+<div>&nbsp;&nbsp;&nbsp;<a href="/patroninfo">Login to my library account</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="http://illiad.bennington.edu/illiad/logon.html">Login to my Interlibrary account</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="http://ux4pn4fq8e.search.serialssolutions.com/">Search for a journal or newspaper</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="http://library.bennington.edu/screens/databases_bysubj.html">Search databases</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="http://0-firstsearch.oclc.org.library.bennington.edu/fsip?dbname=worldcat&done=referer">Search WorldCat </a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="/suggest">Suggestion or purchase request</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="/screens/libinfo.html">Contact the library</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="/screens/music_library.html">Jennings Music Library</a></div>
+<div>&nbsp;&nbsp;&nbsp;<a href="/search/r">Course reserves</a></div>
+</div>
+
+<b class="xbottom"><b class="xb4"></b><b class="xb3"></b><b class="xb2"></b><b class="xb1"></b></b>
+</div>
+
+
+</div>
+</div>
+<div style="clear:both"></div>
+<!--End of main page content-->
+
+<!--{botlogo}-->
+</td>
+<td width="50px">
+</td>
+</td>
+</tr>
+
+</table>
+<br>
+<!--End the main content table-->
+
+
+</body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3009857-1";
+urchinTracker();
+</script>
+</html>

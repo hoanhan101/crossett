@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 29 Apr 2010 -->
+<head>
+<title>Crossett Library</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><meta http-equiv="Content-type" content="text/html;charset=UTF-8" >
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="/screens/styles.css">
+</head>
+<body onLoad="document.forms[0].elements[0].focus();">
+<table width="785px" border="0" cellspacing="0" cellpadding="5" align="center">
+
+<tr class="toplogoBar">
+
+<td class="toplogoBar">
+
+<!--{toplogo}--></td></tr>
+<tr>
+
+<td class="pageMainArea">
+<div class="pageContentInner">
+<span class="pageMainAreaHeader">Web Access Management Login</span>
+<div class="form1Part" id="accessibleForm">
+<form method="post" target="_top" name="patform">
+<!--{iferrmsg}-->
+<span class="errormessage">
+<FONT COLOR=#990066><EM>
+<!--{iferrmsgisPIN}-->
+<p><span class=pageMainAreaDivHeader>HAVING PROBLEMS?</span>  Your patron information may be incorrect or out of date.  Please <a href="/screens/libinfo.html#ref"> contact a librarian</a> to verify your information.</p>
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</EM></FONT><BR><BR><BR>
+</span>
+<!--{xif}-->
+
+<fieldset>
+<legend>
+<!--{enterinfo}-->
+</legend>
+<TABLE WIDTH=100%>
+<!--{ifextpat}-->
+<h2>Students, Staff, and Faculty</h2>
+<div class="formEntryArea">
+<label for="extpatid"><span class="formLabel">
+Username:
+</span></label>
+<!--{extpatid}-->
+<label for="extpatpw"><span class="formLabel">
+Password:
+</span></label>
+<!--{extpatpw}-->
+</div>
+<h2>Visitors</h2>
+<!--{xif}-->
+
+<!--{ifneedpatronname}-->
+<div class="formEntryArea">
+<TR><TD WIDTH=30%></TD><TD><FONT SIZE=-1>
+Example :  della rocca, jared</FONT></TD></TR><TR><TD>
+<!--{nameprompt}-->
+</TD><TD>
+<!--{name}-->
+</TD></TR>
+</div>
+<!--{xif}-->
+
+<!--{ifneedpatronverify}-->
+<div class="formEntryArea">
+<TR><TD></TD><TD><FONT SIZE=-1>
+Your barcode is the series of 5 digits underneath your name on your College ID Card.
+</FONT></TD></TR>
+<TR><TD>
+Barcode:
+</TD><TD>
+<!--{barcode}-->
+</TD></TR>
+</div>
+
+<!--{ifneedspin}-->
+
+<!--{iferrmsgisPIN}-->
+<TR><TD COLSPAN=2>
+<p>
+<!--{newpinmsg}-->
+</TD></TR><TR><TD>
+</p>
+<div class="formEntryArea">
+<!-- <label for="pin1"> -->
+<span class="formLabel">
+<!--{pin1prompt}-->
+</span>
+</TD><TD>
+<!--{pin1}-->
+</TD></TR><TR><TD>
+<!-- </label> -->
+</td></tr>
+</div>
+<div class="formEntryArea">
+<!-- <label for="pin2"> -->
+<span class="formLabel">
+<!--{pin2prompt}-->
+</span>
+<!--{pin2}-->
+<!-- </label> -->
+</div>
+
+<!--{else}-->
+<div class="formEntryArea">
+<!--{pinprompt}-->
+<!--{pin}-->
+<span class="formLabelExample">
+<!--{pininstructions}-->
+</span>
+</div>
+
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+
+	<!--{ifalternate_id}-->
+	<!--{user_name}-->
+	<!--{xif}-->
+
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+</div>
+</fieldset>
+</table>
+<!--{submit}-->
+</form>
+
+</div>
+<!--{startover}-->
+<p><span class=pageMainAreaLittleHeader>HAVING PROBLEMS?</span>  Your patron information may be incorrect or out of date.  Please <a href="/screens/libinfo.html#ref"> contact a librarian</a> to verify your information.</p>
+</div>
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>
+</td>
+</tr>
+</table>
+</body>
+</html>

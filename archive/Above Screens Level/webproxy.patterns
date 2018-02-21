@@ -1,0 +1,8 @@
+domain=.grolier.com"domain=.^d
+var myDomain = ".grolier.com";var myDomain = ".^d";
+var FSDomain = "go-passport.grolier.com";var FSDomain = "go-passport.grolier.com.^h";
+var kGOLDomain = ".grolier.com";var kGOLDomain = ".^d";
+"/", ".grolier.com", null);"/", ".^d", null);
+var statsDomain = ".grolier.com";var statsDomain = ".^d";
+document.domain = "grolier.com";document.domain = "^d";
+"http://" + "gme-ada.""http://0-" + "gme-ada."

@@ -1,0 +1,117 @@
+#page {
+	height:220px;
+}
+#searchbar {
+	width:337px;
+	margin-bottom:
+	/*	margin:0 0 30px 0; */
+}
+
+/* Tabbed navigation */
+#tabnav {
+	margin: 0;
+	padding: 0;
+	width:337px;
+}
+#tabnav a:link {
+	color: #333333; 
+	font-family: Geneva, Geneva, Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+ }
+#tabnav a:visited {
+	color: #333333;
+	font-family: Geneva, Geneva, Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#tabnav a:hover {
+	color: #990066;
+	font-family: Geneva, Geneva, Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+ }
+
+.tableTabs { margin: 0; padding: 0; }
+.tableTabs td { margin: 0; padding: 0; width:  }
+.tableTabs td.gutter { border-bottom: 1px solid #333333; width: 0px; }
+.tableTabs td.tab-off {
+	background-color:#cccccc;
+	border: 1px solid #333333;
+	padding: 5px 5px;
+	text-align: center;
+	width: }
+.tableTabs td.tab-on {
+	background-color:#aed6aa;
+	border: 1px solid #333333;
+	border-bottom: none;
+	padding: 5px 5px;
+	text-align: center;
+	width:  }
+.tableTabs td.remainder { border-bottom: 1px solid #333333; width:100%; }
+
+.form1 {
+	width:325px;
+	height:190px;
+	border-top: 0;
+	border-left: 1px solid #333333;
+	border-right: 2px solid #333333;
+	border-bottom: 2px solid #333333;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-family:Geneva, Geneva, Verdana;
+	font-size:11px;
+	font-weight:bold;
+	line-height:1.4em;
+	margin:0;
+	background-color:#aed6aa;
+/*color:#336699; */
+/*	text-align:left; */
+/*	border: 1px solid #333333;*/
+/*	background-color:#aed6aa; */
+}
+.form1  a:link {
+	color: #333333;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+.form1  a:visited {
+	color: #333333;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.form1  a:hover {
+	color:#990066;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+#searchbar form {
+	margin:0;
+}
+#searchbar form input {
+	font-size:11px;
+	font-weight: normal;
+}
+#searchbar form select {
+	font-size:11px;
+	font-weight: normal;
+
+}
+/* add if you want later
+#searchbar form img {
+	vertical-align:middle;
+	border:0;
+	border-right: 1px solid #333333;;
+	border-bottom: 1px solid #333333;;
+}
+*/

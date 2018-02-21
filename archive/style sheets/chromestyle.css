@@ -1,0 +1,106 @@
+.chromestyle{
+width:875px;
+font-weight: bold;
+z-index:100;
+position: absolute;
+	top: 100px;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: " "; 
+display: block; 
+height:0; 
+clear: both; 
+}
+
+
+/*this bit controls the menu of for dropdowns- basically the spacing/sizing */
+.chromestyle ul{
+/*background-image: url(../screens/mainNav_bkgrd.gif);
+background-repeat: no-repeat;
+background-image: url(../screens/bctoplogoimage3.jpg);bottom left no-repeat; THEME CHANGE HERE*/
+padding: 0 0 0 0;
+margin: 0;
+text-align: right; /*set value to "left", "center", or "right"*/
+/*vertical-align:top;*/
+}
+
+.chromestyle ul li{
+padding: 0 0 0 0;
+margin: 0;
+display:inline;
+/*vertical-align:top;*/
+}
+
+.chromestyle ul li a{
+margin: 0;
+text-decoration: none;
+padding: 0 0 0 0;
+display:inline;
+/*vertical-align:top;*/
+}
+
+.chromestyle ul li a:hover{
+/*background: #b1310d center center repeat-x; THEME CHANGE HERE*/
+color:#ffffcc;
+padding: 0 0 0 0;
+margin: 0;
+}
+
+
+
+
+.chromestyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: "";
+/*content: " " url(downimage.gif); /*uncomment this line to use an image instead*/
+padding: 0 0 0 0;
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+/*This section controls the space that contains the text in the drop down*/
+.dropmenudiv{
+margin: 0;
+vertical-align:top;
+position: absolute;
+top: 0px;
+right: 2px;
+/*border: 1px solid #666666; THEME CHANGE HERE*/
+border-bottom-width: 0px;
+font:normal 10px Arial, Helvetica;
+line-height:14px;
+background: #b1310d;
+z-index:100;
+width: 180px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); Add Shadow in IE. Remove if desired*/
+display: inline; 
+margin: 0;}
+
+/*This section controls the area where text is in the drop down*/
+.dropmenudiv a{
+display: block;
+text-indent: 0px;
+background: #b1310d url(../screens/navArrow_white.gif) 7px 9px no-repeat;
+/*border-top: 0px solid #666666; THEME CHANGE HERE*/
+padding: 3px 4px 3px 18px;
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #993300;
+color:#9dbfe2;
+}
+
+.dropmenudiv a:visited{ /*THEME CHANGE HERE*/
+background-color: #b1310d;
+color:#ffffff;
+}
+

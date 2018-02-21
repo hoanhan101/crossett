@@ -1,0 +1,38 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>American Film Scripts Online</ShortName>
+<Description>Don't forget your lines</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAAQAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAEs9V19LWWdWYmpWZWlXaGtbamVTZWBP
+YVFBVm5icko7VWVZbkAyS3FoeUw/WFNGX0M3UFdLZHVufkU6VF9VbYB7h1tSaWNbc3ZxhjYwUEI8
+W0dBYW5qgmhlezIuTj05WVBNajU0VV5gfkFFZjM6YE5We1Fcfv///yH5BAEAAP8ALAAAAAAQABAA
+AAjoALFhEycO27p19eqtEwcum0NtAgUSRIeP3jly4LqVU9cuormB67DVe4evXLt26rp9/CjO3Dl2
+CeuV66ZNWzmC5tK9qwePHsl16crRKwfvJU948Nidc/fOXblw49Spo6evHlN46dLBG9mu3Dh47vDd
+y3fvHL165xLCI6rO3bl79uLFQ0gvHT166rZ90/YNnDy5cfElZffO2za+37LJywc4XlWB3w5z+/Zt
+cb7L9vbRcwfOsLZtky1jnrf1nGdt3rzJs3dZXkWk7AxvM8ztHr99/fRVfbcWdGTQ+vr584dv3rm0
+7cJ5y5k6IAA7</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-www.alexanderstreet4.com.library.bennington.edu/cgi-bin/asp/afso/search2tsql?CONJUNCT=PHRASE&amp;SYSTEM_DIR=%2Fprojects%2Fartfla%2Fdatabases%2Fasp%2Fafso%2Ffulltext%2FIMAGE%2F&amp;word={searchTerms}&amp;work_alltitles=&amp;prod_releasedate=&amp;work_script_type=&amp;work_genre=&amp;work_allauthorsallforms=&amp;prod_producers=&amp;prod_directors=&amp;prod_cast=&amp;work_code=&amp;OUTPUT=conc">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-www.alexanderstreet4.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

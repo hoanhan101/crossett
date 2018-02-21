@@ -1,0 +1,143 @@
+  <!-- 2006LE Version, preliminary set from 21 October, 2005 -->
+<!-- This file last changed: 26 September, 2005 -->
+<head>
+<title>Crossett Library</title>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><link rel="stylesheet" href="/screens/styles.css" type="TEXT/CSS" />
+</head>
+
+<body onLoad="document.forms[0].elements[0].focus();">
+
+
+
+<table width="785px" border="0" cellspacing="0" cellpadding="5" align="center">
+
+<tr class="toplogoBar">
+
+<td class="toplogoBar">
+
+<!--{toplogo}--></td></tr>
+
+<tr>
+
+<td class="pageMainArea">
+
+
+
+<span class="pageMainAreaHeader">Patron Self Registration</span>
+<br /><br />
+  
+<form method="post">
+Welcome! 
+<br />
+This page allows you to register on-line as a patron of our library.  
+<br />
+You will have limited privileges.
+<br /><br />
+<!--  
+The hidden template name below overrides the selfreg_template EO; if certain users need a special template, set this input accordingly when you create the version of selfreg.html for those users.
+-->
+<!--
+<input type="hidden" name="TemplateName" value="YOUR VALUE"> 
+<br />
+-->
+<table width="90%" border="0">
+<tr> 
+<td colspan="3">Name</td>
+</tr>
+<tr> 
+<td>First: 
+<!--{firstname}-->
+</td>
+<td>Middle: 
+<!--{middlename}-->
+</td>
+<td>Last: 
+<!--{lastname}-->
+</td>
+</tr>
+<tr> 
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr> 
+<td>Street Address:</td>
+<td colspan="2">
+<!--{address}-->
+</td>
+</tr>
+<tr>
+<td>City, State, ZIP Code:</td>
+<td colspan="2">
+<!--{address}-->
+</td>
+</tr>
+<tr> 
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr> 
+<td>Phone number: </td>
+<td colspan="2"> 
+<!--{phone1}-->
+</td>
+</tr>
+<tr> 
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr> 
+<td>Birthdate: </td>
+<td colspan="2"> 
+<!--{birthdate}-->
+<span class="helpNote">&nbsp;(mmddyy)</span></td>
+</tr>
+<tr> 
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr> 
+<td>Email address: </td>
+<td colspan="2"> 
+<!--{emailaddress}-->
+</td>
+</tr>
+<!-- Fields of interest to some libraries such as academic institutions. Uncomment this area, but not the tokens themselves, in order to use them.-->
+<tr> 
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr> 
+<td>Department:</td>
+<td colspan="2"> 
+<!--{department}-->
+</td>
+</tr>
+<tr> 
+<td>University ID:</td>
+<td colspan="2"> 
+<!--{universityID}-->
+</td>
+</tr>
+<!-- -->
+</table>
+<br />
+<!--{submit}-->
+<br />
+<br />
+<!--{startover}-->
+</form>
+
+<!--End of main page content-->
+
+<!--{botlogo}-->
+
+</td>
+</tr>
+
+</table>
+<br>
+<!--End the main content table-->
+
+
+</body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3009857-1";
+urchinTracker();
+</script>
+</html>

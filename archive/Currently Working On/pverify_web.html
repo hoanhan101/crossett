@@ -1,0 +1,127 @@
+<!--{toplogo}-->
+<div class="pageContentInner">
+<h1 class="pageHeader">My Library Account: View/Renew Library Materials</h1>
+<div class="form1Part formLogin" id="accessibleForm">
+<!--{formbegin}-->
+<!--{iferrmsg}-->
+<span class="errormessage">
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</span>
+<!--{xif}-->
+
+<fieldset>
+<legend>
+<!--{enterinfo}-->
+<TABLE WIDTH=100% style="color:#000">
+</legend>
+
+<!--{ifextpat}-->
+<h2>Students, Staff, and Faculty</h2>
+<div class="formEntryArea">
+<label for="extpatid"><span class="formLabel">
+Username:
+</span></label>
+<!--{extpatid}-->
+<label for="extpatpw"><span class="formLabel">
+Password:
+</span></label>
+<!--{extpatpw}-->
+</div>
+<h2>Visitors</h2>
+<!--{xif}-->
+
+<!--{ifneedpatronname}-->
+<TR><TD></TD><TD><FONT SIZE=-1>
+Example :  della rocca, jared</FONT></TD></TR><TR><TD>
+<!--{nameprompt}-->
+</TD><TD>
+<!--{name}-->
+</TD></TR>
+
+
+
+</div>
+<!--{xif}-->
+
+<!--{ifneedpatronverify}-->
+<TR><TD></TD><TD><FONT SIZE=-1>
+Your barcode is the series of 5 digits underneath your name on your College ID Card.
+</FONT></TD></TR>
+<TR><TD>
+Barcode:
+</TD><TD>
+
+<!--{barcode}-->
+</TD></TR>
+</span>
+</div>
+
+<!--{ifneedspin}-->
+
+<!--{iferrmsgisPIN}-->
+<TR><TD COLSPAN=2>
+<!--{newpinmsg}-->
+</TD></TR><TR><TD>
+<div class="formEntryArea">
+<!-- <label for="pin1"> -->
+<span class="formLabel">
+<!--{pin1prompt}-->
+</span>
+</TD><TD>
+<!--{pin1}-->
+</TD></TR><TR><TD>
+<!-- </label> -->
+</div>
+<div class="formEntryArea">
+<!-- <label for="pin2"> -->
+<span class="formLabel">
+<!--{pin2prompt}-->
+</span>
+</TD><TD>
+<!--{pin2}-->
+</TD></TR>
+<!-- </label> -->
+</div>
+
+<!--{else}-->
+<div class="formEntryArea">
+<TR><TD></TD><TD><FONT SIZE=-1>
+<!--{pinprompt}-->
+<!--{pin}-->
+<span class="formLabelExample">
+<!--{pininstructions}-->
+</FONT></TD></TR>
+</span>
+</div>
+
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+</TABLE>
+    <!--{ifalternate_id}-->
+    <!--{user_name}-->
+    <!--{xif}-->
+
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+<!--{submit}-->
+<input type="submit" class="submitHidden">
+</div>
+</fieldset>
+<!--{startover}-->
+<!--{formend}-->
+
+</div>
+
+</div><!-- pageContentInner -->
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>

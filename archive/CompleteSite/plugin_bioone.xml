@@ -1,0 +1,37 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>BioOne</ShortName>
+<Description>Articles on biology</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAAOAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAADYimUk/gEpDbWZenfX0/WJbsk9JrPv7
+/bq+4m980G57u4eW1DtPlH2NwUVZkl50srjJ8Obr9mV5nKe31cfY9NPg9lBninWNrZatyrLM1Of2
++/H7/Yqsrd/u7vr///3///7//8Pb2qe/vc7l4m6ShPH29Pz+/f///yH5BAEAAP8ALAAAAAAQAA4A
+AAjeAAEA+JaOG4B5+/TxsxJvHj4AD7+BAycQgL988fbxo9fvIT5w3sDdm9cOnjp48eI9aQgg3Z9x
+48qJCyeuXMxz8N6p07eOnLx4J9nJ8zcvHrwqqmJpmznuST1//g6mbLcNm6ps6tCZK8euXT5979y5
+y4atbLZz69ChE+fu3T558+SJi2X2HTl29uLlE4jP3751ILFli9f2Hbx26dqtK+cO3rxuguXRy2kz
+3Dlx76qMC6dKsL189J6wY1eOpT9wf7wJBvB5o96oAOpVQVcOmzaB9uop5LeiX8t036qw0hYQADs=</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-www.bioone.org.library.bennington.edu/perlserv/?request=search-simple&amp;searchtype=simple&amp;previous_hit=0&amp;lname_boolean=ALL&amp;lname=&amp;fname_boolean=ALL&amp;fname=&amp;affiliation_boolean=ALL&amp;affiliation=&amp;coll_id=All&amp;issn=All&amp;anywhere_boolean=ALL&amp;anywhere={searchTerms}&amp;title_boolean=ALL&amp;title=&amp;abstract_boolean=ALL&amp;abstract=&amp;biblist_boolean=ALL&amp;biblist=&amp;year_start=&amp;month_start=&amp;year_end=&amp;month_end=&amp;volume_start=&amp;issue_start=&amp;volume_end=&amp;issue_end=&amp;hits_per_page=10&amp;sort=relevance#results">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-www.bioone.org.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

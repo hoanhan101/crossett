@@ -1,0 +1,35 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Credo Reference</ShortName>
+<Description>Search a vast array of reference materials at once.</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-ico;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAABMLAAATCwAAAAAA
+AAAAAAD/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////17ezDkIq6fnfImZPImZPPpaHx5eT////////////////////////////////27u6lV06z
+cWn06un////7+PfkzMrAi4Xo1NL////////////////////////////Fk42aQjj38fD/////////
+///////06unAi4Xp1dP////////////////////9/PyrYlqwbGT+/fzw5OL////////////////w
+4+HAi4Xz6ej////////////////8+fmnW1OzcWn////PpaHJmpXz6ej////////////hyMXcvbr/
+///////8+fn27u3q19WmWlGcRz7y5uX8+vrn0tDDj4n37+7////////9+/v8+fn////au7e3enPG
+lY/Trai7gHmNKyC3eHHJm5bQp6LCjojZubb////////////////aurahUEbn0tD////////38fCY
+QDa7gXr+/f3m0c+1dW6uaWH59PT///////////+/h4GwbWX////////////////UrqqPLyTjy8n/
+///RqqaoXlWuaWH7+Pf////////bvLmVOjDZuLX///////////////+/h4GjVEvNop3Traj7+Piq
+YFjLnpn////////////gxcKzcmu7gXrRqqbWs6/QqKPImpSvamKoXlXz6ej////Ekoy4fHX/////
+///////////////17ezy5uXy5uX17ez////////dwb3CjYfOpJ+wbGTZuLT/////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////8AABQ9AACXugAAszwAAII9AACHPQAALD0A
+AEE9AAAZPQAA7LwAAL+9AAAJvgAA4L0AALe8AAACPQAApj0AAJ89</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-www.credoreference.com.library.bennington.edu/results.jsp?meta_long=prefer&amp;new_meta=1&amp;term={searchTerms}&amp;Submit.x=0&amp;Submit.y=0&amp;Submit=search">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-www.credoreference.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

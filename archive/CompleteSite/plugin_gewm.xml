@@ -1,0 +1,38 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>The Garland Encyclopedia of World Music</ShortName>
+<Description>As opposed to outer space music</Description>
+<InputEncoding>UTF-8</InputEncoding>
+
+
+
+<Image width="16" height="16">data:image/x-gif;base64,R0lGODlhEAAQAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAALR0dXhSU9+eoItZXF1AQsuOkqhjaYVd
+YXxxYzkvJk9FPGxfVfrl1ebLu//u5Us7Nvfb0oxjWdWwp/TMwsabkva5rriPiM2imsORieazq+y+
+t9+5s9GPiMWMhemnoNadlqaAe/m9t9ynoqBvbOObmWpHR72Cgf///yH5BAEAAP8ALAAAAAAQABAA
+AAj5ANWhM2eO3Lp32Px14xauIatw+PC9k4dunb4D6rppczeuYThz6NS580fy3Tx8XfQdPBdu3kBy
+5dzh27YtW7h+3uSBC8fOHbt4B+TJe7cv2zlW/e6x+4hungx/9fTJU5dtnLhz/uSJm7eOnLly8Lrs
+8zcTnzt96PCx8wdPXbyE2LzJ7YaurjqQ89jto5mtn99s2OKtO1juYLd79er1HOnunmB18Pxhm+wv
+X7t72uSty7fuADqD79L1y+aPX7t29lILZUdPX7x327id65cOm758qePBnPeuHlmjDfth4xev3TvB
+6MqpQ1w0uDd67ZSzVmkwnrqO3LZh6xYQADs=</Image>
+
+
+
+<Url type="text/html" method="get" template="http://0-glnd.alexanderstreet.com.library.bennington.edu/Search/{searchTerms}">
+  <Param name="" value=""/>
+...
+<Param name="" value=""/>
+</Url>
+<Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+<moz:SearchForm>http://0-glnd.alexanderstreet.com.library.bennington.edu/</moz:SearchForm>
+</OpenSearchDescription>

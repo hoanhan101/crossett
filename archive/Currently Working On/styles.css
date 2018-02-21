@@ -1,0 +1,1114 @@
+/*<!-- 2006 WebPAC Pro Version, set from 26 March, 2007 -->*/
+/*<!-- This file last changed: 17 August, 2006 -->*/
+/* *******************************************************************
+
+The new example set has a separate Internet Explorer (IE) css file. You must make similar changes to your IE style sheet in
+order for the same display across browsers. The IE style sheet is ie_styles.css 
+
+The ie_styles.css file contains only styles that are used to correct the IE css implementation to create a cross browser
+compatible theme.  This style sheet is inserted by conditional comments in the head of any html page or with the 
+INSERTTAG_INHEAD wwwotion.  The correct conditional statement follows:
+
+<!--[if lte IE 8]><link rel="stylesheet" media="all" type="text/css" href="/screens/ie_styles.css" /><![endif]-->
+
+
+********************************************************************** */
+
+/* general appearance */
+/* See also Web Option BODYPARAM */
+
+/* Stylesheet to use for dynamic Web pages */
+/* is set by Web Option STYLESHEET */
+
+/* COLOR SCHEME (use find & replace to swap colors) */
+/* border and tab pale moss green : d9e8d8 */
+/* manilla background color: FFF8EF */
+/* moss green: bcd1ba */
+/* dark moss green: 65af5f*/
+/* very dark blue: 162A6D  --  Revisit this color-  look at instances and change */
+/* light blue used in table striping : d9e8d8 */
+/* light yellow used in table highlighting : FFFBC6 */
+/*redish purple: 990066- replaced with B21000 in 04.2009*/
+/*pageNavArea and toplogo: d9d9d9*/
+
+/*pale moss green: d9e8d8*/
+/* pale grey: f3f3f3*/
+/* moss green: bcd1ba*/ 
+/*darker moss green: 65af5f*/
+/* medium grey: d9d9d9 */
+/* dark grey: 666666*/
+/* very dark grey: 333333 */
+/* blue highlight: 0000ff */
+/*redish purple: 990066*/
+/*light brownish yellow highlight: ffe5b2*/
+/*yellow highlight, heading backgrounds in some areas FFFBC6- experimental fcd383*/
+
+
+
+
+/*Colors and style info for BC merge*/
+/*background color  - tan: #F0EABA*/ /*but when sample bodybkgrnd.jpg, it is f2ecc8*/
+/*Link color - pale blue: #336699*/
+/*dropdownmenu lt blue link color- #9dbfe2*/
+/*text color  - light grey:#555*/
+/*basic background - off white - #fff*/
+/*sub header - blueisgrey-green - #4e7177*/
+/*Main header brick red - #B21000  or 7d2a0a- almost the exact same*/
+/*mainheader warm red- #b1310d*/
+
+
+
+/*=====BEGIN CCROSSETT SPECIFIC TAGS======*/
+
+
+/*BUTTON COLORS*/
+/*all .psd files are editable image versions of buttons.  add layers to add and arrange text.  save new buttons as .gif files.  keep the .psd files so you have an editable template.  the gif files compress the layers, and you cannot go back and separate them to edit layers individually.*/
+/*button and small buttons=b8e3ec*/
+/*cancel buttons merely had ffoooo masked over the shape layer to make button red.  opacity level was 75-100% or something.*/
+/*arrow button=efca71*/
+
+/* Section 1 */
+/*Global tag styles*/
+
+
+
+
+
+
+
+table.Candywapper {width:100%;}
+
+table.SS_EJPTable {width:100%;}
+
+
+
+/*body { font-size:11px; margin: 0; padding: 0; background-color: #f3f3f3; font-family : Geneva, Geneva, Verdana, Verdana, Verdana;  font-style : normal; font-weight : normal; }*/
+
+body {
+	font: 11px/17px Arial, Helvetica;
+	color: #555;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	background: #f2ecc8;
+	background-image: url(../screens/bodyBckgrnd.jpg);
+	background-repeat: no-repeat;
+	background-position: top center; 
+	height:500px;
+	min-height:500px
+}
+
+
+
+p {font-size: 11px; color: #555;}
+
+ul {font-size: 11px;color: #555;list-style-image: url('arrow_red.gif');}
+
+ol {font-size: 11px; color: #555;}
+
+jump {font-size: 8px; color: #555;}
+
+/*div, table { clear: both; }*/
+
+.smallest {font-size: 8px;}
+
+.indent {padding-left: 30px;}
+
+
+/*botlogo style information- was footer in benningtonSub.css*/
+#footer {
+	position: relative;
+	margin: 0px auto 20px auto;
+	padding: 15px 0 4px 0;
+	height: 30px;
+	width: 875px;
+	/*border-top: 10px solid #8f1c07;
+	border-bottom: 1px solid #ddd9af;*/
+	text-align: left;
+	color: #605b45;
+	font-weight: normal;
+	font-size: 11px;
+	clear: both;
+	background:transparent;
+}
+
+#footer p { margin: 0 0 0 30px; padding: 0 }
+
+#footer span { position: absolute; top: 7px; left: 230px }
+
+
+/* mainmenu.html search box */
+.catalog { width:50%; align: right; text-align: left; padding: 5px; padding-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left:5px; background-color: #d9e8d8; vertical-align: top; font-size: 11px;}
+
+/*mainmenu large purple news notice*/
+.lgmainmenunotice {color: #B21000; font-size: 12px; font-weight: bolder; text-align: center; vertical-align: center;line-height:22px;} 
+
+a.lgmainmenunotice:link {font-size: bold 12px; color: #336699;text-decoration:none}
+a.lgmainmenunotice:active {font-size: bold 12px; color: #336699;text-decoration:underline}
+a.lgmainmenunotice:hover {font-size:bold 12px; color: #336699;text-decoration:underline}
+a.lgmainmenunotice:visited {font-size:bold 12px; color: #336699;text-decoration:none}
+
+
+
+/*TABLES TABLES TABLES*/
+
+/*This is the general table style information. */
+td { font-family : Arial, Helvetica;  font-style : normal; font-size: 11px;}
+
+
+/*td { font: 12px/17px Geneva, Geneva, Verdana, Verdana, Verdana; padding: 7px 10px 7px 0 font-weight : 
+600;}*/
+
+th { font-family : Arial, Helvetica; relative-size : larger;}
+
+/*The calendar entries control only the style of the calendar table.  the calendarTH controls the formatting of the days of the week cells in the first row.*/
+
+.calendarTable {width:100%; border-collapse: collapse; border: 1px solid #333333; color: #333333;}
+
+.calendarCaption { font-weight: bold; color: #B21000;}
+
+.calendarTH {padding: 3px; font-weight: bold; border: 1px solid #333333;}
+
+.calendarNum {padding: 3px; font-weight: bold; border-right: 1px solid #333333; border-right: 1px solid #333333}
+
+.calendarTD {padding: 3px; width: 100px; height: 60px; border-right: 1px solid #333333; border-left: 1px solid #333333;border-bottom: 1px solid #333333; align:center; vertical-align: center; font-size: 80%;}
+
+.filmTable {width:auto; vertical-align:center; border-collapse: collapse; border: 1px solid #333333; color: #333333;}
+
+.filmTD {padding: 3px; width: 100px; border-right: 1px solid #333333; border-left: 1px solid #333333;border-bottom: 1px solid #333333; vertical-align:center; font-size: 11px;}
+
+.contactTD {padding: 3px; font-size: 11px;}
+
+.sortable {width:100%; border-collapse: collapse; border: 1px solid #65af5f; color: #333333; vertical-align:center;}
+
+.dbHeader {padding: 6px; font-size: 12px; border-collapse: collapse;  border: 1px solid #65af5f; background-color:#d9e8d8; color: #333333;}
+
+td.dbAlpha {padding: 6px; font-size: 11px; border-collapse: collapse; border: 1px solid #65af5f; color: #333333;}
+
+td.dbDesc {padding: 6px; font-size: 11px; border-collapse: collapse; border: 1px solid #65af5f; color: #333333;}
+
+td.dbFocus {padding: 6px; font-size: 11px; border-collapse: collapse; border: 1px solid #65af5f; color: #333333;}
+
+.reftiptable {width:70%; border-collapse: collapse; border: 1px solid #333333; color: #333333;}
+
+.MainMenuColumns {height:80px; width:196px; vertical-align: top;}
+
+/*END OF TABLES*/
+
+.caution { color: #B21000;}
+
+.clock { color:#333333; align:right; vertical-align: center; font-size: 11px;}
+
+.noAccess { font-size:88%; color: #B21000;}
+
+.pageMainAreaSuperHeader {color: #B21000; font-size: 20px; font-weight: bolder; text-align: left;}
+
+.pageMainAreaDivHeader { color: #4e7177; font-size: 14px; font-weight: bolder; text-align: left; border-bottom: 1px solid #dcdcdc;}
+
+.pageMainAreaLittleHeader { color: #4e7177; font-size: 12px; font-weight: bolder; text-align: left; border-bottom: 1px solid #dcdcdc; }
+
+/* control over mainmenu and opacmenu pages layout */
+.sections td { vertical-align: top; padding-bottom: .5em; width:50%; font-size:11px;}
+.sections td td { vertical-align: middle;}
+.sections .right-column  {vertical-align: top; font-size:11px;}
+
+/*=====END CROSSETT SPECIFIC TAGS=========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This rule causes search form elements to resize along with the rest of the text on the page if the user resizes text.  */
+input, select, textarea {font-size: 95%; }
+
+
+/* This rule uses CSS2 to give a nicer effect in compliant browsers, while avoiding an annoying display effect in Internet Explorer 6 */
+input[type=checkbox], input[type=radio] {background: transparent; border: 0;}
+   
+
+strong { font-weight: bold; }
+
+
+/*traditional link colors are suggested for better usability */
+a:link { color: #336699; text-decoration:none}
+a:active{ color: #336699; text-decoration:underline}
+a:visited { color: #336699; text-decoration:none } 
+a:hover  { color: #336699; text-decoration: underline  } 
+
+A.pageNavAreaText:LINK, A.pageNavAreaText:VISITED {  color: #336699; text-decoration: none; font-weight: bold;   }
+
+A.pageNavAreaText:ACTIVE, A.pageNavAreaText:HOVER {  color: #336699; text-decoration: none; font-weight: bold; }
+
+
+
+
+/* Section 2 */
+/* named styles listed in alphabetical order */
+
+.additionalCopies {padding:0 15px 0 15px;}
+
+.additionalCopies th.bibItemsHeader { color: #333333; font-size:90%; font-weight: bold; text-align: center; background:#bcd1ba; border:0px; }
+
+.additionalCopiesNav {}
+
+/*controls display of authority redirect information */
+.authorityRedirect { border: 2px solid #bcd1ba; padding:5px; text-align:center; }
+
+.authPublicNote { font-size: 80%; background: #f3f3f3; } 
+
+
+/* This is used in the Materials Booking calendar */
+.available { font-weight: bold; color: green; }
+
+.availLimMessage { font-style: italic; text-align: left; }
+
+
+/* classes for bib display */
+/* see also Web options TABLEPARAM_BIB... */
+
+.bibBookingsHeader { font-weight: bold; text-decoration: none; padding: 3px; border: 1px solid #666666; background: #FFFBC6; margin-bottom:8px;}
+
+.bibDetail {background-color: transparent;}
+
+.bibHoldings {border: 0px; }
+
+.bibHoldingsEntry { font-size:90%; border-bottom:1px solid #EEEEEE;border-top:1px solid #EEEEEE;border-right:1px solid #EEEEEE;}
+
+.bibHoldingsHeader { }
+
+.bibHoldingsLabel { font-size:90%; border-bottom:1px solid #EEEEEE;border-top:1px solid #EEEEEE;border-left:1px solid #EEEEEE;}
+
+.bibHolds { font-size:90%; border: 1px solid #666666; }
+
+.bibHoldsEntry { font-size:90%; border: 1px solid #666666; }
+
+.bibInfo { }
+
+.bibInfoData {font-size:75%;}
+
+.bibInfoEntry { }
+
+.bibInfoLabel { width: 15%; font-size:75%; text-align: right; padding-right: 1em; background-color: #bcd1ba; font-weight: bold; font-style: italic; }
+
+.bibItems { border:0px; padding:0 3px 3px 3px; margin:0px;}
+
+.bibItemsEntry { color: #333333; text-align: left; font-size:90%; }
+
+.bibItemsEntry td {border-bottom:1px solid #EEEEEE; font-size:90%; }
+
+.bibItemsHeader { color: #333333;font-size:90%; font-weight: bold; text-align: left; border-bottom:1px solid #d9e8d8;}
+
+.bibItemsLabel { }
+
+.bibLicense { }
+
+.bibLicenseEntry { color: #333333; background: #FFFBC6; text-align: left; }
+
+.bibLicenseHeader { color: #333333; background: #FFFBC6; font-weight: bold; text-align: left; }
+
+.bibLinks { border: 2px solid #ffe5b2;  }
+
+.bibOrder { border: 1px solid #ffe5b2; font-size:90%;}
+
+.bibOrderEntry { }
+
+.bibPager { text-align:right; font-size:85%; padding:5px 0 5px 0; }
+
+.bibRecordLink { font-size:82%; padding-left: 6px; font-style: italic; }
+
+.bibResource { }
+
+.bibResourceBrief { }
+
+.bibResourceCaption { }
+
+.bibResourceEntry td { font-weight: bold; }
+
+.bibResourceHeader { }
+
+.bibResourceLicense td { padding-bottom: 5px; }
+
+.bibResourceLicenseEntry { background: #FFF99D; }
+
+.bibResourceSubEntry { border-bottom: 1px solid #ffe5b2; background-color: #FFFBC6; font-style: italic; }
+
+.bibResourceTable, .browseResourceTable { margin-top: 10px; border:0px; }
+
+.bibResourceTableEntry { font-size: 85%; font-weight: normal; padding-left: 1px; background:#d9e8d8;}
+
+.bibResourceTableHeader, .browseResourceTableHeader { color:#333333;font-weight: bold; font-size: 85%; background: #666666; padding: 1px; text-align: center; border-bottom:1px solid #7e4a1f; } 
+
+.bibScreen { }
+
+.bibSearchtool { background:#d9e8d8; width:70%; padding:5px 0 0 0; font-size: 100%; }
+
+.bibThumbnails { }
+
+.bibTOC { width: 90%; font-size: 90%; margin-left: 30px; border: 1px solid #666666; padding: 3px; margin-bottom: 3px; }
+
+.bibTOC td { border-bottom: 1px solid #666666; }
+
+.bibXML { }
+
+
+/* control over mainmenu and opacmenu pages layout */
+.biglogo { margin-left:17px; width:350px; height:125px}
+
+/* These are used for Materials Self-Booking */
+.bookingsConfirmMsg { font-weight: bold; text-decoration: none; padding-bottom: 5px; background: #FFFBC6; }
+
+.bookingsItemsEntry { }
+
+.bookingsItemsHeader { }
+
+.bookingsLegend { }
+
+.bookingsLocation { }
+
+.bookingsRepeat { margin-left: 15px; margin-right: 15px; border: 1px solid #666666; padding: 3px; }
+
+.bookingsRepeatNone { }
+
+.bookingsRepeatDaily { }
+
+.bookingsRepeatWeekly {  }
+
+.bookingsRepeatWeeklyDay { margin-left: 30px; }
+
+.bookingsRepeatMonthly {  }
+
+.bookingsEndsOn {  }
+
+.bookingsSelect { width: 90%; margin-left: 5%; margin-bottom: 1em; }
+
+.bookingsSelectCal { width: 90%; margin-left: 5%; text-align: center; background: #d9e8d8; border: 2px solid #bcd1ba; margin-bottom: 1em; }
+
+.bookingsSelectCal table { margin: auto; border: none; font-size: 95%; } 
+
+.bookingsSelectCal th { text-align: center; border: none; } 
+
+.bookingsSelectCal td { border: 1px solid #bcd1ba; }
+
+.bookingsSelectEndtime { margin-left: 10px; }
+
+.bookingsSelectRepeat { margin-top: 5px; margin-bottom: 5px; }
+
+.bookingsSelectTime { background: #d9e8d8; border: 2px solid #bcd1ba; padding: 3px; }
+
+/* Brief Citation display styles */
+.briefcitActions { padding:5px 0 5px 0;text-align: left; }
+
+.briefcitDetail { font-size: 75%; padding:0 0 0 8px; }
+
+.briefcitDetail img { padding-top: 2px; }
+
+.briefcitExtras { font-size: 80%; text-align: center; white-space: nowrap; }
+
+.briefcitExtras img { padding-bottom: 2px; }
+
+.briefcitItems em { font-size: 90%; }
+
+.briefcitItems table { }
+
+.briefcitItems th, .briefcitItems td { font-size: 75%; }
+
+.briefcitItems .bibItemsHeader { padding:0;}
+
+.briefcitResultInfo { text-align: left; font-size:90%; }
+
+.briefcitRequest {  }
+
+.briefCitRow { border-top:1px solid #d9e8d8; background:#f2ecc8;}
+
+.briefcitStatus { font-weight: bold; }
+
+.briefcitTitle { font-weight: bold; }
+
+/* classes for browse displays */
+/* See also Web options BROWSE_HEADERS, TABLEPARAM_BROWSE..., TABLEPARAM_BRIEFCIT */
+.browseEntry { color: #333333; font-weight: normal; }
+
+.browseEntry td { border-top:1px solid #bcd1ba;}
+
+.browseEntryData { text-align: left; }
+
+.browseEntryEntries { text-align: center; }
+
+.browseEntryMark { font-weight: bold; }
+
+.browseEntryMedia { vertical-align: middle; }
+
+.browseEntryNum { text-align: center; }
+
+.browseEntryRelevance { background:#bcd1ba;}
+
+.browseEntryYear {text-align: center; }
+
+.browseHeader { text-align:left; background:#bcd1ba;color:#333333;  }
+
+.browseHeaderData { text-align:left; padding:0 0 0 3px; }
+
+.browseHeaderEntries {  }
+
+.browseHeaderMark { }
+
+.browseHeaderMedia { }
+
+.browseHeaderNum {  }
+
+.browseHeaderRelevance {  }
+
+.browseHeaderYear { }
+
+.browseList { }
+
+.browsePager { }
+
+.browseResourceTableEntry { color: #333333; background:#d9e8d8; font-size: 85%; font-weight: normal; text-align: center; padding-left: 1px;  }
+
+.browseSaveJump { color: #333333; background: #bcd1ba; text-align: left; padding:3px;}
+
+.browseSaveJump form { display: inline; }
+
+.browseScreen { }
+
+.browseSearchtool { background: #d9e8d8; margin-left: auto; margin-right: auto; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; border: 1px solid #bcd1ba; }
+
+.browseSearchtoolMessage { font-size: 90%; } 
+
+.browseSubEntry { color: #333333; font-weight: normal;  }
+
+/*.browseSubEntryData {background: #d9e8d8; }*/
+
+/* Is an Entries column ever drawn in Extended browse? */
+.browseSubEntryEntries { }
+
+.browseSubEntryMedia { }
+
+.browseSubEntryRelevance { }
+
+.browseSubEntryYear { }
+
+.browseSuperEntry td { background: #d9e8d8; padding:0 0 0 3px;  }
+
+.button { vertical-align: middle;}
+
+/* This is used in the Materials Booking calendar */
+.closed { font-weight: bold; color: red; }
+
+.errormessage { font-size: 100%; color: #FF0000; }
+
+.errormessage h2 { display:inline; }
+
+/* External Patron Authentication product style */
+.extpat div { line-height: 1.66em; width: 90%; background: #d9e8d8; border: 2px solid #bcd1ba; padding: 3px; margin-left: auto; margin-right: auto; text-align: right; }
+
+/* External Patron Authentication product style */
+.extpat strong { display: block; text-align: left; }
+
+/* Feed table link styles */
+.feedtable a:link, .feedtable a:visited, .feedtable a:active  {color:#336699; text-decoration:none; font-size:90%;}
+.feedtable a:hover  {color:#336699; text-decoration:underline;font-size:90%;}
+
+/* used for search help pages tabbed navigation */
+.fields td { padding: 2px; }
+
+
+/* This is used in the featured list display */
+.ftlistHeader { }
+
+.helpNote { font-size: 90%; font-style: italic; }
+
+.helpspan {padding-right:.5em; font-size:90%}
+
+.holdingsDivider { display:none; margin:-3px}
+
+.holdingsItemsBookings { margin:0 0 8px 0; }
+
+.InnovativeCredit {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 70%; font-style: italic}
+
+/* Used in Related Searches display */
+div#instructions { font-size: 90%; font-style: italic; }
+
+.KidsOnline {  font-family: "Comic Sans MS", Verdana, Geneva, Arial, Helvetica, sans-serif; font-weight: bold}
+
+/* External Patron Authentication product style */
+.libpat div { line-height: 1.66em; width: 90%; background: #d9e8d8; border: 2px solid #bcd1ba; padding: 3px; margin-left: auto; margin-right: auto; text-align: right; }
+
+/* External Patron Authentication product style */
+.libpat strong { display: block; text-align: left; }
+
+
+/* Styles used in Limit/Sort Search page - srchmod.html */
+.limitEntriesFoundNum { font-size: 90%; font-style: italic; }
+
+.limitEntriesFoundText { font-size: 90%; font-style: italic; }
+
+.limitSearchTerm { font-size: 90%; font-weight: bold; }
+
+.limitSearchTypeText { font-size: 90%; }
+
+.limitSearchTypeIndex { font-size: 90%; }
+
+
+.loggedInMessage {	padding-left: 6px; font-style: italic; color: #B21000; font-size: 90%; }
+
+/* External Patron Authentication product styles */
+.loginarea { }
+
+.main { margin-left: 20px; margin-right: 20px; }
+
+/* used for search help pages tabbed navigation */
+#main {margin-left:15px; margin-right:15px; font-size:90%}
+
+#main a:link { color: #336699; }
+
+#main a:hover { color:#B21000; text-decoration: underline; }
+
+#main a:visited { color: #336699;  } 
+#main div {padding-top:.2em}
+#main .tabs a:link, #main .tabs a:visited { color: #336699; text-decoration: none; }
+#main .tabs a:hover { color: #336699; text-decoration: underline; }
+
+/* control over mainmenu and opacmenu pages layout */
+
+/*#MainMenuPage {position:absolute; width: 785px; height: 380px; margin: auto 22% auto 22%; background-color: #fff; }*/
+
+#MainMenuSearchBox {position:absolute; top: 80px; left: 4px; width: 392px;}
+
+#MainMenuNotice {Position:absolute; top: 85px; right: 4px; width: 380px;}
+
+#MainMenuLeftColumn {position:absolute; top: 200px; left: 4px; width: 392px; }
+
+#MainMenuRightColumn {position:absolute; top: 200px; right: 4px; width: 392px; }
+
+
+
+
+.metacatalog { text-align: left; padding: 20px; padding-top: 1em; margin-bottom: 0px; margin-right: 20px; margin-left:20px; background-color: #d9e8d8; vertical-align: top; font-size: 80%; height:150px}
+
+
+.msg { font-size: 100%; color: #FF0000; }
+
+.navigationRow { margin: 3px; }
+
+.navigationRow select { vertical-align: top; }
+
+.nowrap {white-space: nowrap; }
+
+.pageDirectoryArea { color: #333333; text-align: left;  }
+
+.pageInfoAreaHeader { color: #333333; background: #d9e8d8; font-size: 110%; font-weight: bolder; text-align: left;  }
+
+.pageMainArea { color: #555; background: #fff; padding-left: 3px; }
+
+.pageMainAreaHeader { color: #B21000; font-size: 18px; font-weight: bolder; text-align: left; }
+
+.pageMainAreaSubHeader { font-weight: bold; color: #4e7177; border-bottom: 1px solid #dcdcdc;}
+
+.pageNavArea { color: #555; background: #d9d9d9; }
+
+.pageNavAreaBorder { background: #7d2a0a;}
+
+.pageNavAreaText {  color: #555; text-decoration: none; font-weight: bold; background-color: #d9d9d9; }
+
+
+/* classes for patron record display  */
+/* see also Web options TABLEPARAM_PATDISP, TABLEPARAM_PATFUNC, */
+/* and the various BUT_PAT_ graphics options. */
+
+.patActionsLinks { text-align: center; clear: both; padding: 10px; }
+
+.patActionsLinks img { vertical-align: middle; }
+
+.patDisplay { }
+
+.patDisplayFunc {}
+
+.patDisplayInfo { }
+
+.patFunc { border-top: 0px solid #bcd1ba; border-spacing: 0; width: 100%; }
+
+.patFunc td { padding: 5px; font-size: 90%; border-bottom: 1px solid #bcd1ba; }
+
+.patFuncArea { border: 0px ; margin: 3px; }
+
+.patFuncArea form { display: inline; }
+
+.patFuncArea img { padding-top: 2px; } 
+
+.patFuncAuthor { }
+
+.patFuncBookDate { }
+
+.patFuncBtns { color: #333333; background: #d9e8d8; }
+
+.patFuncCallNo { }
+
+.patFuncCancel { text-align: center; }
+
+.patFuncDate { }
+
+.patFuncDetails { }
+
+.patFuncEntry { color: #333333; background: #d9e8d8; font-weight: normal;  }
+
+.patFuncFinesDetailAmt { }
+
+.patFuncFinesDetailDate { }
+
+.patFuncFinesDetailDateLabel { }
+
+.patFuncFinesDetailType { }
+
+.patFuncFinesEntryDetail td { border-bottom: 1px solid #bcd1ba; }
+
+.patFuncFinesEntryTitle { color: #333333; background: #bcd1ba; font-weight: normal;  }
+
+.patFuncFinesTotal { }
+
+.patFuncFinesTotalAmt { font-weight: bold; }
+
+.patFuncFinesTotalLabel { }
+
+.patFuncFreeze { }
+
+.patFuncHeaders { color: #333333; background: #bcd1ba; padding-left: 3px; padding-right: 3px; font-size: 80%; }
+
+.patFuncMark { }
+
+.patFuncModifyPatInfo { }
+
+.patFuncModifyPIN { }
+
+.patFuncModifyPINExample { }
+
+.patFuncNoEntries { }
+
+.patFuncPickup { }
+
+.patFuncPSrchBtn { }
+
+.patFuncPSrchType { }
+
+.patFuncRating { }
+
+.patFuncRenewCount { font-style: italic; color: red; }
+
+.patFuncStatus { }
+
+.patFuncTitle { font-weight: normal; }
+
+.patHelpLinks { border: 1px solid #bcd1ba; border-top: none; width: 275px; padding: 3px; margin-left: 5px; margin-right: 5px; background: #d9e8d8; }
+
+.patHelpLinks a { text-align: right; display: block; border-bottom: 1px #bcd1ba solid; padding: 2px; }
+
+.patImage { }
+
+.patInfo { }
+
+.patMainFuncs { float: left; }
+
+.patNameAddress { text-align: left; border: 1px solid #bcd1ba; width: 275px; float: left; padding: 5px; }
+
+.patSearchLinks { }
+
+.patStatusLinks { border: 1px solid #bcd1ba; border-bottom: none; width: 275px; padding: 3px; margin-left: 5px; margin-right: 5px; background: #d9e8d8; float: left; }
+
+.patStatusLinks a { text-align: left; display: block; border-bottom: 1px #bcd1ba solid; padding: 2px; }
+
+
+
+
+.paymentPage { margin: 10px; }
+
+.paymentPage h2 { font-weight: bold; }
+
+.paymentPageFinestable { width: 80%; border: 2px solid #bcd1ba; }
+
+
+.popupForm { font-size: 90%; }
+
+.popupForm td { font-size: 90%; }
+
+/* These are used in the Related Searches display in the Search Tool */
+.rateLabel {color:#333333;}
+.rateLabel a:active, .rateLabel a:visited ,.rateLabel a:link {color:#336699;text-decoration:none}
+.rateLabel a:hover {color:#336699;text-decoration:underline}
+
+.relSearchLabel { }
+
+.relSearchLink { }
+
+.reqFillTimeMsg { font-style: italic; font-size: 90%; }
+
+.reserveBibs { border: 2px solid #666666; background-color: #fff;}
+
+.reserveBibs td { border-bottom: 1px solid #bcd1ba; }
+
+.reserveBibs input { background-color: #d9e8d8; }
+
+/* Resource Record display */
+.resourceBib { }
+
+.resourceBibEntry { color: #333333; background: #d9e8d8; text-align: left; }
+
+.resourceBibHeader { color: #333333; background: #bcd1ba; font-weight: bold; text-align: left; }
+
+.resourceInfoData { }
+
+.resourceInfoLabel { background: #d9e8d8; font-style: italic; }
+
+.resourceLicense { }
+
+.resourceLicenseEntry { color: #333333; background: #d9e8d8; text-align: left; }
+
+.resourceLicenseHeader { color: #333333; background: #d9e8d8; font-weight: bold; text-align: left; }
+
+.resourceLinkEntry { }
+
+.resourceResource { }
+
+.rssChannelEntries { padding:5px 0 5px 0 ; }
+
+.rssChannelEntry { padding: 4px; }
+
+.rssChannelEntryDate { font-size: 11px; font-style: italic; }
+
+.rssChannelEntryDesc { font-size: 11px; }
+
+.rssChannelEntryHead { font-size: 11px; font-weight: bold; display: list-item; padding-bottom: 2px; }
+
+.rssChannelImage img { border: 0; margin-top: 2px; }
+
+.rssChannelTitle { font-weight: bold; }
+
+.rssFeed { padding: 5px; margin: 2px; border: 1px solid #bcd1ba; }
+
+.searchTipsNavAreaText {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; background-color: #bcd1ba; }
+
+.searchTipsHeaderText {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #333333; text-decoration: none; font-weight: bold; background-color: #bcd1ba; }
+
+.sectionHeading { font-weight: bold; }
+
+/* This is used in the patron views of holds */
+.suspended td { font-size: 11px; url(/screens/icicles.gif) repeat-x top; }
+
+.topicFeeds { clear: none; float: right; width: 60%; padding: 5px; }
+
+.topicLinks { clear: none; float: left; padding: 5px; width: 35%; }
+
+.topicLinks ul { padding: 5px; padding-left: 20px; margin: 2px; border: 1px solid #bcd1ba; }
+
+/* This is used in the Materials Booking calendar */
+.unavailable { font-weight: bold; color: black; background: #D7D7D7; }
+
+.unpadded { margin-bottom:auto; margin-top:auto; }
+
+.wamCalcDate{ background: #ECECEC; border: 1px silver dashed; font-size: 11px;  }
+
+.xmlframe { width:100%; height:600px; border:1px solid #000; }
+
+.yourEntryWouldBeHere { }
+
+.yourEntryWouldBeHereData { border: 2px solid #ffe5b2; }
+
+/* Section 3: WebBridge */
+/* WebBridge style names lowercased as of Release 2005.  Declare styles using these style names for Release 2005 and later */
+
+/* body element in WebBridge forms */
+.wbbody { color: #333333; font-family: verdana,geneva,arial,sans-serif; background-color: #fff; font-size: 11px; margin:0;padding:0; }
+
+/* the following .wbbody styles are used to style the wp_panel.html pop up page */
+.wbbody a:link, .wbbody a:visited { color:#336699; text-decoration: none; }
+
+.wbbody a:hover, .wbbody a:active { color: #336699;text-decoration: underline; }
+
+/* fixing alignment of images */
+.wbbody img { vertical-align: middle; }
+
+.wbbody .wbcategory { color: #333333; margin:10px 10px 0 10px; font-size:11px; font-weight: bold; border-bottom: 1px solid #bcd1ba; background-color: #d9e8d8; padding:2px 5px 2px 5px; }
+
+.wbbody .wbcategory strong { font-weight: bold; }
+
+.wbbody .wbcategory font { color:#333333; }
+
+.wbbody .wbresourcelist { background-color: #d9e8d8; margin-top: 5px; }
+
+.wbbody .wblinkdisplay { background: #f3f3f3; margin:1px 20px 1px 20px; font-weight: normal; padding:2px 5px 2px 5px; font-size:11px; }
+
+.wbbody .wblinkdisplay form { padding:0;margin:0; }
+
+.wbbody .wblinktext { font-size:11px; }
+
+.wbbody .wblinkfield { font-style:italic; font-size:11px; }
+
+.wbbody .wbsubheading { font-weight: bold; color:#aa1002;}
+
+.wbbody .header { }
+
+.wbbody .noresources { color: red; font-size: 1.2em; font-weight: bold;} 
+ 
+.wbbody .citation { background-color: #FFFFFF; border: 1px solid #666666; padding: 5px; }
+
+.wbbody .resourceinfo { }
+
+.wbbody .advisory { }
+
+.wbbody .ada {}
+
+.wbbody .license { }
+
+.wbbody .linkdisplay { }
+
+.wbbody .coverage { }
+
+.wbbody .coverage em { font-style: normal; }
+
+.wbbody .wbheading { font-size:11px;margin:0 10px -7px 10px; }
+
+.wbbody .headertable { background:#d9e8d8; }
+
+.wbbody .citationtitle { font-weight: bold; color:#aa1002; font-size:1.2em;}
+
+.wbbody .fieldinsert { font-size: .9em; margin-left: 30px; margin-right: 30px; }
+
+/* WebBridge category headings */
+.wbcategory { font-weight:bold; margin-top: 1em;}
+
+/* contents of the WBHEADERTEXT wwwoption */
+.wbheading { }
+
+/* Entire WebBridge Resource Definition Link Display */
+.wblinkdisplay { }
+
+/* Field selectors in Link Display (except for #@LinkText#) */
+.wblinkfield { }
+
+/* #@LinkText# field selector in WB Link Display */
+.wblinktext { }
+
+/* deprecated style -- manually inserted in WB category definition */
+.wbPanelCategory { color: #bcd1ba; }
+
+/* Contents of  resourcelist token in webbridge forms */
+.wbresourcelist { }
+
+/* #HEADER# token in WBHEADERTEXT wwwoption */
+.wbsubheading { }
+
+.mainSpacer {margin:0 .5em .5em .5em;}
+div.DisplayBoxContent div a {color:#333333;text-decoration:none; font-weight:bold; outline:none; }
+div.DisplayBoxContent div  {color:#333333;text-decoration:none; font-weight:bold; outline:none; }
+div.DisplayBoxContent div a:hover {text-decoration:underline; font-weight:bold;outline:none; color:#B21000;}
+.mainActiveTab {background: transparent;  float:left; margin:0 5px -1px 0; }
+.mainInactiveTab {background: transparent;  float:left; margin:0 5px 0 0; }
+.menuTabContent {width:80px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; height:15px; }
+.menuTabActive {width:80px;background-color: #d9e8d8; text-align:center; padding:1px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:15px; margin:0 0 0 0; }
+
+.helpActiveTab {background: transparent; float:left; margin:0 5px -1px 0; }
+.helpActiveTabMedium {background: transparent;  float:left; margin:0 5px -1px 0; }
+.helpActiveTabLarge {background: transparent;  float:left; margin:0 5px -1px 0; }
+.verifyActiveTabXL {background: transparent; float:left; margin:0 5px -1px 0; }
+.helpInactiveTab {background: transparent; float:left; margin:0 5px 0 0;}
+.helpInactiveTabMedium {background: transparent; float:left; margin:0 5px 0 0; }
+.helpInactiveTabLarge {background: transparent;  float:left; margin:0 5px 0 0; }
+.helpTabContent {width:100px;background-color: #d9e8d8; text-align:center; padding:1px 0 5px 0;  height:17px; }
+.helpTabActiveContent {width:100px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:20px; margin:0 0 0 0; }
+.helpTabContentMedium {width:125px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; height:17px;}
+.helpTabContentLarge {width:175px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; height:17px;}
+.helpTabActiveContentMedium {width:125px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:20px; margin:0 0 0 0; }
+.helpTabActiveContentLarge {width:175px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:20px; margin:0 0 0 0; }
+.verifyTabActiveContentXL {width:200px;background-color: #bcd1ba; text-align:center; padding:1px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:20px; margin:0 0 0 0; }
+
+.active1, .active2, .active3, .active4 {display:block; overflow:hidden;}
+.active1, .active2, .active3 {height:1px;}
+.active2, .active3, .active4 {background:#d9e8d8;  border-left:1px solid #666666; border-right:1px solid #666666;}
+.active1 {margin:0 5px; background:#d9e8d8; border-top:1px solid #666666;}
+.active2 {margin:0 3px; border-width:0 2px;}
+.active3 {margin:0 2px;}
+.active4 {height:2px; margin:0 1px;}
+
+.inactive1, .inactive2, .inactive3, .inactive4 {display:block; overflow:hidden;}
+.inactive1, .inactive2, .inactive3 {height:1px;}
+.inactive2, .inactive3, .inactive4 {background:#bcd1ba;}
+.inactive1 {margin:0 5px; background:#bcd1ba;}
+.inactive2 {margin:0 3px; border-width:0 2px;}
+.inactive3 {margin:0 2px;}
+.inactive4 {height:2px; margin:0 1px;}
+
+/* content div rounding styles */
+.mainActiveContent {border:0 solid #666666; border-width:1px 1px 0 1px;clear:both;padding:2px 10px 2px 10px;background:#d9e8d8; display:block;}
+.mainActiveContentTabless {border:0 solid #666666; border-width:1px 1px 0 1px;clear:both;padding:2px 10px 2px 10px;background:#d9e8d8; display:block;margin:0;}
+.helpActiveContent {border:0 solid #666666; border-width:1px 1px 0 1px;clear:both;padding:2px 10px 2px 10px;background:#bcd1ba;display:block; }
+.contop, .conbottom {display:block; background:#d9e8d8; font:11px:}
+.conb1, .conb2, .conb3, .conb4 {display:block; overflow:hidden;}
+.conb1, .conb2, .conb3 {height:1px; background:#d9e8d8; }
+.conb2, .conb3, .conb4 {background:#d9e8d8; border-left:1px solid #666666; border-right:1px solid #666666;}
+.conb1 {margin:0 5px; background:#666666;}
+.conb2 {margin:0 3px; border-width:0 2px;}
+.conb3 {margin:0 2px;}
+.conb4 {height:2px; margin:0 1px;}
+.folderWrapper {float:left;width:73%;}
+.mainNavLinksWrapper {float:left;width:25%}
+
+
+.roundedContent {background: transparent; margin:.5em 0 1em 0;}
+.roundedContent2 {background: transparent;width:100%;}
+.xtop, .xbottom {display:block; background:transparent; font-size:11px;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#bcd1ba; border-left:1px solid #666666; border-right:1px solid #666666;}
+.xb1 {margin:0 5px; background:#666666;}
+.xb2 {margin:0 3px; border-width:0 2px;}
+.xb3 {margin:0 2px;}
+.xb4 {height:2px; margin:0 1px;}
+
+.roundedContentInfo {display:block; background:#bcd1ba; border:0 solid #666666; border-width:0 1px; padding:2px 5px;color:#333333;font-size:11px;}
+.roundedContentInfo a:link,.roundedContentInfo a:visited, .roundedContentInfo a:active {color:#336699;text-decoration:none;}
+.roundedContentInfo a:hover {color:#336699;text-decoration:underline}
+.mainActiveContentTable {width:100%;font-size:90%;}
+.mainContentHead {font-weight:bold;}
+span#searchTips {padding:5px 5px 5px 5px;font-size:85%; display: none;border:1px solid #000}
+.textFix {font-size:100%}
+
+.toplogoBar {background: #fff; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; height: 90px; vertical-align:top;}
+
+
+/*#topLogohead {background-color:#bcd1ba; border-bottom:2px solid #666666; padding:3px 5px 3px 5px;margin:0 0 10px 0;}
+#topLogohead span {color:#333333; font-weight:bold;}
+#topLogohead form {padding:0; margin:auto;}
+#topLogoImage { padding:5px 3px 5px 5px ; }*/
+#currentDate {font-weight:bold; color:#333333; font-size:.8em; padding:5px;}
+.topLog {padding:3px 0 3px 10px;margin:0;font-size:11px; color:#333333;}
+.topLog input {font-size:.7em; }
+.unpadded { margin-bottom:auto; margin-top:auto;  }
+#topID {float:right; }
+#topID ul {list-style:none; font-size:.7em; padding:0; margin:0 0 5px 0;}
+#topID ul li {display:inline; padding:0 2px 0 0;}
+#topID ul li a {text-decoration:none; color:#333333;}
+#topID ul li a:hover {text-decoration:underline; color:#B21000;}
+#topID .breaker {color:#666666;}
+#botnav { background: #f2ecc8; margin: 0 0 10px 0; font-size:10px; padding:0; text-align:center;border-top:2px solid #f2ecc8;}
+.botmenuLinks {position:relative;margin: 0;padding:5px;}
+.breaker {color:#333333}
+#botnav ul {list-style:none; }
+#botnav ul li {display:inline; padding:0 5px 0 0;}
+#botnav ul li a {text-decoration:none; color:#555;}
+#botnav ul li a:hover {text-decoration:underline; color:#336699;}
+
+/*styles for bib_display.html */
+
+.topDiv {text-align:center; padding:5px 5px 5px 5px; }
+.limitDiv {width:60%}
+.searchTool {border:1px solid #bcd1ba; background:#d9e8d8; padding:5px 0 5px 0 ; font-size:100%}
+#bibLeft { float:left; left: 2%; width: 12%; }
+#bibContent { float:left; left: 16%; width: 75%; }
+#bibRight { float:left; left: 88%; width: 10%; }
+.raised {background: transparent; width:90%; margin:0 auto;}
+.raised .top, .raised .bottom {display:block; background:transparent; font-size:1px;}
+.raised .b1, .raised .b2, .raised .b3, .raised .b4, .raised .b1b, .raised .b2b, .raised .b3b, .raised .b4b {display:block; overflow:hidden;}
+.raised .b1, .raised .b2, .raised .b3, .raised .b1b, .raised .b2b, .raised .b3b {height:1px;}
+.raised .b2 {background:#d9e8d8; border-left:1px solid #fff; border-right:1px solid #eee;}
+.raised .b3 {background:#d9e8d8; border-left:1px solid #fff; border-right:1px solid #ddd;}
+.raised .b4 {background:#d9e8d8; border-left:1px solid #fff; border-right:1px solid #aaa;}
+.raised .b4b {background:#d9e8d8; border-left:1px solid #eee; border-right:1px solid #999;}
+.raised .b3b {background:#d9e8d8; border-left:1px solid #ddd; border-right:1px solid #999;}
+.raised .b2b {background:#d9e8d8; border-left:1px solid #aaa; border-right:1px solid #999;}
+.raised .b1 {margin:0 5px; background:#fff;}
+.raised .b2, .raised .b2b {margin:0 3px; border-width:0 2px;}
+.raised .b3, .raised .b3b {margin:0 2px;}
+.raised .b4, .raised .b4b {height:2px; margin:0 1px;}
+.raised .b1b {margin:0 5px; background:#999;}
+.raised .tool form {margin:auto; padding:0;}
+.raised .tool {display:block; background:#d9e8d8; border-left:1px solid #fff; font-size:100%; border-right:1px solid #999; padding:3px;}
+.clear {clear:both; margin-bottom:5px;}
+.clear2 {clear:both;}
+#infoTable {width:100%; float:left; font-size:16px; color: #B21000; text-align: center; vertical-align: center;} 
+#sidebarContent {width:21%;padding:0 0 0 5px; float:right;}
+#infoOther {text-align:center; display:none; }
+#moreInfo {display:none; padding:0 3px 0 3px; }
+#moreCategories {display:none; padding:0 3px 0 3px;}
+#revandRate { text-align:center; background:#d9e8d8; padding:0 0 3px 0;}
+.sidecontentHeading { background:#8fa78e; color:#333333; font-size:80%; font-style:italic; font-weight:bold; border-bottom:1px solid #7e4a1f; width:100%; margin:0 0 3px 0;}
+.conHead {background:#bcd1ba; color:#333333; font-size:85%; font-style:italic; font-weight:bold; border-bottom:1px solid #FFB515; width:100%; padding:2px 0 2px 6px;}
+.booking {text-align:center; margin:0 0 5px 0;}
+#bibMenuLinks {padding: 0 5px 3px 5px; text-align:center;}
+#bibMenuLinks a {color:#336699;}
+
+div.bibContentBox div a {color:#336699;text-decoration:none; font-weight:bold; outline:none; font-size:85%;}
+div.bibContentBox div a:hover {color:#336699; text-decoration:underline; font-weight:bold; outline:none; font-size:85%;}
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+
+
+/* tab rounding styles for selection switches*/
+.bibTabOn {background: transparent; float:left; margin:0 5px -1px 0; }
+.bibTabOff {background: transparent; float:left; margin:0 5px 0 0; }
+.bibSimTabOn {background: transparent; float:left; margin:0 5px -1px 0; }
+.bibSimTabOff {background: transparent; float:left; margin:0 5px 0 0; }
+.bibTabContent {width:100px;background-color: #bcd1ba; text-align:center; padding:5px 0 5px 0;height:15px; }
+.bibTabSelected {width:100px;background-color: #d9e8d8; text-align:center; padding:5px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:18px; margin:0 0 0 0; }
+.bibSimTabSelected {width:150px;background-color: #d9e8d8; text-align:center; padding:5px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:18px;  margin:0 0 0 0; }
+.bibSimTabContent {width:150px;background-color: #bcd1ba; text-align:center; padding:5px 0 5px 0;  height:15px; }
+
+.tabTop, .tabBottom {display:block; background:transparent; font-size:1px;}
+
+.selected1, .selected2, .selected3, .selected4 {display:block; overflow:hidden;}
+.selected1, .selected2, .selected3 {height:1px;}
+.selected2, .selected3, .selected4 {background:#d9e8d8;  border-left:1px solid #666666; border-right:1px solid #666666;}
+.selected1 {margin:0 5px; background:#666666;}
+.selected2 {margin:0 3px; border-width:0 2px;}
+.selected3 {margin:0 2px;}
+.selected4 {height:2px; margin:0 1px;}
+
+.option1, .option2, .option3, .option4 {display:block; overflow:hidden;}
+.option1, .option2, .option3 {height:1px;}
+.option2, .option3, .option4 {background:#bcd1ba;}
+.option1 {margin:0 5px; background:#bcd1ba;}
+.option2 {margin:0 3px; border-width:0 2px;}
+.option3 {margin:0 2px;}
+.option4 {height:2px; margin:0 1px;}
+.bibContentWrapper {border:0 solid #666666; border-width:1px 1px 0 1px;clear:both;padding:0 10px 0 10px; background:#d9e8d8; display:block;}
+.bibContentSectionOptions {width:95%;display:none;margin:-10px 0 0 0; }
+.bibContentSectionDefault {width:95%;margin:-10px 0 0 0; }
+
+.searchTipTable {font-size:11px;}
+#searchTipMain {display:none; }
+.searchTipContentInfo {display:block; background:#d9e8d8; border:0 solid #666666; border-width:0 1px; padding:2px 5px;color:#333333;}
+#searchTipsLink {text-align:right}
+#searchTipsLink a:link, #searchTipsLink a:visited, #searchTipsLink a:active {color:#336699; text-decoration:none;}
+#searchTipsLink a:hover {color:#336699; text-decoration:underline;}
+
+
+/* table striping styles */
+/* for brief citation */
+td.odd { background:#d9e8d8; }
+td.highlight {background:#fcd383;}
+
+/* for browse entries */
+tr.odd { background:#d9e8d8; }
+tr.highlight {background:#fcd383;}
+
+/*styles for print view and web view toggles in bib_display.html*/
+#printView {text-align:right; font-size:.8em; margin:0 5px 0 0;padding-top:15px;height:15px; color: #333333;}
+#printView a {color: #333333;}
+#webView {display:none}
+
+#accessibleForm fieldset { border: 0px; }
+
+
