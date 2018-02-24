@@ -56,11 +56,6 @@
         <div id="banner-search-container" class="container">
           <div id="searchBox-wrapper" class="container">
 
-            <!-- TITLE -->
-           <!-- <div id="heading-row" class="row">
-              <p> Can we be certain of anything? </p>
-            </div>-->
-
             <!-- SEARCHBOX -->
             <div id="searchBox-row" class="row">
               <div class="input-group">
@@ -144,21 +139,23 @@
             <br>
             <a data-toggle="collapse" href="#notifications-table" aria-expanded="false" aria-controls="notifications-table">
               <strong>Notifications</strong>
-              <span class="badge badge-default"> 0 </span> <!-- Update number of notification here -->
+              <span class="badge badge-default"> 1 </span> <!-- Update number of notification here -->
             </a>
 
-            <div class="collapse" id="notifications-table">
+            <div class="collapse show" id="notifications-table">
               <div class="card card-block">
                 <div class="alert" role="alert">
-                  <table class="table table-hover"">
+                  <table class="table table-hover table-borderless"">
                     <tbody>
                       <tr>
-                        <td>No notifications</td>
-                      </tr>
-                      <!-- <tr>
-                        <td><strong>Example title</strong></td>
-                        <td>Example Text</td>
-                      </tr> -->     
+                        <td><strong><span class="glyphicon glyphicon-bell"></span></strong></td>
+                        <td>
+                          <p><strong>February 26 - March 27th</strong></p>
+                          <p>
+                            <a href="http://www.dramaonlinelibrary.com/">Drama Online Library</a> includes streaming video from the Royal Shakespeare Company in their <a href="http://www.dramaonlinelibrary.com/series/the-rsc-live-collection-iid-179605">RSC Live Collection</a> as well as full text play collections in their <a href="http://www.dramaonlinelibrary.com/">Drama Online Main Collection</a>.                            
+                          </p>
+                        </td>
+                      </tr>     
                     </tbody>
                   </table>
                 </div>
@@ -175,7 +172,7 @@
       			  </a>
               <div class="pre-scrollable" class="card card-block">
                 <div class="alert" role="alert">
-                  <table class="table table-hover">
+                  <table class="table table-striped table-borderless">
                     <tbody id="rss-feed-content">
                     </tbody>
                   </table>
@@ -218,7 +215,12 @@
 
       function xmlParser(xml) {
         $(xml).find("item").each(function () {
-            $("#rss-feed-content").append('<tr><td><a style="font-size: 14px; color: #777;" href="' + $(this).find("link").text() + '">' + $(this).find("title").text() +'</a></td></tr>');
+            $("#rss-feed-content").append(
+              '<tr><td><strong><span class="glyphicon glyphicon-bookmark"></span></strong></td><td><a style="font-size: 14px; color: #777;" href="' + 
+              $(this).find("link").text() + 
+              '">' + 
+              $(this).find("title").text() +
+              '</a></td></tr>');
          });
       }
 

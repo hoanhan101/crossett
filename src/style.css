@@ -10,6 +10,19 @@
   background-color: rgba(141, 92, 62, 0.9);
 }
 
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.glyphicon {
+  color: rgba(10, 31, 12, 0.9);
+}
+
 /*========================================*/
 /*           BANNER CONTAINTER            */
 /*========================================*/
@@ -217,6 +230,25 @@ body {
 /*========================================*/
 
 #alert-container a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(141, 92, 62, 0.9);
+}
+
+#notifications-table {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+}
+
+#notifications-table a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(141, 92, 62, 0.9);
+}
+
+#rss-feed a {
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   font-weight: 500;
