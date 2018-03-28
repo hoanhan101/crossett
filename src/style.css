@@ -1,6 +1,11 @@
 /*========================================*/
 /*                GLOBAL                  */
 /*========================================*/
+@font-face {
+    font-family: AvenirLT-Roman;
+    src: url('./fonts/AvenirLT/AvenirLTStd-Roman.otf');
+}
+
 .dropdown-menu, .btn, .form-control {
   border-radius: 0px;
 }
@@ -73,7 +78,7 @@ body {
 }
 
 #lib-name {
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'AvenirLT-Roman';
   padding-top: 20px;
   padding-left: 0px;
 }
@@ -106,7 +111,7 @@ body {
   color: rgb(141, 92, 62);
   padding-right: 15px;
   padding-left: 15px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'AvenirLT-Roman';
   font-weight: 500;
 }
 
@@ -181,13 +186,13 @@ body {
 
 #banner-search-container p {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 31px;
 }
 
 #searchBox-wrapper {
   width: 100%;
   padding: 40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'AvenirLT-Roman';
 }
 
 #searchBox-wrapper #searchBox-row .input-group .btn {
@@ -199,8 +204,8 @@ body {
 #ebscohostsearchtext {
   height: 50px;
   border-radius: 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
+  font-family: 'AvenirLT-Roman';
+  font-size: 18px;
 }
 
 #ebscohostCustomSearchBox, #eco-journals, #search-reserve, #search-archive, #catalog {
@@ -221,7 +226,7 @@ body {
   padding-bottom: 30px;
 
   background-color: rgba(132, 134, 140, 0.07);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'AvenirLT-Roman';
   color: black;
 }
 
@@ -230,27 +235,27 @@ body {
 /*========================================*/
 
 #alert-container a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 17px;
+  font-family: 'AvenirLT-Roman';
+  font-size: 18px;
   font-weight: 500;
   color: rgba(141, 92, 62, 0.9);
 }
 
 #notifications-table {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
+  font-family: 'AvenirLT-Roman';
+  font-size: 14px;
 }
 
 #notifications-table a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-family: 'AvenirLT-Roman';
+  font-size: 15px;
   font-weight: 500;
   color: rgba(141, 92, 62, 0.9);
 }
 
 #rss-feed a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 17px;
+  font-family: 'AvenirLT-Roman';
+  font-size: 18px;
   font-weight: 500;
   color: rgba(141, 92, 62, 0.9);
 }
@@ -264,7 +269,7 @@ body {
 /*========================================*/
 
 #sub-main-container {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'AvenirLT-Roman';
 }
 
 #sub-banner-container h1 {
@@ -347,16 +352,16 @@ body {
 
   #lib-name h1 {
     margin-top: 5px;
-    font-size: 28px;
+    font-size: 29px;
   }
 
   #header-nav a {
     padding-left: 30px;
-    font-size: 15px;
+    font-size: 16px;
   }  
 
   #heading-row p {
-    font-size: 25px;
+    font-size: 26px;
   }
 
   #events-wrapper {
@@ -364,7 +369,7 @@ body {
   }
 
   #sub-banner-container h1 {
-    font-size: 30px;
+    font-size: 31px;
   }
 
   #carousel-wrapper {
@@ -376,7 +381,7 @@ body {
   }
 
   #social-icon-wrapper {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   #footer {
@@ -392,12 +397,12 @@ body {
 
   #lib-name h1 {
     margin-top: 9px;
-    font-size: 33px;
+    font-size: 34px;
   }
 
   #header-nav a {
     padding-left: 35px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   #banner-search-container {
@@ -413,17 +418,17 @@ body {
 
   #lib-name h1 {
     margin-top: 13px;
-    font-size: 38px;
+    font-size: 39px;
   }
 
   #header-nav a {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 992px) {
   #header-nav a {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -440,7 +445,7 @@ body {
 .bibTabSelected {width:100px;background-color: #d9e8d8; text-align:center; padding:5px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:18px; margin:0 0 0 0; }
 .bibSimTabSelected {width:150px;background-color: #d9e8d8; text-align:center; padding:5px 0 5px 0; border-left:1px solid #666666; border-right:1px solid #666666; height:18px;  margin:0 0 0 0; }
 .bibSimTabContent {width:150px;background-color: #bcd1ba; text-align:center; padding:5px 0 5px 0;  height:15px; }
-#infoTable {width:100%; float:left; font-size:16px; color: #000; text-align: center; vertical-align: center;}
+#infoTable {width:100%; float:left; font-size:17px; color: #000; text-align: center; vertical-align: center;}
 div.bibContentBox div a {color:#336699;text-decoration:none; font-weight:bold; outline:none; font-size:85%;}
 div.bibContentBox div a:hover {color:#336699; text-decoration:underline; font-weight:bold; outline:none; font-size:85%;}
 .bibContentWrapper {border:0 solid #666666; border-width:1px 1px 0 1px;clear:both;padding:0 10px 0 10px; background:#d9e8d8; display:block;}
