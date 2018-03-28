@@ -139,7 +139,7 @@
             <br>
             <a data-toggle="collapse" href="#notifications-table" aria-expanded="false" aria-controls="notifications-table">
               <strong>Notifications</strong>
-              <span class="badge badge-default"> 1 </span> <!-- Update number of notification here -->
+              <!-- <span class="badge badge-default"> 1 </span> -->
             </a>
 
             <div class="collapse show" id="notifications-table">
@@ -147,15 +147,26 @@
                 <div class="alert" role="alert">
                   <table class="table table-hover table-borderless"">
                     <tbody>
-                      <tr>
+					<tr>
                         <td><strong><span class="glyphicon glyphicon-bell"></span></strong></td>
                         <td>
-                          <p><strong>February 26 - March 27th</strong></p>
+                          <p><strong>Complimentary Journal Access until April 30th</strong></p>
                           <p>
-                            <a href="http://www.dramaonlinelibrary.com/">Drama Online Library</a> includes streaming video from the Royal Shakespeare Company in their <a href="http://www.dramaonlinelibrary.com/series/the-rsc-live-collection-iid-179605">RSC Live Collection</a> as well as full text play collections in their <a href="http://www.dramaonlinelibrary.com/">Drama Online Main Collection</a>.                            
+                            JSTOR has provided us complimentary access to the <a href="http://0-www.jstor.org.library.bennington.edu/journal/islastudj">Islamophobia Studies Journal</a> until April 30th. A peer-reviewed, interdisciplinary publication, Islamophobia Studies Journal (ISJ) examines Islamophobia through research, documentation, and sustained engagement in the topic. The journal aims to produce and publish the most up to date research, and encourage scholars and community based organizations to develop well-reasoned arguments that challenge racism in all its forms and manifestations. ISJ encourages multilingual submissions that examine the historical, political, economic, and cultural phenomenon of Islamophobia in relation to the construction, representation, and articulation of "Otherness". The journal seeks to help the impacted communities understand the origins of this new hatred, and its intersection with earlier historical periods and contemporary scapegoating of immigrants and racial minorities in the global North.
                           </p>
                         </td>
-                      </tr>     
+                      </tr> 
+                      
+                      
+                     <!-- <tr>
+                        <td><strong><span class="glyphicon glyphicon-bell"></span></strong></td>
+                        <td>
+                          <p><strong>Headline</strong></p>
+                          <p>
+                          Text of announcement
+                          </p>
+                        </td>
+                      </tr>    -->    
                     </tbody>
                   </table>
                 </div>
@@ -216,7 +227,7 @@
       function xmlParser(xml) {
         $(xml).find("item").each(function () {
             $("#rss-feed-content").append(
-              '<tr><td><strong><span class="glyphicon glyphicon-bookmark"></span></strong></td><td><a style="font-size: 14px; color: #777;" href="' + 
+              '<tr><td><strong><span class="glyphicon glyphicon-bookmark"></span></strong></td><td><a style="font-size: 14px; color: #0c2b0fe6;" href="' + 
               $(this).find("link").text() + 
               '">' + 
               $(this).find("title").text() +
