@@ -1,14 +1,14 @@
 # Crossett Library's Website
 
 This is a public repository for Bennington College's [Crossett Library 
-main website](http://library.bennington.edu/)
+main website](http://library.bennington.edu/).
 
 ## Basic information
 
 - Author: Hoanh An (hoanhan@bennington.edu)
 - Date created: 07/12/2017
 - Date launched: 12/28/2017
-- Version: 1.0.2
+- Latest version: 1.0.2
 - Status: On-Going
 
 ## Project structure
@@ -32,14 +32,14 @@ README.md                       # README file
 ## Workflow
 
 - Clone or fork the project.
-- Edit, make changes, commit and push as a normal git workflow.
+- Edit, make changes, commit and push using a normal git workflow.
 - When done, create a pull request.
-- If the pull request is approved, owner will merge it and update changes
+- If the pull request is approved, owner will choose to merge and update changes
   manually to the server (via FTP).
 
 ## Changelog
 
-### 1.0.2 (2018-3-28)
+### 1.0.2 (2018-03-28)
 
 **News:**
 - Archived old website version (both 1Work and Innovative's generated files)
